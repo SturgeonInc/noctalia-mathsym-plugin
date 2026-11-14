@@ -14,6 +14,37 @@
 local NOTIFY = noctalia.getConfig("notify_on_copy")
 NOTIFY = if type(NOTIFY) == "boolean" then NOTIFY else true
 
+local PASTE_MODE = noctalia.getConfig("paste_mode")
+PASTE_MODE = if type(PASTE_MODE) == "string" then PASTE_MODE else "off"
+local PASTE_DELAY_MS = noctalia.getConfig("paste_delay_ms")
+PASTE_DELAY_MS = if type(PASTE_DELAY_MS) == "number" then PASTE_DELAY_MS else 150
+
+-- wtype arguments per paste mode; "type" types the character itself.
+local PASTE_KEYS = {
+  ctrl_v = { "-M", "ctrl", "-k", "v", "-m", "ctrl" },
+  ctrl_shift_v = { "-M", "ctrl", "-M", "shift", "-k", "v", "-m", "shift", "-m", "ctrl" },
+  shift_insert = { "-M", "shift", "-k", "Insert", "-m", "shift" },
+}
+
+-- The launcher closes after onActivate returns and only then hands focus back, and
+-- plugins have no native auto-paste hook (the built-in emoji provider uses one), so
+-- wait a moment in a helper process and then send keys with wtype.
+local function pasteAfterClose(ch)
+  local keys = if PASTE_MODE == "type" then { "--", ch } else PASTE_KEYS[PASTE_MODE]
+  if not keys then
+    return
+  end
+  local argv = { "sh", "-c", 'sleep "$0"; exec wtype "$@"', string.format("%.3f", PASTE_DELAY_MS / 1000) }
+  for _, k in keys do
+    table.insert(argv, k)
+  end
+  noctalia.runAsync(argv, function(result)
+    if result.exitCode ~= 0 then
+      noctalia.log("paste failed: " .. (result.stderr or ""))
+    end
+  end, 5000)
+end
+
 local function hint(query, title, subtitle, glyph)
   launcher.setResults(query, { { id = "", title = title, subtitle = subtitle, glyph = glyph } })
 end
@@ -69,5 +100,8 @@ function onActivate(id)
   noctalia.copyToClipboard(ch, "text/plain")
   if NOTIFY then
     noctalia.notify("Unicode", ch .. " copied to clipboard")
+  end
+  if PASTE_MODE ~= "off" then
+    pasteAfterClose(ch)
   end
 end

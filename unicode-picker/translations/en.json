@@ -3,6 +3,19 @@
     "notify_on_copy": {
       "description": "Show a notification when a character is copied to the clipboard",
       "label": "Notify on Copy"
+    },
+    "paste_delay_ms": {
+      "description": "Wait this long after the launcher closes before pasting, so focus has returned to the previous window",
+      "label": "Paste Delay (ms)"
+    },
+    "paste_mode": {
+      "ctrl_shift_v": "Ctrl+Shift+V (terminals)",
+      "ctrl_v": "Ctrl+V",
+      "description": "Also paste into the focused window after copying. Uses wtype. \"Type the character\" avoids paste shortcuts entirely and works in both terminals and GUI apps.",
+      "label": "Paste After Copy",
+      "off": "Off (clipboard only)",
+      "shift_insert": "Shift+Insert",
+      "type": "Type the character"
     }
   },
   "title": "Unicode Picker"
