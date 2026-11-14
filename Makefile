@@ -17,11 +17,11 @@ fetch-sources:
 	curl -fsSL -o $(SOURCES)/abbreviations.json $(UPSTREAM_ABBR)
 	cp "$(UNICODE_MATH_TABLE)" $(SOURCES)/unicode-math-table.tex
 
-# Copy (not symlink) the plugin; Noctalia hot-reloads .luau, manifest changes need a config reload.
+# Copy (not symlink) the plugin. Files are updated in place (never rm -rf the dir) so Noctalia's
+# file watcher on unicode.luau keeps firing; manifest changes still need a config reload.
 install:
-	mkdir -p "$(dir $(DEST))"
-	rm -rf "$(DEST)"
-	cp -r $(PLUGIN) "$(DEST)"
+	mkdir -p "$(DEST)"
+	rsync -a --inplace --delete $(PLUGIN)/ "$(DEST)/"
 	@echo "installed to $(DEST)"
 
 uninstall:
