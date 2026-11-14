@@ -7,14 +7,12 @@
 -- Enter copies the character to the clipboard.
 --
 -- Script callbacks only get a 25 ms CPU budget, which parsing the ~3000-row
--- data.tsv blows through. So the search runs in search.awk via noctalia.runAsync
+-- data.tsv blows through. So the search runs in search.sh (fzf) via noctalia.runAsync
 -- (the same approach as the community file-search plugin) and this script only
 -- relays its tab-separated rows to the launcher.
 
 local NOTIFY = noctalia.getConfig("notify_on_copy")
 NOTIFY = if type(NOTIFY) == "boolean" then NOTIFY else true
-
-local RESULT_LIMIT = 50
 
 local PASTE = noctalia.getConfig("paste_after_copy")
 PASTE = if type(PASTE) == "boolean" then PASTE else false
@@ -51,21 +49,17 @@ function onQuery(query)
     return
   end
 
-  -- Score with awk, rank with sort (C locale: ties fall back to byte order of the line,
-  -- i.e. codepoint order), keep the top rows. The query goes in via the environment.
   local dir = noctalia.pluginDir()
-  local script = 'Q="$1" awk -f "$0/search.awk" "$0/data.tsv"'
-    .. ' | LC_ALL=C sort -t "$(printf \'\\t\')" -k1,1nr | head -n ' .. RESULT_LIMIT
-  local ok = noctalia.runAsync({ "sh", "-c", script, dir, text }, function(result)
+  local ok = noctalia.runAsync({ "sh", dir .. "/search.sh", dir, text }, function(result)
     if result.exitCode ~= 0 or result.timedOut then
       noctalia.log(result.stderr)
-      hint(query, "Search failed", "See the noctalia log", "alert-triangle")
+      hint(query, "Search failed", "Is fzf installed? See the noctalia log", "alert-triangle")
       return
     end
     local rows = {}
     for line in result.stdout:gmatch("[^\n]+") do
-      local score, ch, title, subtitle = line:match("^(%d+)\t([^\t]*)\t([^\t]*)\t(.*)$")
-      if score then
+      local rank, ch, title, subtitle = line:match("^(%d+)\t([^\t]*)\t([^\t]*)\t(.*)$")
+      if rank then
         table.insert(rows, {
           -- The launcher keeps the highlight on the same result id across result updates, so a
           -- stale highlight from an earlier keystroke would survive reordering. A per-query
@@ -74,7 +68,7 @@ function onQuery(query)
           title = title,
           subtitle = subtitle,
           glyph = "math-symbols",
-          score = tonumber(score),
+          score = 1000 - tonumber(rank), -- search.sh already ranked them
         })
       end
     end
@@ -85,7 +79,7 @@ function onQuery(query)
     launcher.setResults(query, rows)
   end, 5000)
   if not ok then
-    hint(query, "Search failed", "Could not start awk", "alert-triangle")
+    hint(query, "Search failed", "Could not start sh", "alert-triangle")
   end
 end
 

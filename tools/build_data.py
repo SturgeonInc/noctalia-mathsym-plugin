@@ -7,10 +7,11 @@ Inputs (vendored in tools/sources/, see `make fetch-sources`):
   unicode-math-table.tex   LaTeX names (LPPL)
   abbreviations.json       Lean 4 VS Code input method (Apache-2.0)
 
-Output: one line per output string, tab-separated:
-  char <TAB> title <TAB> subtitle <TAB> names <TAB> lowercase description
-`names` are the normalized (no backslash/braces/spaces), case-sensitive LaTeX and Lean names,
-space-separated; search.awk matches against them. title/subtitle are ready to display.
+Outputs (next to OUT, tab-separated, one record per output string, rows sorted by codepoint):
+  data.tsv   char, title, subtitle (display; title/subtitle are ready to show)
+  names.tsv  name, row   one line per normalized (no backslash/braces/spaces), case-sensitive
+                         LaTeX or Lean name
+  desc.tsv   lowercase description, row
 """
 import json
 import re
@@ -144,10 +145,19 @@ def main():
         if not r["desc"] and len(ch) == 1:
             r["desc"] = unicodedata.name(ch, "").lower()
 
-    with out.open("w", encoding="utf8", newline="\n") as f:
-        for ch in sorted(rows):
+    # data.tsv: char, title, subtitle (display). names.tsv: name, row number (one line per name).
+    # desc.tsv: lowercase description, row number. Row numbers are 1-based lines of data.tsv.
+    # search.sh feeds names.tsv/desc.tsv to fzf and joins the hits back to data.tsv.
+    with out.open("w", encoding="utf8", newline="\n") as f, \
+            out.with_name("names.tsv").open("w", encoding="utf8", newline="\n") as fn, \
+            out.with_name("desc.tsv").open("w", encoding="utf8", newline="\n") as fd:
+        for row_no, ch in enumerate(sorted(rows), 1):
             r = rows[ch]
-            f.write("\t".join([ch, title(ch), subtitle(ch, r), searchable_names(r), r["desc"].lower()]) + "\n")
+            f.write("\t".join([ch, title(ch), subtitle(ch, r)]) + "\n")
+            for name in searchable_names(r).split():
+                fn.write("%s\t%d\n" % (name, row_no))
+            if r["desc"]:
+                fd.write("%s\t%d\n" % (r["desc"].lower(), row_no))
     print("%d characters -> %s" % (len(rows), out))
 
 
