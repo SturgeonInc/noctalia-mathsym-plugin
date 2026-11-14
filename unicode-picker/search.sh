@@ -18,6 +18,9 @@
 #      A leading `U+`, `u+`, `0x` or `\u` is stripped for this pass and means hex only; without
 #      one, hex and decimal are searched together.
 # Within a pass fzf orders by its score, then shorter text first.
+#
+# Speed: the passes run in parallel and the shell forks as little as possible (about 13 ms total,
+# mostly process startup), so query parsing is one awk call rather than a tr per value.
 
 dir=$1
 query=$2
@@ -26,26 +29,47 @@ query=$2
 FZF_DEFAULT_OPTS=
 export FZF_DEFAULT_OPTS
 unset FZF_DEFAULT_COMMAND
+# Small inputs: Go's default of one scheduler thread per core only adds startup cost.
+GOMAXPROCS=1
+export GOMAXPROCS
 
-# `\mathbb{R}`, `mathbb R` and `mathbbR` are the same name; descriptions keep their spaces.
-name_query=$(printf '%s' "$query" | tr -d '\\{}[:space:]')
-desc_query=$(printf '%s' "$query" | tr -d '\\{}')
+# Interpret the query in one awk call (ASCII only, hence LC_ALL=C). Prints six lines:
+#   name_query  `\mathbb{R}`, `mathbb R` and `mathbbR` are the same name: no backslash, braces, spaces
+#   desc_query  descriptions keep their spaces (fzf reads them as AND)
+#   code_query  hex digits for the code-point pass, with an explicit prefix removed, or empty
+#   hex_only    1 when an explicit prefix (`U+`, `u+`, `0x`, `\u`) was given
+#   non_ascii   1 when the query contains a non-ASCII byte
+#   char_query  the query without whitespace, for the reverse lookup
+parsed=$(Q=$query LC_ALL=C awk '
+    BEGIN {
+        q = ENVIRON["Q"]
+        name = q; gsub(/[\\{}[:space:]]/, "", name)
+        desc = q; gsub(/[\\{}]/, "", desc)
+        chr = q;  gsub(/[[:space:]]/, "", chr)
+        low = tolower(name)
+        hex = 0
+        # The backslash of `≤` is already gone from `name`; the u-hex form needs two digits
+        # so that a name like `ud` is not read as a prefix.
+        if (low ~ /^u\+/)                     { code = substr(low, 3); hex = 1 }
+        else if (low ~ /^0x/)                 { code = substr(low, 3); hex = 1 }
+        else if (low ~ /^u[0-9a-f][0-9a-f]/)  { code = substr(low, 2); hex = 1 }
+        else                                  code = low
+        if (code !~ /^[0-9a-f]+$/) code = ""
+        print name; print desc; print code; print hex
+        print (q ~ /[^\001-\177]/) ? 1 : 0
+        print chr
+    }')
+{
+    IFS= read -r name_query
+    IFS= read -r desc_query
+    IFS= read -r code_query
+    IFS= read -r hex_only
+    IFS= read -r non_ascii
+    IFS= read -r char_query
+} <<EOF
+$parsed
+EOF
 [ -n "$name_query" ] || exit 0
-
-# Code-point pass: strip an explicit prefix (which then means hex only), keep only hex digits.
-# ASCII-only lowercase on purpose (hex digits and prefixes), hence A-Z rather than [:upper:].
-# shellcheck disable=SC2018,SC2019
-compact=$(printf '%s' "$name_query" | tr 'A-Z' 'a-z')
-hex_only=
-case $compact in
-    u+*) code_query=${compact#u+}; hex_only=1 ;;
-    0x*) code_query=${compact#0x}; hex_only=1 ;;
-    u[0-9a-f]*) code_query=${compact#u}; hex_only=1 ;;   # `≤` (the backslash is already gone)
-    *)   code_query=$compact ;;
-esac
-case $code_query in
-    '' | *[!0-9a-f]*) code_query= ;;
-esac
 
 # fzf in filter mode over "text<TAB>row" lines, matching the text field only.
 # --with-nth (not --nth): the length tiebreak must measure just the text, otherwise the digits
@@ -60,7 +84,7 @@ fz() {
 # Reverse lookup: "x<TAB>row" lines for data.tsv rows equal to / starting with the query. The query
 # goes through the environment because awk -v would process backslash escapes.
 char_rows() {
-    Q=$(printf '%s' "$query" | tr -d '[:space:]') awk -F'\t' '
+    Q=$char_query awk -F'\t' '
         BEGIN { q = ENVIRON["Q"] }
         ($1 "") == (q "") { e[++ne] = NR; next }
         index($1, q) == 1  { p[++np] = NR }
@@ -70,35 +94,48 @@ char_rows() {
         }' "$dir/data.tsv"
 }
 
-# Non-ASCII anywhere in the query? ([:print:] is ASCII-only in the C locale.)
-non_ascii=
-case $(printf '%s' "$query" | LC_ALL=C tr -d '[:print:]') in
-    '') ;;
-    *) non_ascii=1 ;;
-esac
+# Prefix every line of stdin with pass number $1. One write() per line (fflush) keeps lines whole
+# when several passes share the pipe: writes up to PIPE_BUF bytes are atomic.
+tag() {
+    awk -v t="$1" '{ print t "\t" $0; fflush() }'
+}
 
+# The passes are independent, so they run in parallel (about 5 ms each, mostly process startup);
+# the final awk orders their output by pass number. No temp files: the shared pipe is the join.
+# Its input is "pass<TAB>key<TAB>row" lines, each pass in fzf order, passes interleaved. It ranks
+# them first and only then reads data.tsv, keeping just the (at most 50) rows it will print.
 {
-    [ -n "$non_ascii" ] && char_rows
+    [ "$non_ascii" = 1 ] && { char_rows | tag 0 & }
     # +x: the query is literal text, not fzf operators, so names like `<=`, `^alpha`, `|-` work.
-    fz "$name_query" +x -e +i < "$dir/names.tsv"
-    fz "$name_query" +x -i < "$dir/names.tsv"
-    fz "$desc_query" -i < "$dir/desc.tsv"
+    fz "$name_query" +x -e +i < "$dir/names.tsv" | tag 1 &
+    fz "$name_query" +x -i < "$dir/names.tsv" | tag 2 &
+    fz "$desc_query" -i < "$dir/desc.tsv" | tag 3 &
     if [ -n "$code_query" ]; then
-        if [ -n "$hex_only" ]; then
-            fz "$code_query" -e -i < "$dir/codes_hex.tsv"
+        if [ "$hex_only" = 1 ]; then
+            fz "$code_query" -e -i < "$dir/codes_hex.tsv" | tag 4 &
         else
-            cat "$dir/codes_hex.tsv" "$dir/codes_dec.tsv" | fz "$code_query" -e -i
+            cat "$dir/codes_hex.tsv" "$dir/codes_dec.tsv" | fz "$code_query" -e -i | tag 4 &
         fi
     fi
-} | awk -F'\t' -v data="$dir/data.tsv" '
-    BEGIN {
-        while ((getline line < data) > 0) {
-            n++
-            split(line, f, "\t")
-            char[n] = f[1]; title[n] = f[2]; subtitle[n] = f[3]
-        }
+    wait
+} | DATA=$dir/data.tsv awk -F'\t' '
+    function rank_hits(   pass, i, r) {
+        for (pass = 0; pass <= 4; pass++)
+            for (i = 1; i <= count[pass]; i++) {
+                r = row[pass, i]
+                if (seen[r]++) continue
+                order[++n] = r
+                want[r] = 1
+                if (n == 50) return
+            }
     }
-    !seen[$2]++ {
-        if (++rank > 50) exit
-        print rank "\t" char[$2] "\t" title[$2] "\t" subtitle[$2]
-    }'
+    FILENAME != ENVIRON["DATA"] { count[$1]++; row[$1, count[$1]] = $3; next }
+    FNR == 1 { rank_hits() }
+    FNR in want { line[FNR] = $0 }
+    END {
+        if (!n) rank_hits()   # data.tsv was never read (no hits)
+        for (i = 1; i <= n; i++) {
+            split(line[order[i]], f, "\t")
+            print i "\t" f[1] "\t" f[2] "\t" f[3]
+        }
+    }' - "$dir/data.tsv"

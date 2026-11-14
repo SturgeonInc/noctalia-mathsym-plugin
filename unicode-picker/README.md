@@ -53,5 +53,5 @@ Noctalia's global `auto_paste` launcher setting only applies to built-in provide
 ## Notes
 
 - **Processes spawned:** on every query, `sh search.sh`, which runs `fzf` (up to four times), `tr`, `cat` and `awk`. With `paste_after_copy`, `sh -c 'sleep …; exec wtype …'` once per activation. No network access and no files written.
-- **Why not search in Luau:** Noctalia gives each script callback 25 ms of CPU time, too little to parse about 3000 rows, so the search runs in a helper process (about 20 ms per query).
+- **Why not search in Luau:** Noctalia gives each script callback 25 ms of CPU time, too little to parse about 3000 rows, so the search runs in a helper process (about 15 ms per query).
 - **Data:** `data.tsv`, `names.tsv`, `desc.tsv`, `codes_hex.tsv` and `codes_dec.tsv` are generated from the sources by `tools/build_data.py` in the source repository (not needed at runtime). Sources: `unicode-math-table.tex` from the LaTeX `unicode-math` package (LPPL), with `\mathbb{X}`-style aliases derived from its `\BbbX`, `\mbfX`, … names, and the Lean 4 VS Code abbreviation table from [leanprover/vscode-lean4](https://github.com/leanprover/vscode-lean4) (Apache-2.0).
