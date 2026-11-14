@@ -1,0 +1,9 @@
+{
+  "settings": {
+    "notify_on_copy": {
+      "description": "Show a notification when a character is copied to the clipboard",
+      "label": "Notify on Copy"
+    }
+  },
+  "title": "Unicode Picker"
+}

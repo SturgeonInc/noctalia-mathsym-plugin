@@ -1,0 +1,2872 @@
+!	mathexclam		exclamation mark	close
+#	mathoctothorpe		number sign	ord
+$	mathdollar		dollar sign	ord
+%	mathpercent		percent sign	ord
+&	mathampersand		ampersand	ord
+(	lparen		left parenthesis	open
+)	rparen		right parenthesis	close
++	mathplus		plus sign	bin
+,	mathcomma		comma	punct
+.	mathperiod		full stop, period	ord
+/	mathslash		solidus	ord
+:	mathcolon		colon	punct
+;	mathsemicolon		semicolon	punct
+<	less		less-than sign	rel
+=	equal		equals sign	rel
+>	greater		greater-than sign	rel
+?	mathquestion		question mark	ord
+@	mathatsign		commercial at	ord
+[	lbrack		left square bracket	open
+\	backslash	\ setminus	reverse solidus	ord
+\n		n		
+]	rbrack		right square bracket	close
+{	lbrace		left curly bracket	open
+|	vert		vertical bar	fence
+}	rbrace		right curly bracket	close
+¡		r!	inverted exclamation mark	
+¢		cent	cent sign	
+£	mathsterling	pounds pound	pound sign	ord
+¤		currency	currency sign	
+¥	mathyen	yen	yen sign	ord
+¦		brokenbar	broken bar	
+§	mathsection	section	section symbol	ord
+©		copyright	copyright sign	
+ª		ordfeminine ^a_	feminine ordinal indicator	
+«		f<< flqq	left-pointing double angle quotation mark	
+¬	neg lnot	! not neg lnot	not sign	ord
+®		circledR registered	registered sign	
+°		degree	degree sign	
+±	pm	pm	plus-or-minus sign	bin
+²		^2	superscript two	
+³		^3	superscript three	
+µ		textmu micro	micro sign	
+¶	mathparagraph	paragraph pilcrow	paragraph symbol	ord
+·	cdotp centerdot	. dot cdot centerdot	middle dot	bin
+¹		^1	superscript one	
+º		ordmasculine ^o_	masculine ordinal indicator	
+»		f>> frqq	right-pointing double angle quotation mark	
+¼		frac14 frac	vulgar fraction one quarter	
+½		frac12	vulgar fraction one half	
+¾		frac34	vulgar fraction three quarters	
+¿		?	inverted question mark	
+À		`A	latin capital letter a with grave	
+Á		'A	latin capital letter a with acute	
+Â		^{A}	latin capital letter a with circumflex	
+Ã		~A	latin capital letter a with tilde	
+Ä		"A	latin capital letter a with diaeresis	
+Å		AA	latin capital letter a with ring above	
+Æ		AE	latin capital letter ae	
+Ç		cC	latin capital letter c with cedilla	
+È		`E	latin capital letter e with grave	
+É		'E	latin capital letter e with acute	
+Ê		^{E}	latin capital letter e with circumflex	
+Ë		"E	latin capital letter e with diaeresis	
+Ì		`I	latin capital letter i with grave	
+Í		'I	latin capital letter i with acute	
+Î		^{I}	latin capital letter i with circumflex	
+Ï		"I	latin capital letter i with diaeresis	
+Ð		DH	latin capital letter eth	
+Ñ		~N	latin capital letter n with tilde	
+Ò		`O	latin capital letter o with grave	
+Ó		'O	latin capital letter o with acute	
+Ô		^{O}	latin capital letter o with circumflex	
+Õ		~O	latin capital letter o with tilde	
+Ö		"O	latin capital letter o with diaeresis	
+×	times	x times multiplication	multiply sign	bin
+×ˢ		xs		
+×ᶠ		xf		
+Ø		O /O	latin capital letter o with stroke	
+Ù		`U	latin capital letter u with grave	
+Ú		'U	latin capital letter u with acute	
+Û		^{U}	latin capital letter u with circumflex	
+Ü		"U	latin capital letter u with diaeresis	
+Ý		'Y	latin capital letter y with acute	
+Þ		TH	latin capital letter thorn	
+à		`a	latin small letter a with grave	
+á		'a	latin small letter a with acute	
+â		^{a}	latin small letter a with circumflex	
+ã		~a	latin small letter a with tilde	
+ä		"a	latin small letter a with diaeresis	
+å		aa	latin small letter a with ring above	
+æ		ae	latin small letter ae	
+ç		cc	latin small letter c with cedilla	
+è		`e	latin small letter e with grave	
+é		'e	latin small letter e with acute	
+ê		^{e}	latin small letter e with circumflex	
+ë		"e	latin small letter e with diaeresis	
+ì		`i	latin small letter i with grave	
+í		'i	latin small letter i with acute	
+î		^{i}	latin small letter i with circumflex	
+ï		"i	latin small letter i with diaeresis	
+ð	matheth	dh	eth	alpha
+ñ		~{n}	latin small letter n with tilde	
+ò		`o	latin small letter o with grave	
+ó		'o	latin small letter o with acute	
+ô		^{o}	latin small letter o with circumflex	
+õ		~o	latin small letter o with tilde	
+ö		"o	latin small letter o with diaeresis	
+÷	div	division div	divide sign	bin
+ø		/o	latin small letter o with stroke	
+ù		`u	latin small letter u with grave	
+ú		'u	latin small letter u with acute	
+û		^{u}	latin small letter u with circumflex	
+ü		"u	latin small letter u with diaeresis	
+ý		'y	latin small letter y with acute	
+ÿ		"y	latin small letter y with diaeresis	
+Ā		-{A}	latin capital letter a with macron	
+ā		-{a}	latin small letter a with macron	
+Č		vC	latin capital letter c with caron	
+č		vc	latin small letter c with caron	
+Ď		vD	latin capital letter d with caron	
+ď		vd	latin small letter d with caron	
+Ē		-{E}	latin capital letter e with macron	
+ē		-{e}	latin small letter e with macron	
+Ě		vE	latin capital letter e with caron	
+ě		ve	latin small letter e with caron	
+Ī		-{I}	latin capital letter i with macron	
+ī		-{i}	latin small letter i with macron	
+Į		kI	latin capital letter i with ogonek	
+į		ki	latin small letter i with ogonek	
+ı		imath	latin small letter dotless i	
+Ł		/L	latin capital letter l with stroke	
+Ō		-{O}	latin capital letter o with macron	
+ō		-{o}	latin small letter o with macron	
+Œ		OE	latin capital ligature oe	
+œ		oe	latin small ligature oe	
+Ū		-{U}	latin capital letter u with macron	
+ū		-{u}	latin small letter u with macron	
+ƛ		Gl-	latin small letter lambda with stroke	
+Ƶ	Zbar		impedance (latin capital letter z with stroke)	ord
+ȩ		ce	latin small letter e with cedilla	
+ʰ		^h	modifier letter small h	
+ʱ		^hhook ^hwithhook	modifier letter small h with hook	
+ʲ		^j	modifier letter small j	
+ʳ		^r	modifier letter small r	
+ʴ		^turnedr	modifier letter small turned r	
+ʵ		^turnedrhook ^turnedrwithhook	modifier letter small turned r with hook	
+ʶ		^Rinverted	modifier letter small capital inverted r	
+ʷ		^w	modifier letter small w	
+ʸ		^y	modifier letter small y	
+ˠ		^gamma	modifier letter small gamma	
+ˡ		^l	modifier letter small l	
+ˢ		^s	modifier letter small s	
+ˣ		^x	modifier letter small x	
+ˤ		^stop	modifier letter small reversed glottal stop	
+̀	grave		grave accent	accent
+́	acute		acute accent	accent
+̂	hat widehat		circumflex accent	accent
+̃	tilde widetilde		tilde	accent
+̄	bar		macron	accent
+̅	overbar wideoverbar		overbar embellishment	accent
+̆	breve widebreve		breve	accent
+̇	dot		dot above	accent
+̈	ddot		dieresis	accent
+̉	ovhook		combining hook above	accent
+̊	ocirc		ring	accent
+̌	check widecheck		caron	accent
+̐	candra		candrabindu (non-spacing)	accent
+̒	oturnedcomma		combining turned comma above	accent
+̕	ocommatopright		combining comma above right	accent
+̚	droang		left angle above (non-spacing)	accent
+̰	wideutilde		under tilde accent (multiple characters and non-spacing)	botaccentwide
+̲	mathunderbar		combining low line	botaccentwide
+̸	notaccent		combining long solidus overlay	accentoverlay
+͍	underleftrightarrow		underleftrightarrow accent	botaccentwide
+Ͱ		Heta	greek capital letter heta	
+ͱ		heta	greek small letter heta	
+Ϳ		Yot	greek capital letter yot	
+Α	mupAlpha Alpha	Alpha GA	capital alpha, greek	alpha
+Β	mupBeta Beta	GB Beta	capital beta, greek	alpha
+Γ	mupGamma Gamma	G Gamma GG	capital gamma, greek	alpha
+Δ	mupDelta Delta	D GD Delta	capital delta, greek	alpha
+Ε	mupEpsilon Epsilon	GE Epsilon	capital epsilon, greek	alpha
+Ζ	mupZeta Zeta	GZ Zeta	capital zeta, greek	alpha
+Η	mupEta Eta	Eta	capital eta, greek	alpha
+Θ	mupTheta Theta	Theta GTH	capital theta, greek	alpha
+Ι	mupIota Iota	Iota GI	capital iota, greek	alpha
+Κ	mupKappa Kappa	GK Kappa	capital kappa, greek	alpha
+Λ	mupLambda Lambda	L GL Lambda Lamda	capital lambda, greek	alpha
+Μ	mupMu Mu	GM	capital mu, greek	alpha
+Ν	mupNu Nu	GN Nu	capital nu, greek	alpha
+Ξ	mupXi Xi	GX Xi	capital xi, greek	alpha
+Ο	mupOmicron Omicron	Omicron	capital omicron, greek	alpha
+Π	mupPi Pi	p P Pi	capital pi, greek	alpha
+Π₀		Pi0 P0 Pi_0 P_0		
+Ρ	mupRho Rho	GR Rho	capital rho, greek	alpha
+Σ	mupSigma Sigma	S GS Sigma	capital sigma, greek	alpha
+Τ	mupTau Tau	Tau GT	capital tau, greek	alpha
+Υ	mupUpsilon Upsilon	Upsilon GU	capital upsilon, greek	alpha
+Φ	mupPhi Phi	GF Phi	capital phi, greek	alpha
+Χ	mupChi Chi	GC Chi	capital chi, greek	alpha
+Ψ	mupPsi Psi	GP Psi	capital psi, greek	alpha
+Ω	mupOmega Omega	Omega GO	capital omega, greek	alpha
+α	mupalpha alpha	a alpha Ga	small alpha, greek	alpha
+β	mupbeta beta	b be Gb beta	small beta, greek	alpha
+γ	mupgamma gamma	g ga gamma Gg	small gamma, greek	alpha
+δ	mupdelta delta	de delta Gd	small delta, greek	alpha
+ε	mupvarepsilon varepsilon	e ep epsilon eps Ge	rounded small varepsilon, greek	alpha
+ζ	mupzeta zeta	ze Gz zeta	small zeta, greek	alpha
+η	mupeta eta	et eta	small eta, greek	alpha
+θ	muptheta theta	th theta Gth	straight theta, small theta, greek	alpha
+ι	mupiota iota	io iota Gi	small iota, greek	alpha
+κ	mupkappa kappa	ka Gk kappa	small kappa, greek	alpha
+λ	muplambda lambda	la lambda lamda lam Gl fun	small lambda, greek	alpha
+μ	mupmu mu	m mu Gm	small mu, greek	alpha
+ν	mupnu nu	nu Gn	small nu, greek	alpha
+ξ	mupxi xi	xi Gx	small xi, greek	alpha
+ο	mupomicron omicron	omicron	small omicron, greek	alpha
+π	muppi pi	pi	small pi, greek	alpha
+ρ	muprho rho	rh Gr rho	small rho, greek	alpha
+ς	mupvarsigma varsigma	vsi varsigma	terminal sigma, greek	alpha
+σ	mupsigma sigma	si sigma Gs	small sigma, greek	alpha
+τ	muptau tau	ta tau Gt	small tau, greek	alpha
+υ	mupupsilon upsilon	upsilon Gu	small upsilon, greek	alpha
+φ	mupvarphi varphi	ph phi straightphi Gf	curly or open small phi, greek	alpha
+χ	mupchi chi	c ch Gc chi	small chi, greek	alpha
+ψ	muppsi psi	ps psi Gp	small psi, greek	alpha
+ω	mupomega omega	om omega Go	small omega, greek	alpha
+ϐ		varbeta	greek beta symbol	
+ϑ	mupvartheta vartheta	vartheta	curly or open theta	alpha
+ϕ	mupphi straightphi phi	varphi	small phi, greek	alpha
+ϖ	mupvarpi varpi	varpi	rounded small pi (pomega), greek	alpha
+ϗ		varkai	greek kai symbol	
+Ϛ		Stigma	greek letter stigma	
+ϛ		stigma	greek small letter stigma	
+Ϝ	upDigamma	Digamma	capital digamma	alpha
+ϝ	updigamma	digamma	old greek small letter digamma	alpha
+Ϟ		Koppa	greek letter koppa	
+ϟ		koppa	greek small letter koppa	
+Ϡ		Sampi	greek letter sampi	
+ϡ		sampi	greek small letter sampi	
+Ϣ		Shei	coptic capital letter shei	
+ϣ		shei	coptic small letter shei	
+Ϥ		Fei	coptic capital letter fei	
+ϥ		fei	coptic small letter fei	
+Ϧ		Khei	coptic capital letter khei	
+ϧ		khei	coptic small letter khei	
+Ϩ		Hori	coptic capital letter hori	
+ϩ		hori	coptic small letter hori	
+Ϫ		Gangia	coptic capital letter gangia	
+ϫ		gangia	coptic small letter gangia	
+Ϭ		Shima	coptic capital letter shima	
+ϭ		shima	coptic small letter shima	
+Ϯ		Dei	coptic capital letter dei	
+ϯ		dei	coptic small letter dei	
+ϰ	mupvarkappa varkappa	varkappa	rounded small kappa, greek	alpha
+ϱ	mupvarrho varrho	varrho	rounded small rho, greek	alpha
+ϴ	mupvarTheta varTheta		greek capital theta symbol	alpha
+ϵ	mupepsilon epsilon		greek lunate varepsilon symbol	alpha
+϶	upbackepsilon		greek reversed lunate epsilon symbol	ord
+Ϸ		Sho	greek capital letter sho	
+ϸ		sho	greek small letter sho	
+Ϻ		San	greek capital letter san	
+ϻ		san	greek small letter san	
+฿		textbaht	thai currency symbol baht	
+ᗮ		^perp ^bot	canadian syllabics carrier p	
+ᴬ		^A	modifier letter capital a	
+ᴭ		^Ae	modifier letter capital ae	
+ᴮ		^B	modifier letter capital b	
+ᴯ		^Bbarred	modifier letter capital barred b	
+ᴰ		^D	modifier letter capital d	
+ᴱ		^E	modifier letter capital e	
+ᴲ		^Ereversed	modifier letter capital reversed e	
+ᴳ		^G	modifier letter capital g	
+ᴴ		^H	modifier letter capital h	
+ᴵ		^I	modifier letter capital i	
+ᴶ		^J	modifier letter capital j	
+ᴷ		^K	modifier letter capital k	
+ᴸ		^L	modifier letter capital l	
+ᴹ		^M	modifier letter capital m	
+ᴺ		^N	modifier letter capital n	
+ᴻ		^Nreversed	modifier letter capital reversed n	
+ᴼ		^O	modifier letter capital o	
+ᴽ		^Ou	modifier letter capital ou	
+ᴾ		^P	modifier letter capital p	
+ᴿ		^R	modifier letter capital r	
+ᵀ		^T	modifier letter capital t	
+ᵁ		^U	modifier letter capital u	
+ᵂ		^W	modifier letter capital w	
+ᵃ		^a	modifier letter small a	
+ᵃᵒᵖ		addopposite aop		
+ᵄ		^turneda	modifier letter small turned a	
+ᵅ		^alpha	modifier letter small alpha	
+ᵆ		^turnedae	modifier letter small turned ae	
+ᵇ		^b	modifier letter small b	
+ᵈ		^d	modifier letter small d	
+ᵉ		^e	modifier letter small e	
+ᵊ		^schwa	modifier letter small schwa	
+ᵋ		^eopen	modifier letter small open e	
+ᵌ		^turnede	modifier letter small turned open e	
+ᵍ		^g	modifier letter small g	
+ᵎ		^turnedi	modifier letter small turned i	
+ᵏ		^k	modifier letter small k	
+ᵐ		^m	modifier letter small m	
+ᵐᵒᵖ		mulopposite mop		
+ᵑ		^eng	modifier letter small eng	
+ᵒ		^o	modifier letter small o	
+ᵒᵈ		od orderdual		
+ᵒᵖ		opposite op		
+ᵓ		^oopen	modifier letter small open o	
+ᵔ		^otop	modifier letter small top half o	
+ᵕ		^obottom	modifier letter small bottom half o	
+ᵖ		^p	modifier letter small p	
+ᵗ		^t	modifier letter small t	
+ᵘ		^u	modifier letter small u	
+ᵙ		^usideways	modifier letter small sideways u	
+ᵚ		^turnedm	modifier letter small turned m	
+ᵛ		^v	modifier letter small v	
+ᵜ		^ain	modifier letter small ain	
+ᵝ		^beta	modifier letter small beta	
+ᵞ		^vargamma	modifier letter small greek gamma	
+ᵠ		^varphi	modifier letter small greek phi	
+ᵡ		^chi	modifier letter small chi	
+ᵢ		_i	latin subscript small letter i	
+ᵣ		_r	latin subscript small letter r	
+ᵤ		_u	latin subscript small letter u	
+ᵥ		_v	latin subscript small letter v	
+ᶛ		^turnedalpha	modifier letter small turned alpha	
+ᶜ		compl complement ^c	modifier letter small c	
+ᶝ		^ccurl	modifier letter small c with curl	
+ᶞ		^eth	modifier letter small eth	
+ᶟ		^ereversedopen	modifier letter small reversed open e	
+ᶠ		^f	modifier letter small f	
+ᶢ		^gscript	modifier letter small script g	
+ᶣ		^turnedh	modifier letter small turned h	
+ᶤ		^istroke	modifier letter small i with stroke	
+ᶥ		^iota	modifier letter small iota	
+ᶦ		^Ismall	modifier letter small capital i	
+ᶧ		^Istroke	modifier letter small capital i with stroke	
+ᶨ		^jtail	modifier letter small j with crossed-tail	
+ᶩ		^lretroflexhook	modifier letter small l with retroflex hook	
+ᶪ		^lhook	modifier letter small l with palatal hook	
+ᶫ		^Lsmall	modifier letter small capital l	
+ᶬ		^mhook	modifier letter small m with hook	
+ᶭ		^turnedmleg	modifier letter small turned m with long leg	
+ᶮ		^nlefthook	modifier letter small n with left hook	
+ᶯ		^nretroflexhook	modifier letter small n with retroflex hook	
+ᶰ		^Nsmall	modifier letter small capital n	
+ᶱ		^obarred	modifier letter small barred o	
+ᶲ		^phi	modifier letter small phi	
+ᶳ		^shook	modifier letter small s with hook	
+ᶴ		^esh	modifier letter small esh	
+ᶵ		^twithpalatalhook	modifier letter small t with palatal hook	
+ᶶ		^ubar	modifier letter small u bar	
+ᶷ		^upsilon	modifier letter small upsilon	
+ᶸ		^Usmall	modifier letter small capital u	
+ᶹ		^vhook	modifier letter small v with hook	
+ᶺ		^turnedv	modifier letter small turned v	
+ᶻ		^z	modifier letter small z	
+ᶼ		^zretroflexhook	modifier letter small z with retroflex hook	
+ᶽ		^zcurl	modifier letter small z with curl	
+ᶾ		^ezh	modifier letter small ezh	
+ᶿ		^theta	modifier letter small theta	
+‐	mathhyphen		hyphen	alpha
+–		en	en dash	
+—		em	em dash	
+―	horizbar		horizontal bar	ord
+‖	Vert	|| fuzzy Vert	double vertical bar	fence
+‗	twolowline		double low line (spacing)	ord
+‘		lq grq	left single quotation mark	
+’		rq	right single quotation mark	
+‚		glq	single low-9 quotation mark	
+“		ldq grqq	left double quotation mark	
+”		rdq	right double quotation mark	
+„		glqq	double low-9 quotation mark	
+†	dagger	dagger dag	dagger relation	bin
+‡	ddagger	ddagger ddag	double dagger relation	bin
+•	smblkcircle bullet	smul bub bu	round bullet, filled	bin
+‣		but	triangular bullet	
+‥	enleadertwodots		double baseline dot (en leader)	ord
+…	unicodeellipsis	ldots	ellipsis (horizontal)	ord
+‰		permil	per mille sign	
+‱		textpertenthousand	per ten thousand sign	
+′	prime	prime varprime	prime or minute, not superscripted	ord
+″	dprime		double prime or second, not superscripted	ord
+‴	trprime		triple prime (not superscripted)	ord
+‵	backprime	backprime	reverse prime, not superscripted	ord
+‶	backdprime		double reverse prime, not superscripted	ord
+‷	backtrprime		triple reverse prime, not superscripted	ord
+‸	caretinsert		caret (insertion mark)	ord
+‹		f< flq	single left-pointing angle quotation mark	
+›		f> frq	single right-pointing angle quotation mark	
+※		textreferencemark	reference mark	
+‼	Exclam	!!	double exclamation mark	ord
+‽		textinterrobang ?!	interrobang	
+‿		undertie	undertie	
+⁀	tieconcat	tie	character tie, z notation sequence concatenation	bin
+⁃	hyphenbullet		rectangle, filled (hyphen bullet)	ord
+⁄	fracslash	textfractionsolidus	fraction slash	bin
+⁅		textlquill liel bracketl [-	left square bracket with quill	
+⁆		textrquill lier -] bracketr	right square bracket with quill	
+⁇	Question	??	double question mark	ord
+⁉		!?	exclamation question mark	
+⁎		asterisk	low asterisk	
+⁐	closure		close up	rel
+⁒		textdiscount	commercial minus sign	
+⁗	qprime		quadruple prime, not superscripted	ord
+⁰		^0	superscript zero	
+ⁱ		^i	superscript latin small letter i	
+⁴		^4	superscript four	
+⁵		^5	superscript five	
+⁶		^6	superscript six	
+⁷		^7	superscript seven	
+⁸		^8	superscript eight	
+⁹		^9	superscript nine	
+⁺		^+	superscript plus sign	
+⁻		^-	superscript minus	
+⁻²		-2		
+⁻³		-3		
+⁻¹		- inv -1 ^-1 sy		
+⁻¹'		preim preimage		
+⁼		^=	superscript equals sign	
+⁽		^(	superscript left parenthesis	
+⁾		^)	superscript right parenthesis	
+ⁿ		^n	superscript latin small letter n	
+₀		0 _0	subscript zero	
+₁		1 _1	subscript one	
+₂		2 _2	subscript two	
+₃		3 _3	subscript three	
+₄		4 _4	subscript four	
+₅		5 _5	subscript five	
+₆		6 _6	subscript six	
+₇		7 _7	subscript seven	
+₈		8 _8	subscript eight	
+₉		9 _9	subscript nine	
+₊		_+	subscript plus sign	
+₋		_-	subscript minus	
+₌		_=	subscript equals sign	
+₍		_(	subscript left parenthesis	
+₎		_)	subscript right parenthesis	
+ₐ		_a	latin subscript small letter a	
+ₑ		_e	latin subscript small letter e	
+ₒ		_o	latin subscript small letter o	
+ₓ		_x	latin subscript small letter x	
+ₕ		_h	latin subscript small letter h	
+ₖ		_k	latin subscript small letter k	
+ₗ		_l	latin subscript small letter l	
+ₘ		_m	latin subscript small letter m	
+ₙ		_n	latin subscript small letter n	
+ₚ		_p	latin subscript small letter p	
+ₛ		_s	latin subscript small letter s	
+ₜ		_t	latin subscript small letter t	
+₝		_w		
+₞		_y		
+₟		_z		
+₡		textcolonmonetary colon	colon sign	
+₢		cruzeiro	cruzeiro sign	
+₤		textlira lira	lira sign	
+₥		mill	mill sign	
+₦		naira textnaira	naira sign	
+₧		peseta	peseta sign	
+₨		rupee	rupee sign	
+₩		textwon won	won sign	
+₫		dong	dong sign	
+€	euro	euro	euro sign	ord
+₭		kip	kip sign	
+₮		tugrik	tugrik sign	
+₯		drachma	drachma sign	
+₱		textpeso peso	peso sign	
+₲		guarani	guarani sign	
+₳		austral	austral sign	
+₴		hryvnia	hryvnia sign	
+₵		cedi	cedi sign	
+₷		spesmilo	spesmilo sign	
+₸		tenge	tenge sign	
+₼		manat	manat sign	
+₽		ruble	ruble sign	
+₾		lari	lari sign	
+⃐	leftharpoonaccent overleftharpoon		combining left harpoon above	accent
+⃑	rightharpoonaccent overrightharpoon		combining right harpoon above	accent
+⃒	vertoverlay		combining long vertical line overlay	accent
+⃖	overleftarrow		combining left arrow above	accentwide
+⃗	overrightarrow vec		combining left arrow above	accentwide
+⃛	dddot		combining three dots above	accent
+⃜	ddddot		combining four dots above	accent
+⃝	enclosecircle		combining enclosing circle	ord
+⃞	enclosesquare		combining enclosing square	ord
+⃟	enclosediamond		combining enclosing diamond	ord
+⃡	overleftrightarrow		combining left right arrow above	accentwide
+⃤	enclosetriangle		combining enclosing upward pointing triangle	ord
+⃧	annuity		combining annuity symbol	accent
+⃨	threeunderdot		combining triple underdot	botaccent
+⃩	widebridgeabove		combining wide bridge above	accent
+⃬	underrightharpoondown		combining rightwards harpoon with barb downwards	botaccentwide
+⃭	underleftharpoondown		combining leftwards harpoon with barb downwards	botaccentwide
+⃮	underleftarrow		combining left arrow below	botaccentwide
+⃯	underrightarrow		combining right arrow below	botaccentwide
+⃰	asteraccent		combining asterisk above	accent
+ℂ	BbbC mathbb{C}	C Com com bc bbC	/bbb c, open face c	alpha
+℃		celsius	degree celsius	
+ℇ	Eulerconst		euler constant	ord
+ℊ	mscrg mathscr{g} mathcal{g}	Mcg	/scr g, script letter g	alpha
+ℋ	mscrH mathscr{H} mathcal{H}	McH	hamiltonian (script capital h)	alpha
+ℌ	mfrakH mathfrak{H}	MfH	/frak h, upper case h	alpha
+ℍ	BbbH mathbb{H}	H bbH	/bbb h, open face h	alpha
+ℎ	Planckconst		planck constant	ord
+ℏ	hslash hbar	hbar	variant planck's over 2pi	alpha
+ℐ	mscrI mathscr{I} mathcal{I}	mathscr{I} McI	/scr i, script letter i	alpha
+ℑ	Im	Im MfI	imaginary part	alpha
+ℒ	mscrL mathscr{L} mathcal{L}	McL	lagrangian (script capital l)	alpha
+ℓ	ell	ell	cursive small l	alpha
+ℕ	BbbN mathbb{N}	N nat bn Nat bbN	/bbb n, open face n	alpha
+ℕ∞		enat		
+№		numero textnumero	numero sign	
+℗		textcircledP	sound recording copyright	
+℘	wp	wp	weierstrass p	alpha
+ℙ	BbbP mathbb{P}	bp bbP	/bbb p, open face p	alpha
+ℚ	BbbQ mathbb{Q}	Q bq rat Rat bbQ	/bbb q, open face q	alpha
+ℛ	mscrR mathscr{R} mathcal{R}	McR	/scr r, script letter r	alpha
+ℜ	Re	Re MfR	real part	alpha
+ℝ	BbbR mathbb{R}	R br real Real bbR	/bbb r, open face r	alpha
+ℝ≥0		Rge0 R>=0 nnreal		
+℞		textrecipe	prescription take	
+℠		^SM	service mark	
+℡		telephone ^TEL	telephone sign	
+™		^TM	trade mark sign	
+ℤ	BbbZ mathbb{Z}	Z int Int bz bbZ	/bbb z, open face z	alpha
+ℤ√		Zsqrt zsqrtd		
+℥		ounce	ounce sign	
+Ω		ohm	ohm sign	
+℧	mho	mho	conductance	ord
+ℨ	mfrakZ mathfrak{Z}	MfZ	/frak z, upper case z	alpha
+℩	turnediota		turned iota	alpha
+K		kelvin	kelvin sign	
+Å	Angstrom	angstrom	angstrom capital a, ring	alpha
+ℬ	mscrB mathscr{B} mathcal{B}	McB	bernoulli function (script capital b)	alpha
+ℭ	mfrakC mathfrak{C}	MfC	black-letter capital c	alpha
+℮		textestimated	estimated symbol	
+ℯ	mscre mathscr{e} mathcal{e}	Mce	/scr e, script letter e	alpha
+ℰ	mscrE mathscr{E} mathcal{E}	McE	/scr e, script letter e	alpha
+ℱ	mscrF mathscr{F} mathcal{F}	McF	/scr f, script letter f	alpha
+Ⅎ	Finv		turned capital f	ord
+ℳ	mscrM mathscr{M} mathcal{M}	McM	physics m-matrix (script capital m)	alpha
+ℴ	mscro mathscr{o} mathcal{o}	Mco	order of (script small o)	alpha
+ℵ	aleph	aleph	aleph, hebrew	alpha
+ℵ₀		aleph0		
+ℶ	beth	beth	beth, hebrew	alpha
+ℷ	gimel	gimel	gimel, hebrew	alpha
+ℸ	daleth	daleth	daleth, hebrew	alpha
+℻		facsimile	facsimile sign	
+ℼ	Bbbpi mathbb{\pi}		double-struck small pi	ord
+ℽ	Bbbgamma mathbb{\gamma}		double-struck small gamma	alpha
+ℾ	BbbGamma		double-struck capital gamma	alpha
+ℿ	BbbPi		double-struck capital pi	alpha
+⅀	Bbbsum mathbb{\sum}	bsum	double-struck n-ary summation	op
+⅁	Game		turned sans-serif capital g	ord
+⅂	sansLturned		turned sans-serif capital l	ord
+⅃	sansLmirrored		reversed sans-serif capital l	ord
+⅄	Yup		turned sans-serif capital y	ord
+ⅅ	mitBbbD		double-struck italic capital d	ord
+ⅆ	mitBbbd		double-struck italic small d	ord
+ⅇ	mitBbbe		double-struck italic small e	ord
+ⅈ	mitBbbi		double-struck italic small i	ord
+ⅉ	mitBbbj		double-struck italic small j	ord
+⅊	PropertyLine		property line	ord
+⅋	upand	&	turned ampersand	bin
+⅌		per	per sign	
+⅓		frac13	vulgar fraction one third	
+⅔		frac23	vulgar fraction two thirds	
+⅕		frac15	vulgar fraction one fifth	
+⅖		frac25	vulgar fraction two fifths	
+⅗		frac35	vulgar fraction three fifths	
+⅘		frac45	vulgar fraction four fifths	
+⅙		frac16	vulgar fraction one sixth	
+⅚		frac56	vulgar fraction five sixths	
+⅛		frac18	vulgar fraction one eighth	
+⅜		frac38	vulgar fraction three eighths	
+⅝		frac58	vulgar fraction five eighths	
+⅞		frac78	vulgar fraction seven eighths	
+⅟		frac1	fraction numerator one	
+←	leftarrow gets	l leftarrow l- gets <-	leftward arrow	rel
+↑	uparrow	u coe u- uparrow	upward arrow	rel
+→	rightarrow to	r imp -> to r- rightarrow	rightward arrow	rel
+→ᵇ		tob rb to^b r^b boundedcontinuousfunction		
+→₀		to0 r0 to_0 r_0 finsupp		
+→₁		to1 r1 to_1 r_1 l1		
+→₁ₛ		to1s r1s to_1s r_1s l1simplefunc		
+→ₐ		toa ra to_a r_a alghom		
+→ₗ		tol rl to_l r_l linearmap		
+→ₘ		tom rm to_m r_m aeeqfun		
+→ₚ		rp to_p r_p dfinsupp		
+→ₛ		tos rs to_s r_s simplefunc		
+→ₛₗ		tosl rsl to_sl r_sl semilinearmap		
+↓	downarrow	d downarrow d-	downward arrow	rel
+↔	leftrightarrow	iff leftrightarrow lr- lr <->	left and right arrow	rel
+↕	updownarrow	ud- ud updownarrow	up and down arrow	rel
+↖	nwarrow	nwarrow ul- ul	nw pointing arrow	rel
+↗	nearrow	nearrow ur- ur	ne pointing arrow	rel
+↘	searrow	dr- dr searrow	se pointing arrow	rel
+↙	swarrow	dl- dl swarrow	sw pointing arrow	rel
+↚	nleftarrow	nleftarrow l-n <-n	not left arrow	rel
+↛	nrightarrow	nrightarrow ->n r-n	not right arrow	rel
+↜	leftwavearrow	l~	left arrow-wavy	rel
+↝	rightwavearrow	leadsto r~	right arrow-wavy	rel
+↞	twoheadleftarrow	twoheadleftarrow ll-	left two-headed arrow	rel
+↟	twoheaduparrow	uu-	up two-headed arrow	rel
+↠	twoheadrightarrow	twoheadrightarrow rr-	right two-headed arrow	rel
+↡	twoheaddownarrow	dd-	down two-headed arrow	rel
+↢	leftarrowtail	leftarrowtail l->	left arrow-tailed	rel
+↣	rightarrowtail	pr r-> rightarrowtail	right arrow-tailed	rel
+↤	mapsfrom	l-|	maps to, leftward	rel
+↥	mapsup	u-|	maps to, upward	rel
+↦	mapsto	ma mapsto |-> r-|	maps to, rightward	rel
+↧	mapsdown	d-|	maps to, downward	rel
+↨	updownarrowbar	ud-|	up down arrow with base (perpendicular)	ord
+↩	hookleftarrow	hookleftarrow	left arrow-hooked	rel
+↪	hookrightarrow	hookrightarrow	right arrow-hooked	rel
+↫	looparrowleft	looparrowleft	left arrow-looped	rel
+↬	looparrowright	looparrowright	right arrow-looped	rel
+↭	leftrightsquigarrow	leftrightsquigarrow lr~	left and right arr-wavy	rel
+↮	nleftrightarrow	nleftrightarrow lr-n <->n	not left and right arrow	rel
+↯	downzigzagarrow	dz	downwards zigzag arrow	rel
+↰	Lsh lsh	Lsh	upwards arrow with tip leftwards	rel
+↱	Rsh rsh	Rsh	upwards arrow with tip rightwards	rel
+↲	Ldsh		left down angled arrow	rel
+↳	Rdsh		right down angled arrow	rel
+↴	linefeed		rightwards arrow with corner downwards	ord
+↵	carriagereturn		downwards arrow with corner leftward = carriage return	ord
+↶	curvearrowleft	curvearrowleft	left curved arrow	rel
+↷	curvearrowright	curvearrowright	right curved arrow	rel
+↸	barovernorthwestarrow		north west arrow to long bar	ord
+↹	barleftarrowrightarrowbar		leftwards arrow to bar over rightwards arrow to bar	ord
+↺	acwopencirclearrow	circlearrowleft	anticlockwise open circle arrow	ord
+↻	cwopencirclearrow	circlearrowright	clockwise open circle arrow	ord
+↼	leftharpoonup	leftharpoonup	left harpoon-up	rel
+↽	leftharpoondown	leftharpoondown	left harpoon-down	rel
+↾	upharpoonright restriction	uprightharpoon	up harpoon-right	rel
+↿	upharpoonleft	upleftharpoon	up harpoon-left	rel
+⇀	rightharpoonup	rightharpoonup	right harpoon-up	rel
+⇁	rightharpoondown	rightharpoondown	right harpoon-down	rel
+⇂	downharpoonright	downrightharpoon	down harpoon-right	rel
+⇃	downharpoonleft	downleftharpoon	down harpoon-left	rel
+⇄	rightleftarrows	r-l- rightleftarrows	right arrow over left arrow	rel
+⇅	updownarrows	u-d-	up arrow, down arrow	rel
+⇆	leftrightarrows	leftrightarrows l-r-	left arrow over right arrow	rel
+⇇	leftleftarrows	leftleftarrows l-2	two left arrows	rel
+⇈	upuparrows	u-2 upuparrows	two up arrows	rel
+⇉	rightrightarrows	r-2 rightrightarrows	two right arrows	rel
+⇊	downdownarrows	downdownarrows d-2	two down arrows	rel
+⇋	leftrightharpoons	leftrightharpoons	left harpoon over right	rel
+⇌	rightleftharpoons	rightleftharpoons	right harpoon over left	rel
+⇍	nLeftarrow	nLeftarrow l=n	not implied by	rel
+⇎	nLeftrightarrow	nLeftrightarrow lr=n <=>n	not left and right double arrows	rel
+⇏	nRightarrow	nRightarrow =>n r=n	not implies	rel
+⇐	Leftarrow	l= Leftarrow Longleftarrow	is implied by	rel
+⇑	Uparrow	u= Uparrow	up double arrow	rel
+⇒	Rightarrow	=> Longrightarrow r= Rightarrow	implies	rel
+⇓	Downarrow	d= Downarrow	down double arrow	rel
+⇔	Leftrightarrow	lr= <=> Leftrightarrow Longleftrightarrow bihimp	left and right double arrow	rel
+⇕	Updownarrow	ud= Updownarrow	up and down double arrow	rel
+⇖	Nwarrow	ul=	nw pointing double arrow	rel
+⇗	Nearrow	ur=	ne pointing double arrow	rel
+⇘	Searrow	dr=	se pointing double arrow	rel
+⇙	Swarrow	dl=	sw pointing double arrow	rel
+⇚	Lleftarrow	l== Lleftarrow	left triple arrow	rel
+⇛	Rrightarrow	r== Rrightarrow	right triple arrow	rel
+⇜	leftsquigarrow		leftwards squiggle arrow	rel
+⇝	rightsquigarrow	squigarrowright	rightwards squiggle arrow	rel
+⇞	nHuparrow		upwards arrow with double stroke	ord
+⇟	nHdownarrow		downwards arrow with double stroke	ord
+⇠	leftdasharrow		leftwards dashed arrow	ord
+⇡	updasharrow		upwards dashed arrow	ord
+⇢	rightdasharrow		rightwards dashed arrow	ord
+⇣	downdasharrow		downwards dashed arrow	ord
+⇤	barleftarrow		leftwards arrow to bar	rel
+⇥	rightarrowbar		rightwards arrow to bar	rel
+⇦	leftwhitearrow		leftwards white arrow	ord
+⇧	upwhitearrow		upwards white arrow	ord
+⇨	rightwhitearrow	heyting himp	rightwards white arrow	ord
+⇩	downwhitearrow		downwards white arrow	ord
+⇪	whitearrowupfrombar		upwards white arrow from bar	ord
+⇰		|=>	rightwards white arrow from wall	
+⇴	circleonrightarrow		right arrow with small circle	rel
+⇵	downuparrows	d-u-	downwards arrow leftwards of upwards arrow	rel
+⇶	rightthreearrows	r-3	three rightwards arrows	rel
+⇷	nvleftarrow		leftwards arrow with vertical stroke	rel
+⇸	nvrightarrow		rightwards arrow with vertical stroke	rel
+⇹	nvleftrightarrow		left right arrow with vertical stroke	rel
+⇺	nVleftarrow		leftwards arrow with double vertical stroke	rel
+⇻	nVrightarrow		rightwards arrow with double vertical stroke	rel
+⇼	nVleftrightarrow		left right arrow with double vertical stroke	rel
+⇽	leftarrowtriangle		leftwards open-headed arrow	rel
+⇾	rightarrowtriangle		rightwards open-headed arrow	rel
+⇿	leftrightarrowtriangle		left right open-headed arrow	rel
+∀	forall	all forall	for all	ord
+∀ᵐ		allm all^m		
+∀ᶠ		allf all^f		
+∁	complement	complementprefix Complement	complement sign	ord
+∂	partial	pd partial	partial differential	alpha
+∃	exists	exists ex	at least one exists	ord
+∃ᶠ		exf		
+∄	nexists	nexists exn	negated exists	ord
+∅	varnothing emptyset	emptyset empty varnothing	circle, slash	ord
+∆	increment	increment symmdiff	laplacian (delta; nabla\string^2)	ord
+∇	nabla	nabla	nabla, del, hamilton operator	alpha
+∈	in	in member mem	set membership, variant	rel
+∉	notin	notin nin inn	negated set membership	rel
+∊	smallin		set membership (small set membership)	rel
+∋	ni	ni	contains, variant	rel
+∌	nni	nni	negated contains, variant	rel
+∍	smallni ni owns	backepsilon	contains (small contains as member)	rel
+∎	QED	qed	end of proof	ord
+∏	prod	prod	product operator	op
+∏ᶠ		finprod		
+∐	coprod	amalg smallamalg bigcoprod sigmaobj	coproduct operator	op
+∑	sum	sum	summation operator	op
+∑ᶠ		finsum		
+−	minus	minus	minus sign	bin
+∓	mp	mp	minus-or-plus sign	bin
+∔	dotplus	.+ dotplus	plus sign, dot above	bin
+∕	divslash		division slash	bin
+∖	setminus	smallsetminus	set minus (cf. reverse solidus)	bin
+∗	ast	ast	centered asterisk	bin
+∘	vysmwhtcircle	o comp circ	composite function (small circle)	bin
+∘*		o*		
+∙	vysmblkcircle	span	bullet operator	bin
+√	sqrt surd	root surd sqrt	radical	open
+∛	cuberoot	surd3	cube root	open
+∜	fourthroot	surd4	fourth root	open
+∝	propto	propto varpropto	is proportional to	rel
+∞	infty	infty	infinity	ord
+∟	rightangle	rightangle	right (90 degree) angle	ord
+∠	angle	angle	angle	ord
+∡	measuredangle	measuredangle	angle-measured	ord
+∢	sphericalangle	sphericalangle	angle-spherical	ord
+∣	mid	| dvd mid shortmid	divides	rel
+∤	nmid	nmid nshortmid |n	negated mid	rel
+∥	parallel	parallel	parallel	rel
+∦	nparallel	nparallel	not parallel	rel
+∧	wedge land	and an wedge	logical and	bin
+∨	vee lor	v or vee	logical or	bin
+∩	cap	i inter intersection cap	intersection	bin
+∪	cup	union un cup	union or logical sum	bin
+∫	int	integral	integral operator	op
+∬	iint		double integral operator	op
+∭	iiint		triple integral operator	op
+∮	oint	oint	contour integral operator	op
+∯	oiint	oiint tint	double contour integral operator	op
+∰	oiiint		triple contour integral operator	op
+∱	intclockwise		clockwise integral	op
+∲	varointclockwise		contour integral, clockwise	op
+∳	ointctrclockwise		contour integral, anticlockwise	op
+∴	therefore	therefore	therefore	ord
+∵	because	because	because	ord
+∶	mathratio	:	ratio	rel
+∷	Colon	::	two colons	rel
+∸	dotminus	.-	minus sign, dot above	bin
+∹	dashcolon	-:	)	rel
+∺	dotsminusdots	::-	minus with four dots, geometric properties	rel
+∻	kernelcontraction	:~	homothetic	rel
+∼	sim	~ homotopy thicksim sim	similar	rel
+∽	backsim	backsim	reverse similar	rel
+∾	invlazys		most positive [inverted lazy s]	bin
+∿	sinewave		sine wave	ord
+≀	wr	wr	wreath product	bin
+≁	nsim	nsim ~n	not similar	rel
+≂	eqsim	-~	equals, similar	rel
+≃	simeq sime	equiv ~- simeq	similar, equals	rel
+≄	nsime nsimeq	nsimeq ~-n	not similar, equals	rel
+≅	cong	iso ~= cong	congruent with	rel
+≆	simneqq		similar, not equals [vert only for 9573 entity]	rel
+≇	ncong	ncong ~=n	not congruent with	rel
+≈	approx	~~ approx thickapprox	approximate	rel
+≉	napprox	napprox ~~n	not approximate	rel
+≊	approxeq	~~- approxeq	approximate, equals	rel
+≋	approxident	~~~	approximately identical to	rel
+≌	backcong	backcong	all equal to	rel
+≍	asymp	asymp heq	asymptotically equal to	rel
+≎	Bumpeq	Bumpeq	bumpy equals	rel
+≏	bumpeq	bumpeq	bumpy equals, equals	rel
+≐	doteq	.= doteq	equals, single dot above	rel
+≑	Doteq doteqdot doteq	.=. doteqdot	equals, even dots	rel
+≒	fallingdotseq	fallingdotseq	equals, falling dots	rel
+≓	risingdotseq	risingdotseq	equals, rising dots	rel
+≔	coloneq	:= coloneq	colon, equals	rel
+≕	eqcolon	eqcolon =:	equals, colon	rel
+≖	eqcirc	eqcirc	circle on equals sign	rel
+≗	circeq	=o circeq	circle, equals	rel
+≘	arceq	(=	arc, equals; corresponds to	rel
+≙	wedgeq	and= defs	corresponds to (wedge, equals)	rel
+≚	veeeq	or=	logical or, equals	rel
+≛	stareq	*=	star equals	rel
+≜	triangleq	t= triangleq	triangle, equals	rel
+≝	eqdef	def=	equals by definition	rel
+≞	measeq	m=	measured by (m over equals)	rel
+≟	questeq	?=	equal with questionmark	rel
+≠	ne neq	neq ne eqn =n	not equal	rel
+≡	equiv	==	identical with	rel
+≢	nequiv	nequiv ==n	not identical with	rel
+≣	Equiv	===	strict equivalence (4 lines)	rel
+≤	leq le	leqslant leq le <=	less-than-or-equal	rel
+≥	geq ge	geqslant geq ge >=	greater-than-or-equal	rel
+≦	leqq	leqq	less, double equals	rel
+≧	geqq	geqq	greater, double equals	rel
+≨	lneqq	lneqq lneq lvertneqq	less, not double equals	rel
+≩	gneqq	gneqq gneq gvertneqq	greater, not double equals	rel
+≪	ll	ll	much less than, type 2	rel
+≫	gg	gg	much greater than, type 2	rel
+≬	between	between	between	rel
+≭	nasymp		not asymptotically equal to	rel
+≮	nless	notlt nless	not less-than	rel
+≯	ngtr	ngtr >n	not greater-than	rel
+≰	nleq	nleqq nleqslant nleq leqn len <=n	not less-than-or-equal	rel
+≱	ngeq	ngeqq ngeqslant ngeq geqn gen >=n	not greater-than-or-equal	rel
+≲	lesssim	lessapprox lesssim <~	less, similar	rel
+≳	gtrsim	gtrapprox gtrsim >~	greater, similar	rel
+≴	nlesssim	<~nn	not less, similar	rel
+≵	ngtrsim	>~nn	not greater, similar	rel
+≶	lessgtr	lessgtr	less, greater	rel
+≷	gtrless	gtrless	greater, less	rel
+≸	nlessgtr		not less, greater	rel
+≹	ngtrless		not greater, less	rel
+≺	prec	prec	precedes	rel
+≻	succ	succ	succeeds	rel
+≼	preccurlyeq	preceq curlypreceq	precedes, curly equals	rel
+≽	succcurlyeq	succcurlyeq succeq	succeeds, curly equals	rel
+≾	precsim	precapprox precsim	precedes, similar	rel
+≿	succsim	succapprox succsim	succeeds, similar	rel
+⊀	nprec	nprec	not precedes	rel
+⊁	nsucc	nsucc	not succeeds	rel
+⊂	subset	ssub ssubset	subset or is implied by	rel
+⊃	supset	ssup ssupset	superset or implies	rel
+⊄	nsubset	nsubset ssubn	not subset, variant [slash negation]	rel
+⊅	nsupset	nsupset ssupn	not superset, variant [slash negation]	rel
+⊆	subseteq	ss subseteqq subseteq subset sub	subset, equals	rel
+⊇	supseteq	supseteqq supseteq supset	superset, equals	rel
+⊈	nsubseteq	nsubseteqq nsubseteq subn	not subset, equals	rel
+⊉	nsupseteq	nsupseteqq nsupseteq supn	not superset, equals	rel
+⊊	subsetneq	subsetneqq subsetneq	subset, not equals	rel
+⊋	supsetneq	supsetneqq supsetneq	superset, not equals	rel
+⊌	cupleftarrow		multiset	bin
+⊍	cupdot	u.	union, with dot	bin
+⊎	uplus	u+ uplus	plus sign in union	bin
+⊏	sqsubset	ssqub sqsubset	square subset	rel
+⊐	sqsupset	ssqup sqsupset	square superset	rel
+⊑	sqsubseteq	squb sqsubseteq	square subset, equals	rel
+⊒	sqsupseteq	squp sqsupseteq	square superset, equals	rel
+⊓	sqcap	inf meet glb sqcap	square intersection	bin
+⊔	sqcup	lub sup sqcup join	square union	bin
+⊕	oplus	oplus o+	plus sign in circle	bin
+⊖	ominus	o-- ominus	minus sign in circle	bin
+⊗	otimes	ox otimes tensorproduct	multiply sign in circle	bin
+⊘	oslash	o/ oslash	solidus in circle	bin
+⊙	odot	o. odot	middle dot in circle	bin
+⊚	circledcirc	oo circledcirc	small circle in circle	bin
+⊛	circledast	circledast	asterisk in circle	bin
+⊜	circledequal	o=	equal in circle	bin
+⊝	circleddash	o- circleddash	hyphen in circle	bin
+⊞	boxplus	b+ boxplus	plus sign in box	bin
+⊟	boxminus	b- boxminus	minus sign in box	bin
+⊠	boxtimes	bx boxtimes	multiply sign in box	bin
+⊡	boxdot dotsquare	dotsquare b.	small dot in box	bin
+⊢	vdash	entails |- vdash goal	vertical, dash	rel
+⊣	dashv	-| dashv	dash, vertical	rel
+⊤	top	top	top	ord
+⊥	bot	bot	bottom	ord
+⊦	assert		assertion (vertical, short dash)	rel
+⊧	models	models	models (vertical, short double dash)	rel
+⊨	vDash	|= vDash	vertical, double dash	rel
+⊩	Vdash	||- Vdash	double vertical, dash	rel
+⊪	Vvdash	|||- Vvdash	triple vertical, dash	rel
+⊫	VDash	||=	double vert, double dash	rel
+⊬	nvdash	nvdash |-n	not vertical, dash	rel
+⊭	nvDash	nvDash |=n	not vertical, double dash	rel
+⊮	nVdash	nVdash ||-n	not double vertical, dash	rel
+⊯	nVDash	nVDash ||=n	not double vert, double dash	rel
+⊰	prurel		element precedes under relation	rel
+⊱	scurel		succeeds under relation	rel
+⊲	vartriangleleft	vartriangleleft	left triangle, open, variant	rel
+⊳	vartriangleright	vartriangleright	right triangle, open, variant	rel
+⊴	trianglelefteq	trianglelefteq	left triangle, equals	rel
+⊵	trianglerighteq	trianglerighteq	right triangle, equals	rel
+⊶	origof		original of	rel
+⊷	imageof		image of	rel
+⊸	multimap	-o multimap r-o	multimap	rel
+⊹	hermitmatrix		hermitian conjugate matrix	ord
+⊺	intercal	intercal	intercal	bin
+⊻	veebar	veebar	logical or, bar below (large vee); exclusive disjunction	bin
+⊼	barwedge	barwedge	bar, wedge (large wedge)	bin
+⊽	barvee		bar, vee (large vee)	bin
+⊾	measuredrightangle		right angle-measured [with arc]	ord
+⊿	varlrtriangle		right triangle	ord
+⋀	bigwedge	And bigwedge	logical and operator	op
+⋁	bigvee	Or bigvee	logical or operator	op
+⋂	bigcap	I Inter bInter bigcap	intersection operator	op
+⋂₀		I0 sInter		
+⋃	bigcup	U Un Union bUnion bigcup	union operator	op
+⋃₀		U0 sUnion		
+⋄	smwhtdiamond	diamond	white diamond	bin
+⋅	cdot		small middle dot	bin
+⋆	star	* star st	small star, filled, low	bin
+⋇	divideontimes	divideontimes	division on times	bin
+⋈	bowtie	bowtie	bowtie	rel
+⋉	ltimes	ltimes	times sign, left closed	bin
+⋊	rtimes	rtimes	times sign, right closed	bin
+⋋	leftthreetimes	leftthreetimes	left semidirect product	bin
+⋌	rightthreetimes	rightthreetimes	right semidirect product	bin
+⋍	backsimeq	backsimeq	reverse similar, equals	rel
+⋎	curlyvee	curlyvee	curly logical or	bin
+⋏	curlywedge	curlywedge	curly logical and	bin
+⋐	Subset	Subset	double subset	rel
+⋑	Supset	Supset	double superset	rel
+⋒	Cap cap doublecap	Cap	double intersection	bin
+⋓	Cup cup doublecup	Cup	double union	bin
+⋔	pitchfork	pitchfork	pitchfork	rel
+⋕	equalparallel		parallel, equal; equal or parallel	rel
+⋖	lessdot	covers covby lessdot <:	less than, with dot	rel
+⋗	gtrdot	gtrdot :>	greater than, with dot	rel
+⋘	lll ll llless	Ll	triple less-than	rel
+⋙	ggg gg gggtr	ggg	triple greater-than	rel
+⋚	lesseqgtr	lesseqgtr lesseqqgtr	less, equals, greater	rel
+⋛	gtreqless	gtreqless gtreqqless	greater, equals, less	rel
+⋜	eqless	eqslantless	equal-or-less	rel
+⋝	eqgtr	eqslantgtr	equal-or-greater	rel
+⋞	curlyeqprec	curlyeqprec	curly equals, precedes	rel
+⋟	curlyeqsucc	curlyeqsucc	curly equals, succeeds	rel
+⋠	npreccurlyeq	npreceq	not precedes, curly equals	rel
+⋡	nsucccurlyeq	nsucceq	not succeeds, curly equals	rel
+⋢	nsqsubseteq	squbn	not, square subset, equals	rel
+⋣	nsqsupseteq	squpn	not, square superset, equals	rel
+⋤	sqsubsetneq		square subset, not equals	rel
+⋥	sqsupsetneq		square superset, not equals	rel
+⋦	lnsim	lnapprox lnsim <~n	less, not similar	rel
+⋧	gnsim	gnapprox gnsim >~n	greater, not similar	rel
+⋨	precnsim	precnapprox precnsim	precedes, not similar	rel
+⋩	succnsim	succnapprox succnsim	succeeds, not similar	rel
+⋪	nvartriangleleft	ntriangleleft	not left triangle	rel
+⋫	nvartriangleright	ntriangleright	not right triangle	rel
+⋬	ntrianglelefteq	ntrianglelefteq	not left triangle, equals	rel
+⋭	ntrianglerighteq	ntrianglerighteq	not right triangle, equals	rel
+⋮	vdots	vdots	vertical ellipsis	rel
+⋯	unicodecdots	... cdots	three dots, centered	ord
+⋰	adots		three dots, ascending	rel
+⋱	ddots	ddots	three dots, descending	rel
+⋲	disin		element of with long horizontal stroke	rel
+⋳	varisins		element of with vertical bar at end of horizontal stroke	rel
+⋴	isins		small element of with vertical bar at end of horizontal stroke	rel
+⋵	isindot		element of with dot above	rel
+⋶	varisinobar		element of with overbar	rel
+⋷	isinobar		small element of with overbar	rel
+⋸	isinvb		element of with underbar	rel
+⋹	isinE		element of with two horizontal strokes	rel
+⋺	nisd		contains with long horizontal stroke	rel
+⋻	varnis		contains with vertical bar at end of horizontal stroke	rel
+⋼	nis		small contains with vertical bar at end of horizontal stroke	rel
+⋽	varniobar		contains with overbar	rel
+⋾	niobar		small contains with overbar	rel
+⋿	bagmember		z notation bag membership	rel
+⌀	diameter	diameter	diameter sign	ord
+⌂	house		house	ord
+⌅	varbarwedge barwedge		logical and, bar above [projective (bar over small wedge)]	bin
+⌆	vardoublebarwedge doublebarwedge		logical and, double bar above [perspective (double bar over small wedge)]	bin
+⌈	lceil	lceil cuL	left ceiling	open
+⌉	rceil	cuR rceil	right ceiling	close
+⌊	lfloor	lfloor clL	left floor	open
+⌋	rfloor	clR rfloor	right floor	close
+⌐	invnot		reverse not	ord
+⌑	sqlozenge		square lozenge	ord
+⌒	profline		profile of a line	ord
+⌓	profsurf		profile of a surface	ord
+⌗	viewdata		viewdata square	ord
+⌙	turnednot		turned not sign	ord
+⌜	ulcorner	ulcorner cul cu	upper left corner	open
+⌝	urcorner	urcorner cur	upper right corner	close
+⌞	llcorner	llcorner cll cl	lower left corner	open
+⌟	lrcorner	lrcorner clr	lower right corner	close
+⌠	inttop		top half integral	ord
+⌡	intbottom		bottom half integral	ord
+⌢	frown	frown	down curve	rel
+⌣	smile	smallsmile smile	up curve	rel
+⌬	varhexagonlrbonds		six carbon ring, corner down, double bonds lower right etc	ord
+⌲	conictaper		conical taper	ord
+⌶	topbot	apl	top and bottom	ord
+⌽	obar		circle with vertical bar	bin
+⌿	APLnotslash		solidus, bar through (apl functional symbol slash bar)	rel
+⍀	APLnotbackslash		apl functional symbol backslash bar	ord
+⍓	APLboxupcaret		boxed up caret	ord
+⍟		O*	apl functional symbol circle star	
+⍰	APLboxquestion		boxed question mark	ord
+⍼	rangledownzigzagarrow		right angle with downwards zigzag arrow	ord
+⎔	hexagon		horizontal benzene ring [hexagon flat open]	ord
+⎛	lparenuend		left parenthesis upper hook	ord
+⎜	lparenextender		left parenthesis extension	ord
+⎝	lparenlend		left parenthesis lower hook	ord
+⎞	rparenuend		right parenthesis upper hook	ord
+⎟	rparenextender		right parenthesis extension	ord
+⎠	rparenlend		right parenthesis lower hook	ord
+⎡	lbrackuend		left square bracket upper corner	ord
+⎢	lbrackextender		left square bracket extension	ord
+⎣	lbracklend		left square bracket lower corner	ord
+⎤	rbrackuend		right square bracket upper corner	ord
+⎥	rbrackextender		right square bracket extension	ord
+⎦	rbracklend		right square bracket lower corner	ord
+⎧	lbraceuend		left curly bracket upper hook	ord
+⎨	lbracemid		left curly bracket middle piece	ord
+⎩	lbracelend		left curly bracket lower hook	ord
+⎪	vbraceextender		curly bracket extension	ord
+⎫	rbraceuend		right curly bracket upper hook	ord
+⎬	rbracemid		right curly bracket middle piece	ord
+⎭	rbracelend		right curly bracket lower hook	ord
+⎮	intextender		integral extension	ord
+⎯	harrowextender		horizontal line extension (used to extend arrows)	ord
+⎰	lmoustache		upper left or lower right curly bracket section	open
+⎱	rmoustache		upper right or lower left curly bracket section	close
+⎲	sumtop		summation top	ord
+⎳	sumbottom		summation bottom	ord
+⎴	overbracket		top square bracket	over
+⎵	underbracket		bottom square bracket	under
+⎶	bbrktbrk		bottom square bracket over top square bracket	ord
+⎷	sqrtbottom		radical symbol bottom	ord
+⎸	lvboxline		left vertical box line	ord
+⎹	rvboxline		right vertical box line	ord
+⏎	varcarriagereturn		return symbol	ord
+⏜	overparen		top parenthesis (mathematical use)	over
+⏝	underparen		bottom parenthesis (mathematical use)	under
+⏞	overbrace		top curly bracket (mathematical use)	over
+⏟	underbrace		bottom curly bracket (mathematical use)	under
+⏠	obrbrak		top tortoise shell bracket (mathematical use)	ord
+⏡	ubrbrak		bottom tortoise shell bracket (mathematical use)	ord
+⏢	trapezium		white trapezium	ord
+⏣	benzenr		benzene ring with circle	ord
+⏤	strns		straightness	ord
+⏥	fltns		flatness	ord
+⏦	accurrent		ac current	ord
+⏧	elinters		electrical intersection	ord
+␢	blanksymbol		blank symbol	ord
+␣	mathvisiblespace		open box	ord
+Ⓢ		circledS	circled latin capital letter s	
+─		---	box drawings light horizontal	
+━		--_	box drawings heavy horizontal	
+┆	bdtriplevdash		doubly broken vert	ord
+╌		--.	box drawings light double dash horizontal	
+═		--=	box drawings double horizontal	
+▀	blockuphalf		upper half block	ord
+▄	blocklowhalf		lower half block	ord
+█	blockfull		full block	ord
+▌	blocklefthalf		left half block	ord
+▐	blockrighthalf		right half block	ord
+░	blockqtrshaded		25\% shaded block	ord
+▒	blockhalfshaded		50\% shaded block	ord
+▓	blockthreeqtrshaded		75\% shaded block	ord
+■	mdlgblksquare	sqb	square, filled	ord
+□	mdlgwhtsquare	square sqw Box	square, open	ord
+▢	squoval	sqo	white square with rounded corners	ord
+▣	blackinwhitesquare	sq.	white square containing black small square	ord
+▤	squarehfill		square, horizontal rule filled	ord
+▥	squarevfill		square, vertical rule filled	ord
+▦	squarehvfill		square with orthogonal crosshatch fill	ord
+▧	squarenwsefill		square, nw-to-se rule filled	ord
+▨	squareneswfill		square, ne-to-sw rule filled	ord
+▩	squarecrossfill		square with diagonal crosshatch fill	ord
+▪	smblksquare blacksquare	blacksquare	sq bullet, filled	ord
+▫	smwhtsquare		white small square	ord
+▬	hrectangleblack	reb re	black rectangle	ord
+▭	hrectangle	rew	horizontal rectangle, open	ord
+▮	vrectangleblack		black vertical rectangle	ord
+▯	vrectangle		rectangle, white (vertical)	ord
+▰	parallelogramblack	pab pa	black parallelogram	ord
+▱	parallelogram	paw	parallelogram, open	ord
+▲	bigblacktriangleup		black up-pointing triangle	ord
+△	bigtriangleup	bigtriangleup	big up triangle, open	bin
+▴	blacktriangle	blacktriangle	up triangle, filled	ord
+▵	vartriangle triangle	triangle	up triangle, open	rel
+▶	blacktriangleright		(large) right triangle, filled	ord
+▷	triangleright	rhd	(large) right triangle, open; z notation range restriction	bin
+▸	smallblacktriangleright	t rw blacktriangleright	right triangle, filled	ord
+▹	smalltriangleright	transport trans triangleright	right triangle, open	ord
+►	blackpointerright		black right-pointing pointer	ord
+▻	whitepointerright		white right-pointing pointer	ord
+▼	bigblacktriangledown		big down triangle, filled	ord
+▽	bigtriangledown	bigtriangledown	big down triangle, open	ord
+▾	blacktriangledown	blacktriangledown	down triangle, filled	ord
+▿	triangledown	triangledown	down triangle, open	ord
+◀	blacktriangleleft	Tr Tb	(large) left triangle, filled	ord
+◁	triangleleft	lhd Tw	(large) left triangle, open; z notation domain restriction	bin
+◂	smallblacktriangleleft	tb blacktriangleleft	left triangle, filled	ord
+◃	smalltriangleleft	triangleleft tw	left triangle, open	ord
+◄	blackpointerleft		black left-pointing pointer	ord
+◅	whitepointerleft		white left-pointing pointer	ord
+◆	mdlgblkdiamond	dib di	black diamond	ord
+◇	mdlgwhtdiamond	diw Diamond	white diamond; diamond, open	ord
+◈	blackinwhitediamond	di.	white diamond containing black small diamond	ord
+◉	fisheye		fisheye	ord
+◊	mdlgwhtlozenge		lozenge or total mark	ord
+○	mdlgwhtcircle	ciw	medium large circle	bin
+◌	dottedcircle	ci..	dotted circle	ord
+◍	circlevertfill		circle with vertical fill	ord
+◎	bullseye	ci.	bullseye	ord
+●	mdlgblkcircle	cib ci	circle, filled	ord
+◐	circlelefthalfblack		circle, filled left half [harvey ball]	ord
+◑	circlerighthalfblack		circle, filled right half	ord
+◒	circlebottomhalfblack		circle, filled bottom half	ord
+◓	circletophalfblack		circle, filled top half	ord
+◔	circleurquadblack		circle with upper right quadrant black	ord
+◕	blackcircleulquadwhite		circle with all but upper left quadrant black	ord
+◖	blacklefthalfcircle		left half black circle	ord
+◗	blackrighthalfcircle		right half black circle	ord
+◘	inversebullet		inverse bullet	ord
+◙	inversewhitecircle		inverse white circle	ord
+◚	invwhiteupperhalfcircle		upper half inverse white circle	ord
+◛	invwhitelowerhalfcircle		lower half inverse white circle	ord
+◜	ularc		upper left quadrant circular arc	ord
+◝	urarc		upper right quadrant circular arc	ord
+◞	lrarc		lower right quadrant circular arc	ord
+◟	llarc		lower left quadrant circular arc	ord
+◠	topsemicircle		upper half circle	ord
+◡	botsemicircle		lower half circle	ord
+◢	lrblacktriangle		lower right triangle, filled	ord
+◣	llblacktriangle		lower left triangle, filled	ord
+◤	ulblacktriangle		upper left triangle, filled	ord
+◥	urblacktriangle		upper right triangle, filled	ord
+◦	smwhtcircle	textopenbullet buw	white bullet	ord
+◧	squareleftblack		square, filled left half	ord
+◨	squarerightblack		square, filled right half	ord
+◩	squareulblack		square, filled top left corner	ord
+◪	squarelrblack		square, filled bottom right corner	ord
+◫	boxbar	boxmid hcomp	vertical bar in box	bin
+◬	trianglecdot		triangle with centered dot	ord
+◭	triangleleftblack		up-pointing triangle with left half black	ord
+◮	trianglerightblack		up-pointing triangle with right half black	ord
+◯	lgwhtcircle	ciO bigcirc	large circle	ord
+◰	squareulquad		white square with upper left quadrant	ord
+◱	squarellquad		white square with lower left quadrant	ord
+◲	squarelrquad		white square with lower right quadrant	ord
+◳	squareurquad		white square with upper right quadrant	ord
+◴	circleulquad		white circle with upper left quadrant	ord
+◵	circlellquad		white circle with lower left quadrant	ord
+◶	circlelrquad		white circle with lower right quadrant	ord
+◷	circleurquad		white circle with upper right quadrant	ord
+◸	ultriangle		upper left triangle	ord
+◹	urtriangle		upper right triangle	ord
+◺	lltriangle		lower left triangle	ord
+◻	mdwhtsquare		white medium square	ord
+◼	mdblksquare		black medium square	ord
+◽	mdsmwhtsquare		white medium small square	ord
+◾	mdsmblksquare	sq	black medium small square	ord
+◿	lrtriangle		lower right triangle	ord
+★	bigstar	bigstar	star, filled	ord
+☆	bigwhitestar		star, open	ord
+☉	astrosun		sun	ord
+☡	danger	caution	dangerous bend (caution sign)	ord
+☢		radioactive	radioactive sign	
+☣		biohazard	biohazard sign	
+☹		Frowny	white frowning face	
+☺		Smiley	white smiling face	
+☻	blacksmiley	blacksmiley	black smiling face	ord
+☼	sun		white sun with rays	ord
+☽	rightmoon		first quarter moon	ord
+☾	leftmoon		last quarter moon	ord
+♀	female	female	venus, female	ord
+♂	male	male	mars, male	ord
+♠	spadesuit	spadesuit	spades suit symbol	ord
+♡	heartsuit		heart suit symbol	ord
+♢	diamondsuit	diamondsuit	diamond suit symbol	ord
+♣	clubsuit	clubsuit	club suit symbol	ord
+♤	varspadesuit		spade, white (card suit)	ord
+♥	varheartsuit	heartsuit	filled heart (card suit)	ord
+♦	vardiamondsuit		filled diamond (card suit)	ord
+♧	varclubsuit		club, white (card suit)	ord
+♩	quarternote	note	music note (sung text sign)	ord
+♪	eighthnote	textmusicalnote	eighth note	ord
+♫	twonotes		beamed eighth notes	ord
+♭	flat	flat	musical flat	ord
+♮	natural	natural	music natural	ord
+♯	sharp	# sharp	musical sharp	ord
+♾	acidfree		permanent paper sign	ord
+⚀	dicei	die	die face-1	ord
+⚁	diceii		die face-2	ord
+⚂	diceiii		die face-3	ord
+⚃	diceiv		die face-4	ord
+⚄	dicev		die face-5	ord
+⚅	dicevi		die face-6	ord
+⚆	circledrightdot		white circle with dot right	ord
+⚇	circledtwodots		white circle with two dots	ord
+⚈	blackcircledrightdot		black circle with white dot right	ord
+⚉	blackcircledtwodots		black circle with two white dots	ord
+⚠		warning	warning sign	
+⚥	Hermaphrodite		male and female sign	ord
+⚪	mdwhtcircle		medium white circle	ord
+⚫	mdblkcircle		medium black circle	ord
+⚬	mdsmwhtcircle		medium small white circle	ord
+⚲	neuter		neuter	ord
+✂		scissor	black scissors	
+✉		Letter	envelope	
+✓	checkmark	checkmark	tick, check mark	ord
+✝		textdied	latin cross	
+✠	maltese	maltese	maltese cross	ord
+✦		st4 blacklozenge	black four pointed star	
+✧		lozenge	white four pointed star	
+✪	circledstar		circled white star	ord
+✴		st8	eight pointed black star	
+✶	varstar	st6	six pointed black star	ord
+✹		st12	twelve pointed black star	
+✽	dingasterisk		heavy teardrop-spoked asterisk	ord
+❰		h<	heavy left-pointing angle bracket ornament	
+❱		h>	heavy right-pointing angle bracket ornament	
+❲	lbrbrak		light left tortoise shell bracket ornament	open
+❳	rbrbrak		light right tortoise shell bracket ornament	close
+➛	draftingarrow		right arrow with bold head (drafting)	ord
+⟀	threedangle		three dimensional angle	ord
+⟁	whiteinwhitetriangle		white triangle containing small white triangle	ord
+⟂	perp	perp	perpendicular	rel
+⟃	subsetcirc		open subset	ord
+⟄	supsetcirc		open superset	ord
+⟅	lbag	(b lbag	left s-shaped bag delimiter	open
+⟆	rbag	rbag )b	right s-shaped bag delimiter	close
+⟇	veedot		or with dot inside	bin
+⟈	bsolhsub		reverse solidus preceding subset	rel
+⟉	suphsol		superset preceding solidus	rel
+⟋	diagup		mathematical rising diagonal	ord
+⟌	longdivision		long division	open
+⟍	diagdown		mathematical falling diagonal	ord
+⟐	diamondcdot		white diamond with centred dot	ord
+⟑	wedgedot		and with dot	bin
+⟒	upin		element of opening upwards	rel
+⟓	pullback		lower right corner with dot	rel
+⟔	pushout		upper left corner with dot	rel
+⟕	leftouterjoin		left outer join	op
+⟖	rightouterjoin		right outer join	op
+⟗	fullouterjoin		full outer join	op
+⟘	bigbot		large up tack	op
+⟙	bigtop		large down tack	op
+⟚	DashVDash		left and right double turnstile	rel
+⟛	dashVdash		left and right tack	rel
+⟜	multimapinv		left multimap	rel
+⟝	vlongdash		long left tack	rel
+⟞	longdashv		long right tack	rel
+⟟	cirbot		up tack with circle above	rel
+⟠	lozengeminus		lozenge divided by horizontal rule	bin
+⟡	concavediamond		white concave-sided diamond	bin
+⟢	concavediamondtickleft		white concave-sided diamond with leftwards tick	bin
+⟣	concavediamondtickright		white concave-sided diamond with rightwards tick	bin
+⟤	whitesquaretickleft		white square with leftwards tick	bin
+⟥	whitesquaretickright		white square with rightwards tick	bin
+⟦	lBrack	[[	mathematical left white square bracket	open
+⟧	rBrack	]]	mathematical right white square bracket	close
+⟨	langle	< langle	mathematical left angle bracket	open
+⟩	rangle	> rangle	mathematical right angle bracket	close
+⟪	lAngle	<<	mathematical left double angle bracket	open
+⟫	rAngle	>>	mathematical right double angle bracket	close
+⟬	Lbrbrak		mathematical left white tortoise shell bracket	open
+⟭	Rbrbrak		mathematical right white tortoise shell bracket	close
+⟮	lgroup	([	mathematical left flattened parenthesis	open
+⟯	rgroup	])	mathematical right flattened parenthesis	close
+⟰	UUparrow	u==	upwards quadruple arrow	rel
+⟱	DDownarrow	d==	downwards quadruple arrow	rel
+⟲	acwgapcirclearrow		anticlockwise gapped circle arrow	rel
+⟳	cwgapcirclearrow		clockwise gapped circle arrow	rel
+⟴	rightarrowonoplus		right arrow with circled plus	rel
+⟵	longleftarrow	l-- longleftarrow <--	long leftwards arrow	rel
+⟶	longrightarrow	hom --> longrightarrow r--	long rightwards arrow	rel
+⟷	longleftrightarrow	lr-- longleftrightarrow <-->	long left right arrow	rel
+⟸	Longleftarrow		long leftwards double arrow	rel
+⟹	Longrightarrow	nattrans nat_trans ==>	long rightwards double arrow	rel
+⟺	Longleftrightarrow		long left right double arrow	rel
+⟻	longmapsfrom		long leftwards arrow from bar	rel
+⟼	longmapsto		long rightwards arrow from bar	rel
+⟽	Longmapsfrom		long leftwards double arrow from bar	rel
+⟾	Longmapsto		long rightwards double arrow from bar	rel
+⟿	longrightsquigarrow		long rightwards squiggle arrow	rel
+⤀	nvtwoheadrightarrow		rightwards two-headed arrow with vertical stroke	rel
+⤁	nVtwoheadrightarrow		rightwards two-headed arrow with double vertical stroke	rel
+⤂	nvLeftarrow		leftwards double arrow with vertical stroke	rel
+⤃	nvRightarrow		rightwards double arrow with vertical stroke	rel
+⤄	nvLeftrightarrow		left right double arrow with vertical stroke	rel
+⤅	twoheadmapsto		rightwards two-headed arrow from bar	rel
+⤆	Mapsfrom		leftwards double arrow from bar	rel
+⤇	Mapsto		rightwards double arrow from bar	rel
+⤈	downarrowbarred		downwards arrow with horizontal stroke	rel
+⤉	uparrowbarred		upwards arrow with horizontal stroke	rel
+⤊	Uuparrow		upwards triple arrow	rel
+⤋	Ddownarrow		downwards triple arrow	rel
+⤌	leftbkarrow		leftwards double dash arrow	rel
+⤍	rightbkarrow		rightwards double dash arrow	rel
+⤎	leftdbkarrow		leftwards triple dash arrow	rel
+⤏	dbkarrow		rightwards triple dash arrow	rel
+⤐	drbkarrow		rightwards two-headed triple dash arrow	rel
+⤑	rightdotarrow		rightwards arrow with dotted stem	rel
+⤒	baruparrow		upwards arrow to bar	rel
+⤓	downarrowbar		downwards arrow to bar	rel
+⤔	nvrightarrowtail		rightwards arrow with tail with vertical stroke	rel
+⤕	nVrightarrowtail		rightwards arrow with tail with double vertical stroke	rel
+⤖	twoheadrightarrowtail		rightwards two-headed arrow with tail	rel
+⤗	nvtwoheadrightarrowtail		rightwards two-headed arrow with tail with vertical stroke	rel
+⤘	nVtwoheadrightarrowtail		rightwards two-headed arrow with tail with double vertical stroke	rel
+⤙	lefttail		leftwards arrow-tail	rel
+⤚	righttail		rightwards arrow-tail	rel
+⤛	leftdbltail		leftwards double arrow-tail	rel
+⤜	rightdbltail		rightwards double arrow-tail	rel
+⤝	diamondleftarrow		leftwards arrow to black diamond	rel
+⤞	rightarrowdiamond		rightwards arrow to black diamond	rel
+⤟	diamondleftarrowbar		leftwards arrow from bar to black diamond	rel
+⤠	barrightarrowdiamond		rightwards arrow from bar to black diamond	rel
+⤡	nwsearrow		north west and south east arrow	rel
+⤢	neswarrow		north east and south west arrow	rel
+⤣	hknwarrow		north west arrow with hook	rel
+⤤	hknearrow		north east arrow with hook	rel
+⤥	hksearrow		south east arrow with hook	rel
+⤦	hkswarrow		south west arrow with hook	rel
+⤧	tona		north west arrow and north east arrow	rel
+⤨	toea		north east arrow and south east arrow	rel
+⤩	tosa		south east arrow and south west arrow	rel
+⤪	towa		south west arrow and north west arrow	rel
+⤫	rdiagovfdiag		rising diagonal crossing falling diagonal	ord
+⤬	fdiagovrdiag		falling diagonal crossing rising diagonal	ord
+⤭	seovnearrow		south east arrow crossing north east arrow	ord
+⤮	neovsearrow		north east arrow crossing south east arrow	ord
+⤯	fdiagovnearrow		falling diagonal crossing north east arrow	ord
+⤰	rdiagovsearrow		rising diagonal crossing south east arrow	ord
+⤱	neovnwarrow		north east arrow crossing north west arrow	ord
+⤲	nwovnearrow		north west arrow crossing north east arrow	ord
+⤳	rightcurvedarrow	specializes ~>	wave arrow pointing directly right	rel
+⤴	uprightcurvearrow		arrow pointing rightwards then curving upwards	ord
+⤵	downrightcurvedarrow		arrow pointing rightwards then curving downwards	ord
+⤶	leftdowncurvedarrow		arrow pointing downwards then curving leftwards	rel
+⤷	rightdowncurvedarrow		arrow pointing downwards then curving rightwards	rel
+⤸	cwrightarcarrow		right-side arc clockwise arrow	rel
+⤹	acwleftarcarrow		left-side arc anticlockwise arrow	rel
+⤺	acwoverarcarrow		top arc anticlockwise arrow	rel
+⤻	acwunderarcarrow		bottom arc anticlockwise arrow	rel
+⤼	curvearrowrightminus		top arc clockwise arrow with minus	rel
+⤽	curvearrowleftplus		top arc anticlockwise arrow with plus	rel
+⤾	cwundercurvearrow		lower right semicircular clockwise arrow	rel
+⤿	ccwundercurvearrow		lower left semicircular anticlockwise arrow	rel
+⥀	acwcirclearrow		anticlockwise closed circle arrow	rel
+⥁	cwcirclearrow		clockwise closed circle arrow	rel
+⥂	rightarrowshortleftarrow		rightwards arrow above short leftwards arrow	rel
+⥃	leftarrowshortrightarrow		leftwards arrow above short rightwards arrow	rel
+⥄	shortrightarrowleftarrow		short rightwards arrow above leftwards arrow	rel
+⥅	rightarrowplus		rightwards arrow with plus below	rel
+⥆	leftarrowplus		leftwards arrow with plus below	rel
+⥇	rightarrowx		rightwards arrow through x	rel
+⥈	leftrightarrowcircle		left right arrow through small circle	rel
+⥉	twoheaduparrowcircle		upwards two-headed arrow from small circle	rel
+⥊	leftrightharpoonupdown		left barb up right barb down harpoon	rel
+⥋	leftrightharpoondownup		left barb down right barb up harpoon	rel
+⥌	updownharpoonrightleft		up barb right down barb left harpoon	rel
+⥍	updownharpoonleftright		up barb left down barb right harpoon	rel
+⥎	leftrightharpoonupup		left barb up right barb up harpoon	rel
+⥏	updownharpoonrightright		up barb right down barb right harpoon	rel
+⥐	leftrightharpoondowndown		left barb down right barb down harpoon	rel
+⥑	updownharpoonleftleft		up barb left down barb left harpoon	rel
+⥒	barleftharpoonup		leftwards harpoon with barb up to bar	rel
+⥓	rightharpoonupbar		rightwards harpoon with barb up to bar	rel
+⥔	barupharpoonright		upwards harpoon with barb right to bar	rel
+⥕	downharpoonrightbar		downwards harpoon with barb right to bar	rel
+⥖	barleftharpoondown		leftwards harpoon with barb down to bar	rel
+⥗	rightharpoondownbar		rightwards harpoon with barb down to bar	rel
+⥘	barupharpoonleft		upwards harpoon with barb left to bar	rel
+⥙	downharpoonleftbar		downwards harpoon with barb left to bar	rel
+⥚	leftharpoonupbar		leftwards harpoon with barb up from bar	rel
+⥛	barrightharpoonup		rightwards harpoon with barb up from bar	rel
+⥜	upharpoonrightbar		upwards harpoon with barb right from bar	rel
+⥝	bardownharpoonright		downwards harpoon with barb right from bar	rel
+⥞	leftharpoondownbar		leftwards harpoon with barb down from bar	rel
+⥟	barrightharpoondown		rightwards harpoon with barb down from bar	rel
+⥠	upharpoonleftbar		upwards harpoon with barb left from bar	rel
+⥡	bardownharpoonleft		downwards harpoon with barb left from bar	rel
+⥢	leftharpoonsupdown		leftwards harpoon with barb up above leftwards harpoon with barb down	rel
+⥣	upharpoonsleftright		upwards harpoon with barb left beside upwards harpoon with barb right	rel
+⥤	rightharpoonsupdown	functor	rightwards harpoon with barb up above rightwards harpoon with barb down	rel
+⥥	downharpoonsleftright		downwards harpoon with barb left beside downwards harpoon with barb right	rel
+⥦	leftrightharpoonsup		leftwards harpoon with barb up above rightwards harpoon with barb up	rel
+⥧	leftrightharpoonsdown		leftwards harpoon with barb down above rightwards harpoon with barb down	rel
+⥨	rightleftharpoonsup		rightwards harpoon with barb up above leftwards harpoon with barb up	rel
+⥩	rightleftharpoonsdown		rightwards harpoon with barb down above leftwards harpoon with barb down	rel
+⥪	leftharpoonupdash		leftwards harpoon with barb up above long dash	rel
+⥫	dashleftharpoondown		leftwards harpoon with barb down below long dash	rel
+⥬	rightharpoonupdash		rightwards harpoon with barb up above long dash	rel
+⥭	dashrightharpoondown		rightwards harpoon with barb down below long dash	rel
+⥮	updownharpoonsleftright		upwards harpoon with barb left beside downwards harpoon with barb right	rel
+⥯	downupharpoonsleftright		downwards harpoon with barb left beside upwards harpoon with barb right	rel
+⥰	rightimply		right double arrow with rounded head	rel
+⥱	equalrightarrow		equals sign above rightwards arrow	rel
+⥲	similarrightarrow		tilde operator above rightwards arrow	rel
+⥳	leftarrowsimilar		leftwards arrow above tilde operator	rel
+⥴	rightarrowsimilar		rightwards arrow above tilde operator	rel
+⥵	rightarrowapprox		rightwards arrow above almost equal to	rel
+⥶	ltlarr		less-than above leftwards arrow	rel
+⥷	leftarrowless		leftwards arrow through less-than	rel
+⥸	gtrarr		greater-than above rightwards arrow	rel
+⥹	subrarr		subset above rightwards arrow	rel
+⥺	leftarrowsubset		leftwards arrow through subset	rel
+⥻	suplarr		superset above leftwards arrow	rel
+⥼	leftfishtail		left fish tail	rel
+⥽	rightfishtail		right fish tail	rel
+⥾	upfishtail		up fish tail	rel
+⥿	downfishtail		down fish tail	rel
+⦀	Vvert		triple vertical bar delimiter	fence
+⦁	mdsmblkcircle		z notation spot	ord
+⦂	typecolon	:t typecolon	z notation type colon	rel
+⦃	lBrace	{{	left white curly bracket	open
+⦄	rBrace	}}	right white curly bracket	close
+⦅	lParen		left white parenthesis	open
+⦆	rParen		right white parenthesis	close
+⦇	llparenthesis		z notation left image bracket	open
+⦈	rrparenthesis		z notation right image bracket	close
+⦉	llangle		z notation left binding bracket	open
+⦊	rrangle		z notation right binding bracket	close
+⦋	lbrackubar	lsimplex	left square bracket with underbar	open
+⦌	rbrackubar	rsimplex	right square bracket with underbar	close
+⦍	lbrackultick		left square bracket with tick in top corner	open
+⦎	rbracklrtick		right square bracket with tick in bottom corner	close
+⦏	lbracklltick		left square bracket with tick in bottom corner	open
+⦐	rbrackurtick		right square bracket with tick in top corner	close
+⦑	langledot		left angle bracket with dot	open
+⦒	rangledot		right angle bracket with dot	close
+⦓	lparenless		left arc less-than bracket	open
+⦔	rparengtr		right arc greater-than bracket	close
+⦕	Lparengtr		double left arc greater-than bracket	open
+⦖	Rparenless		double right arc less-than bracket	close
+⦗	lblkbrbrak		left black tortoise shell bracket	open
+⦘	rblkbrbrak		right black tortoise shell bracket	close
+⦙	fourvdots		dotted fence	ord
+⦚	vzigzag		vertical zigzag line	ord
+⦛	measuredangleleft		measured angle opening left	ord
+⦜	rightanglesqr		right angle variant with square	ord
+⦝	rightanglemdot		measured right angle with dot	ord
+⦞	angles		angle with s inside	ord
+⦟	angdnr		acute angle	ord
+⦠	gtlpar		spherical angle opening left	ord
+⦡	sphericalangleup		spherical angle opening up	ord
+⦢	turnangle		turned angle	ord
+⦣	revangle		reversed angle	ord
+⦤	angleubar		angle with underbar	ord
+⦥	revangleubar		reversed angle with underbar	ord
+⦦	wideangledown		oblique angle opening up	ord
+⦧	wideangleup		oblique angle opening down	ord
+⦨	measanglerutone		measured angle with open arm ending in arrow pointing up and right	ord
+⦩	measanglelutonw		measured angle with open arm ending in arrow pointing up and left	ord
+⦪	measanglerdtose		measured angle with open arm ending in arrow pointing down and right	ord
+⦫	measangleldtosw		measured angle with open arm ending in arrow pointing down and left	ord
+⦬	measangleurtone		measured angle with open arm ending in arrow pointing right and up	ord
+⦭	measangleultonw		measured angle with open arm ending in arrow pointing left and up	ord
+⦮	measangledrtose		measured angle with open arm ending in arrow pointing right and down	ord
+⦯	measangledltosw		measured angle with open arm ending in arrow pointing left and down	ord
+⦰	revemptyset		reversed empty set	ord
+⦱	emptysetobar		empty set with overbar	ord
+⦲	emptysetocirc		empty set with small circle above	ord
+⦳	emptysetoarr		empty set with right arrow above	ord
+⦴	emptysetoarrl		empty set with left arrow above	ord
+⦵	circlehbar		circle with horizontal bar	bin
+⦶	circledvert		circled vertical bar	bin
+⦷	circledparallel		circled parallel	bin
+⦸	obslash		circled reverse solidus	bin
+⦹	operp		circled perpendicular	bin
+⦺	obot		circle divided by horizontal bar and top half divided by vertical bar	ord
+⦻	olcross		circle with superimposed x	ord
+⦼	odotslashdot		circled anticlockwise-rotated division sign	ord
+⦽	uparrowoncircle		up arrow through circle	ord
+⦾	circledwhitebullet		circled white bullet	ord
+⦿	circledbullet		circled bullet	ord
+⧀	olessthan		circled less-than	bin
+⧁	ogreaterthan		circled greater-than	bin
+⧂	cirscir		circle with small circle to the right	ord
+⧃	cirE		circle with two horizontal strokes to the right	ord
+⧄	boxdiag		squared rising diagonal slash	bin
+⧅	boxbslash		squared falling diagonal slash	bin
+⧆	boxast		squared asterisk	bin
+⧇	boxcircle		squared small circle	bin
+⧈	boxbox		squared square	bin
+⧉	boxonbox		two joined squares	ord
+⧊	triangleodot		triangle with dot above	ord
+⧋	triangleubar		triangle with underbar	ord
+⧌	triangles		s in triangle	ord
+⧍	triangleserifs		triangle with serifs at bottom	bin
+⧎	rtriltri		right triangle above left triangle	rel
+⧏	ltrivb	lf <|	left triangle beside vertical bar	rel
+⧐	vbrtri		vertical bar beside right triangle	rel
+⧑	lfbowtie		left black bowtie	rel
+⧒	rfbowtie		right black bowtie	rel
+⧓	fbowtie		black bowtie	rel
+⧔	lftimes		left black times	rel
+⧕	rftimes		right black times	rel
+⧖	hourglass		white hourglass	bin
+⧗	blackhourglass		black hourglass	bin
+⧘	lvzigzag		left wiggly fence	open
+⧙	rvzigzag		right wiggly fence	close
+⧚	Lvzigzag		left double wiggly fence	open
+⧛	Rvzigzag		right double wiggly fence	close
+⧜	iinfin		incomplete infinity	ord
+⧝	tieinfty		tie over infinity	ord
+⧞	nvinfty		infinity negated with vertical bar	ord
+⧟	dualmap		double-ended multimap	rel
+⧠	laplac		square with contoured outline	ord
+⧡	lrtriangleeq		increases as	rel
+⧢	shuffle		shuffle product	bin
+⧣	eparsl		equals sign and slanted parallel	rel
+⧤	smeparsl		equals sign and slanted parallel with tilde above	rel
+⧥	eqvparsl		identical to and slanted parallel	rel
+⧦	gleichstark		gleich stark	rel
+⧧	thermod		thermodynamic	ord
+⧨	downtriangleleftblack		down-pointing triangle with left half black	ord
+⧩	downtrianglerightblack		down-pointing triangle with right half black	ord
+⧪	blackdiamonddownarrow		black diamond with down arrow	ord
+⧫	mdlgblklozenge		black lozenge	bin
+⧬	circledownarrow		white circle with down arrow	ord
+⧭	blackcircledownarrow		black circle with down arrow	ord
+⧮	errbarsquare		error-barred white square	ord
+⧯	errbarblacksquare		error-barred black square	ord
+⧰	errbardiamond		error-barred white diamond	ord
+⧱	errbarblackdiamond		error-barred black diamond	ord
+⧲	errbarcircle		error-barred white circle	ord
+⧳	errbarblackcircle		error-barred black circle	ord
+⧴	ruledelayed		rule-delayed	rel
+⧵	reversesolidus		reverse solidus	bin
+⧶	dsol		solidus with overbar	bin
+⧷	rsolbar		reverse solidus with horizontal stroke	bin
+⧸	xsol	quot bigsolidus /	big solidus	op
+⧹	xbsol		big reverse solidus	op
+⧺	doubleplus		double plus	bin
+⧻	tripleplus		triple plus	bin
+⧼	lcurvyangle		left pointing curved angle bracket	open
+⧽	rcurvyangle		right pointing curved angle bracket	close
+⧾	tplus	tiny	tiny	bin
+⧿	tminus	miny	miny	bin
+⨀	bigodot	O.	n-ary circled dot operator	op
+⨁	bigoplus	O+ directsum	n-ary circled plus operator	op
+⨂	bigotimes	pitensorproduct tensorpower Ox	n-ary circled times operator	op
+⨃	bigcupdot	U.	n-ary union operator with dot	op
+⨄	biguplus	U+	n-ary union operator with plus	op
+⨅	bigsqcap	infi Glb Inf Meet Sqcap bigglb biginf bigmeet bigsqcap	n-ary square intersection operator	op
+⨆	bigsqcup	supr Join Lub Sup Sqcup bigjoin biglub bigsqcup bigsup	n-ary square union operator	op
+⨇	conjquant		two logical and operator	op
+⨈	disjquant		two logical or operator	op
+⨉	bigtimes		n-ary times operator	op
+⨊	modtwosum		modulo two sum	op
+⨋	sumint		summation with integral	op
+⨌	iiiint		quadruple integral operator	op
+⨍	intbar	integral- average -int	finite part integral	op
+⨎	intBar		integral with double stroke	op
+⨏	fint		integral average with slash	op
+⨐	cirfnint		circulation function	op
+⨑	awint		anticlockwise integration	op
+⨒	rppolint		line integration with rectangular path around pole	op
+⨓	scpolint		line integration with semicircular path around pole	op
+⨔	npolint		line integration not including the pole	op
+⨕	pointint		integral around a point operator	op
+⨖	sqint		quaternion integral operator	op
+⨗	intlarhk		integral with leftwards arrow with hook	op
+⨘	intx		integral with times sign	op
+⨙	intcap		integral with intersection	op
+⨚	intcup		integral with union	op
+⨛	upint		integral with overbar	op
+⨜	lowint		integral with underbar	op
+⨝	Join		join	op
+⨞	bigtriangleleft		large left triangle operator	op
+⨟	zcmp		z notation schema composition	op
+⨠	zpipe		z notation schema piping	op
+⨡	zproject		z notation schema projection	op
+⨢	ringplus		plus sign with small circle above	bin
+⨣	plushat		plus sign with circumflex accent above	bin
+⨤	simplus		plus sign with tilde above	bin
+⨥	plusdot		plus sign with dot below	bin
+⨦	plussim		plus sign with tilde below	bin
+⨧	plussubtwo		plus sign with subscript two	bin
+⨨	plustrif		plus sign with black triangle	bin
+⨩	commaminus		minus sign with comma above	bin
+⨪	minusdot		minus sign with dot below	bin
+⨫	minusfdots		minus sign with falling dots	bin
+⨬	minusrdots		minus sign with rising dots	bin
+⨭	opluslhrim		plus sign in left half circle	bin
+⨮	oplusrhrim		plus sign in right half circle	bin
+⨯	vectimes	X vectorproduct crossproduct	vector or cross product	bin
+⨰	dottimes		multiplication sign with dot above	bin
+⨱	timesbar		multiplication sign with underbar	bin
+⨲	btimes		semidirect product with bottom closed	bin
+⨳	smashtimes		smash product	bin
+⨴	otimeslhrim		multiplication sign in left half circle	bin
+⨵	otimesrhrim		multiplication sign in right half circle	bin
+⨶	otimeshat		circled multiplication sign with circumflex accent	bin
+⨷	Otimes		multiplication sign in double circle	bin
+⨸	odiv		circled division sign	bin
+⨹	triangleplus		plus sign in triangle	bin
+⨺	triangleminus		minus sign in triangle	bin
+⨻	triangletimes		multiplication sign in triangle	bin
+⨼	intprod		interior product	bin
+⨽	intprodr		righthand interior product	bin
+⨾	fcmp		z notation relational composition	bin
+⨿	amalg	coprod	amalgamation or coproduct	bin
+⩀	capdot		intersection with dot	bin
+⩁	uminus		union with minus sign	bin
+⩂	barcup		union with overbar	bin
+⩃	barcap		intersection with overbar	bin
+⩄	capwedge		intersection with logical and	bin
+⩅	cupvee		union with logical or	bin
+⩆	cupovercap		union above intersection	bin
+⩇	capovercup		intersection above union	bin
+⩈	cupbarcap		union above bar above intersection	bin
+⩉	capbarcup		intersection above bar above union	bin
+⩊	twocups		union beside and joined with union	bin
+⩋	twocaps		intersection beside and joined with intersection	bin
+⩌	closedvarcup		closed union with serifs	bin
+⩍	closedvarcap		closed intersection with serifs	bin
+⩎	Sqcap		double square intersection	bin
+⩏	Sqcup		double square union	bin
+⩐	closedvarcupsmashprod		closed union with serifs and smash product	bin
+⩑	wedgeodot		logical and with dot above	bin
+⩒	veeodot		logical or with dot above	bin
+⩓	Wedge		double logical and	bin
+⩔	Vee		double logical or	bin
+⩕	wedgeonwedge		two intersecting logical and	bin
+⩖	veeonvee		two intersecting logical or	bin
+⩗	bigslopedvee		sloping large or	bin
+⩘	bigslopedwedge		sloping large and	bin
+⩙	veeonwedge		logical or overlapping logical and	rel
+⩚	wedgemidvert		logical and with middle stem	bin
+⩛	veemidvert		logical or with middle stem	bin
+⩜	midbarwedge		ogical and with horizontal dash	bin
+⩝	midbarvee		logical or with horizontal dash	bin
+⩞	doublebarwedge		logical and with double overbar	bin
+⩟	wedgebar		logical and with underbar	bin
+⩠	wedgedoublebar		logical and with double underbar	bin
+⩡	varveebar		small vee with underbar	bin
+⩢	doublebarvee		logical or with double overbar	bin
+⩣	veedoublebar		logical or with double underbar	bin
+⩤	dsub		z notation domain antirestriction	bin
+⩥	rsub		z notation range antirestriction	bin
+⩦	eqdot		equals sign with dot below	rel
+⩧	dotequiv		identical with dot above	rel
+⩨	equivVert		triple horizontal bar with double vertical stroke	rel
+⩩	equivVvert		triple horizontal bar with triple vertical stroke	rel
+⩪	dotsim		tilde operator with dot above	rel
+⩫	simrdots		tilde operator with rising dots	rel
+⩬	simminussim		similar minus similar	rel
+⩭	congdot		congruent with dot above	rel
+⩮	asteq		equals with asterisk	rel
+⩯	hatapprox		almost equal to with circumflex accent	rel
+⩰	approxeqq		approximately equal or equal to	rel
+⩱	eqqplus		equals sign above plus sign	bin
+⩲	pluseqq		plus sign above equals sign	bin
+⩳	eqqsim		equals sign above tilde operator	rel
+⩴	Coloneq		double colon equal	rel
+⩵	eqeq		two consecutive equals signs	rel
+⩶	eqeqeq		three consecutive equals signs	rel
+⩷	ddotseq		equals sign with two dots above and two dots below	rel
+⩸	equivDD		equivalent with four dots above	rel
+⩹	ltcir		less-than with circle inside	rel
+⩺	gtcir		greater-than with circle inside	rel
+⩻	ltquest		less-than with question mark above	rel
+⩼	gtquest		greater-than with question mark above	rel
+⩽	leqslant		less-than or slanted equal to	rel
+⩾	geqslant		greater-than or slanted equal to	rel
+⩿	lesdot	wcovby wcovers	less-than or slanted equal to with dot inside	rel
+⪀	gesdot		greater-than or slanted equal to with dot inside	rel
+⪁	lesdoto		less-than or slanted equal to with dot above	rel
+⪂	gesdoto		greater-than or slanted equal to with dot above	rel
+⪃	lesdotor		less-than or slanted equal to with dot above right	rel
+⪄	gesdotol		greater-than or slanted equal to with dot above left	rel
+⪅	lessapprox		less-than or approximate	rel
+⪆	gtrapprox		greater-than or approximate	rel
+⪇	lneq		less-than and single-line not equal to	rel
+⪈	gneq		greater-than and single-line not equal to	rel
+⪉	lnapprox		less-than and not approximate	rel
+⪊	gnapprox		greater-than and not approximate	rel
+⪋	lesseqqgtr		less-than above double-line equal above greater-than	rel
+⪌	gtreqqless		greater-than above double-line equal above less-than	rel
+⪍	lsime		less-than above similar or equal	rel
+⪎	gsime		greater-than above similar or equal	rel
+⪏	lsimg		less-than above similar above greater-than	rel
+⪐	gsiml		greater-than above similar above less-than	rel
+⪑	lgE		less-than above greater-than above double-line equal	rel
+⪒	glE		greater-than above less-than above double-line equal	rel
+⪓	lesges		less-than above slanted equal above greater-than above slanted equal	rel
+⪔	gesles		greater-than above slanted equal above less-than above slanted equal	rel
+⪕	eqslantless		slanted equal to or less-than	rel
+⪖	eqslantgtr		slanted equal to or greater-than	rel
+⪗	elsdot		slanted equal to or less-than with dot inside	rel
+⪘	egsdot		slanted equal to or greater-than with dot inside	rel
+⪙	eqqless		double-line equal to or less-than	rel
+⪚	eqqgtr		double-line equal to or greater-than	rel
+⪛	eqqslantless		double-line slanted equal to or less-than	rel
+⪜	eqqslantgtr		double-line slanted equal to or greater-than	rel
+⪝	simless		similar or less-than	rel
+⪞	simgtr		similar or greater-than	rel
+⪟	simlE		similar above less-than above equals sign	rel
+⪠	simgE		similar above greater-than above equals sign	rel
+⪡	Lt		double nested less-than	rel
+⪢	Gt		double nested greater-than	rel
+⪣	partialmeetcontraction		double less-than with underbar	rel
+⪤	glj		greater-than overlapping less-than	rel
+⪥	gla		greater-than beside less-than	rel
+⪦	ltcc		less-than closed by curve	rel
+⪧	gtcc		greater-than closed by curve	rel
+⪨	lescc		less-than closed by curve above slanted equal	rel
+⪩	gescc		greater-than closed by curve above slanted equal	rel
+⪪	smt		smaller than	rel
+⪫	lat		larger than	rel
+⪬	smte		smaller than or equal to	rel
+⪭	late		larger than or equal to	rel
+⪮	bumpeqq		equals sign with bumpy above	rel
+⪯	preceq		precedes above single-line equals sign	rel
+⪰	succeq		succeeds above single-line equals sign	rel
+⪱	precneq		precedes above single-line not equal to	rel
+⪲	succneq		succeeds above single-line not equal to	rel
+⪳	preceqq		precedes above equals sign	rel
+⪴	succeqq		succeeds above equals sign	rel
+⪵	precneqq		precedes above not equal to	rel
+⪶	succneqq		succeeds above not equal to	rel
+⪷	precapprox		precedes above almost equal to	rel
+⪸	succapprox		succeeds above almost equal to	rel
+⪹	precnapprox		precedes above not almost equal to	rel
+⪺	succnapprox		succeeds above not almost equal to	rel
+⪻	Prec		double precedes	rel
+⪼	Succ		double succeeds	rel
+⪽	subsetdot		subset with dot	rel
+⪾	supsetdot		superset with dot	rel
+⪿	subsetplus		subset with plus sign below	rel
+⫀	supsetplus		superset with plus sign below	rel
+⫁	submult		subset with multiplication sign below	rel
+⫂	supmult		superset with multiplication sign below	rel
+⫃	subedot		subset of or equal to with dot above	rel
+⫄	supedot		superset of or equal to with dot above	rel
+⫅	subseteqq		subset of above equals sign	rel
+⫆	supseteqq		superset of above equals sign	rel
+⫇	subsim		subset of above tilde operator	rel
+⫈	supsim		superset of above tilde operator	rel
+⫉	subsetapprox		subset of above almost equal to	rel
+⫊	supsetapprox		superset of above almost equal to	rel
+⫋	subsetneqq		subset of above not equal to	rel
+⫌	supsetneqq		superset of above not equal to	rel
+⫍	lsqhook		square left open box operator	rel
+⫎	rsqhook		square right open box operator	rel
+⫏	csub		closed subset	rel
+⫐	csup		closed superset	rel
+⫑	csube		closed subset or equal to	rel
+⫒	csupe		closed superset or equal to	rel
+⫓	subsup		subset above superset	rel
+⫔	supsub		superset above subset	rel
+⫕	subsub		subset above subset	rel
+⫖	supsup		superset above superset	rel
+⫗	suphsub		superset beside subset	rel
+⫘	supdsub		superset beside and joined by dash with subset	rel
+⫙	forkv		element of opening downwards	rel
+⫚	topfork		pitchfork with tee top	rel
+⫛	mlcp		transversal intersection	rel
+⫝̸	forks		forking	rel
+⫝	forksnot		nonforking	rel
+⫞	shortlefttack		short left tack	rel
+⫟	shortdowntack		short down tack	rel
+⫠	shortuptack		short up tack	rel
+⫡	perps		perpendicular with s	ord
+⫢	vDdash		vertical bar triple right turnstile	rel
+⫣	dashV		double vertical bar left turnstile	rel
+⫤	Dashv		vertical bar double left turnstile	rel
+⫥	DashV		double vertical bar double left turnstile	rel
+⫦	varVdash		long dash from left member of double vertical	rel
+⫧	Barv		short down tack with overbar	rel
+⫨	vBar		short up tack with underbar	rel
+⫩	vBarv		short up tack above short down tack	rel
+⫪	barV		double down tack	rel
+⫫	Vbar		double up tack	rel
+⫬	Not		double stroke not sign	rel
+⫭	bNot		reversed double stroke not sign	rel
+⫮	revnmid		does not divide with reversed negation slash	rel
+⫯	cirmid		vertical line with circle above	rel
+⫰	midcir		vertical line with circle below	rel
+⫱	topcir		down tack with circle below	ord
+⫲	nhpar		parallel with horizontal stroke	rel
+⫳	parsim		parallel with tilde operator	rel
+⫴	interleave		triple vertical bar binary relation	bin
+⫵	nhVvert		triple vertical bar with horizontal stroke	bin
+⫶	threedotcolon		triple colon operator	bin
+⫷	lllnest		stacked very much less-than	rel
+⫸	gggnest		stacked very much greater-than	rel
+⫹	leqqslant		double-line slanted less-than or equal to	rel
+⫺	geqqslant		double-line slanted greater-than or equal to	rel
+⫻	trslash		triple solidus binary relation	bin
+⫼	biginterleave		large triple vertical bar operator	op
+⫽	sslash		double solidus operator	bin
+⫾	talloblong		white vertical bar	bin
+⫿	bigtalloblong		n-ary white vertical bar	op
+⬒	squaretopblack		square with top half black	ord
+⬓	squarebotblack		square with bottom half black	ord
+⬔	squareurblack		square with upper right diagonal half black	ord
+⬕	squarellblack		square with lower left diagonal half black	ord
+⬖	diamondleftblack		diamond with left half black	ord
+⬗	diamondrightblack		diamond with right half black	ord
+⬘	diamondtopblack		diamond with top half black	ord
+⬙	diamondbotblack		diamond with bottom half black	ord
+⬚	dottedsquare		dotted square	ord
+⬛	lgblksquare		black large square	ord
+⬜	lgwhtsquare		white large square	ord
+⬝	vysmblksquare	tr con	black very small square	ord
+⬞	vysmwhtsquare		white very small square	ord
+⬟	pentagonblack		black pentagon	ord
+⬠	pentagon		white pentagon	ord
+⬡	varhexagon		white hexagon	ord
+⬢	varhexagonblack		black hexagon	ord
+⬣	hexagonblack		horizontal black hexagon	ord
+⬤	lgblkcircle		black large circle	ord
+⬥	mdblkdiamond		black medium diamond	ord
+⬦	mdwhtdiamond		white medium diamond	ord
+⬧	mdblklozenge		black medium lozenge	ord
+⬨	mdwhtlozenge		white medium lozenge	ord
+⬩	smblkdiamond		black small diamond	ord
+⬪	smblklozenge		black small lozenge	ord
+⬫	smwhtlozenge		white small lozenge	ord
+⬬	blkhorzoval		black horizontal ellipse	ord
+⬭	whthorzoval		white horizontal ellipse	ord
+⬮	blkvertoval		black vertical ellipse	ord
+⬯	whtvertoval		white vertical ellipse	ord
+⬰	circleonleftarrow		left arrow with small circle	rel
+⬱	leftthreearrows		three leftwards arrows	rel
+⬲	leftarrowonoplus		left arrow with circled plus	rel
+⬳	longleftsquigarrow		long leftwards squiggle arrow	rel
+⬴	nvtwoheadleftarrow		leftwards two-headed arrow with vertical stroke	rel
+⬵	nVtwoheadleftarrow		leftwards two-headed arrow with double vertical stroke	rel
+⬶	twoheadmapsfrom		leftwards two-headed arrow from bar	rel
+⬷	twoheadleftdbkarrow		leftwards two-headed triple-dash arrow	rel
+⬸	leftdotarrow		leftwards arrow with dotted stem	rel
+⬹	nvleftarrowtail		leftwards arrow with tail with vertical stroke	rel
+⬺	nVleftarrowtail		leftwards arrow with tail with double vertical stroke	rel
+⬻	twoheadleftarrowtail		leftwards two-headed arrow with tail	rel
+⬼	nvtwoheadleftarrowtail		leftwards two-headed arrow with tail with vertical stroke	rel
+⬽	nVtwoheadleftarrowtail		leftwards two-headed arrow with tail with double vertical stroke	rel
+⬾	leftarrowx		leftwards arrow through x	rel
+⬿	leftcurvedarrow		wave arrow pointing directly left	rel
+⭀	equalleftarrow		equals sign above leftwards arrow	rel
+⭁	bsimilarleftarrow		reverse tilde operator above leftwards arrow	rel
+⭂	leftarrowbackapprox		leftwards arrow above reverse almost equal to	rel
+⭃	rightarrowgtr		rightwards arrow through greater-than	rel
+⭄	rightarrowsupset		rightwards arrow through subset	rel
+⭅	LLeftarrow		leftwards quadruple arrow	rel
+⭆	RRightarrow		rightwards quadruple arrow	rel
+⭇	bsimilarrightarrow		reverse tilde operator above rightwards arrow	rel
+⭈	rightarrowbackapprox		rightwards arrow above reverse almost equal to	rel
+⭉	similarleftarrow		tilde operator above leftwards arrow	rel
+⭊	leftarrowapprox		leftwards arrow above almost equal to	rel
+⭋	leftarrowbsimilar		leftwards arrow above reverse tilde operator	rel
+⭌	rightarrowbsimilar		righttwards arrow above reverse tilde operator	rel
+⭐	medwhitestar		white medium star	ord
+⭑	medblackstar		black medium star	ord
+⭒	smwhitestar		white small star	ord
+⭓	rightpentagonblack		black right-pointing pentagon	ord
+⭔	rightpentagon		white right-pointing pentagon	ord
+⯑		uncertainty	uncertainty sign	
+ⱼ		_j	latin subscript small letter j	
+ⱽ		^V	modifier letter capital v	
+⸨		((	left double parenthesis	
+⸩		))	right double parenthesis	
+《		ldata	left double angle bracket	
+》		rdata	right double angle bracket	
+〒	postalmark		postal mark	ord
+〚		llbracket	left white square bracket	
+〛		rrbracket	right white square bracket	
+〰	hzigzag		zigzag	ord
+㉐		partnership	partnership sign	
+꟱		^S	modifier letter capital s	
+ꟲ		^C	modifier letter capital c	
+ꟳ		^F	modifier letter capital f	
+ꟴ		^Q	modifier letter capital q	
+ꟸ		^Hstroke	modifier letter capital h with stroke	
+ꟹ		^oe	modifier letter small ligature oe	
+ꭜ		^heng	modifier letter small heng	
+ꭝ		^ls	modifier letter small l with inverted lazy s	
+ꭞ		^ltilde	modifier letter small l with middle tilde	
+ꭟ		^uhook	modifier letter small u with left hook	
+﹨		sbs	small reverse solidus	
+￢		hnot	fullwidth not sign	
+𐆎		nomisma	nomisma sign	
+𝐀	mbfA mathbf{A}	bfA	mathematical bold capital a	alpha
+𝐁	mbfB mathbf{B}	bfB	mathematical bold capital b	alpha
+𝐂	mbfC mathbf{C}	bfC	mathematical bold capital c	alpha
+𝐃	mbfD mathbf{D}	bfD	mathematical bold capital d	alpha
+𝐄	mbfE mathbf{E}	bfE	mathematical bold capital e	alpha
+𝐅	mbfF mathbf{F}	bfF	mathematical bold capital f	alpha
+𝐆	mbfG mathbf{G}	bfG	mathematical bold capital g	alpha
+𝐇	mbfH mathbf{H}	bfH	mathematical bold capital h	alpha
+𝐈	mbfI mathbf{I}	bfI	mathematical bold capital i	alpha
+𝐉	mbfJ mathbf{J}	bfJ	mathematical bold capital j	alpha
+𝐊	mbfK mathbf{K}	bfK	mathematical bold capital k	alpha
+𝐋	mbfL mathbf{L}	bfL	mathematical bold capital l	alpha
+𝐌	mbfM mathbf{M}	bfM	mathematical bold capital m	alpha
+𝐍	mbfN mathbf{N}	bfN	mathematical bold capital n	alpha
+𝐎	mbfO mathbf{O}	bfO	mathematical bold capital o	alpha
+𝐏	mbfP mathbf{P}	bfP	mathematical bold capital p	alpha
+𝐐	mbfQ mathbf{Q}	bfQ	mathematical bold capital q	alpha
+𝐑	mbfR mathbf{R}	bfR	mathematical bold capital r	alpha
+𝐒	mbfS mathbf{S}	bfS	mathematical bold capital s	alpha
+𝐓	mbfT mathbf{T}	bfT	mathematical bold capital t	alpha
+𝐔	mbfU mathbf{U}	bfU	mathematical bold capital u	alpha
+𝐕	mbfV mathbf{V}	bfV	mathematical bold capital v	alpha
+𝐖	mbfW mathbf{W}	bfW	mathematical bold capital w	alpha
+𝐗	mbfX mathbf{X}	bfX	mathematical bold capital x	alpha
+𝐘	mbfY mathbf{Y}	bfY	mathematical bold capital y	alpha
+𝐙	mbfZ mathbf{Z}	bfZ	mathematical bold capital z	alpha
+𝐚	mbfa mathbf{a}	bfa	mathematical bold small a	alpha
+𝐛	mbfb mathbf{b}	bfb	mathematical bold small b	alpha
+𝐜	mbfc mathbf{c}	bfc	mathematical bold small c	alpha
+𝐝	mbfd mathbf{d}	bfd	mathematical bold small d	alpha
+𝐞	mbfe mathbf{e}	bfe	mathematical bold small e	alpha
+𝐟	mbff mathbf{f}	bff	mathematical bold small f	alpha
+𝐠	mbfg mathbf{g}	bfg	mathematical bold small g	alpha
+𝐡	mbfh mathbf{h}	bfh	mathematical bold small h	alpha
+𝐢	mbfi mathbf{i}	bfi	mathematical bold small i	alpha
+𝐣	mbfj mathbf{j}	bfj	mathematical bold small j	alpha
+𝐤	mbfk mathbf{k}	bfk	mathematical bold small k	alpha
+𝐥	mbfl mathbf{l}	bfl	mathematical bold small l	alpha
+𝐦	mbfm mathbf{m}	bfm	mathematical bold small m	alpha
+𝐧	mbfn mathbf{n}	bfn	mathematical bold small n	alpha
+𝐨	mbfo mathbf{o}	bfo	mathematical bold small o	alpha
+𝐩	mbfp mathbf{p}	bfp	mathematical bold small p	alpha
+𝐪	mbfq mathbf{q}	bfq	mathematical bold small q	alpha
+𝐫	mbfr mathbf{r}	bfr	mathematical bold small r	alpha
+𝐬	mbfs mathbf{s}	bfs	mathematical bold small s	alpha
+𝐭	mbft mathbf{t}	bft	mathematical bold small t	alpha
+𝐮	mbfu mathbf{u}	bfu	mathematical bold small u	alpha
+𝐯	mbfv mathbf{v}	bfv	mathematical bold small v	alpha
+𝐰	mbfw mathbf{w}	bfw	mathematical bold small w	alpha
+𝐱	mbfx mathbf{x}	bfx	mathematical bold small x	alpha
+𝐲	mbfy mathbf{y}	bfy	mathematical bold small y	alpha
+𝐳	mbfz mathbf{z}	bfz	mathematical bold small z	alpha
+𝐴	mitA mathit{A}	MiA	mathematical italic capital a	alpha
+𝐵	mitB mathit{B}	MiB	mathematical italic capital b	alpha
+𝐶	mitC mathit{C}	MiC	mathematical italic capital c	alpha
+𝐷	mitD mathit{D}	MiD	mathematical italic capital d	alpha
+𝐸	mitE mathit{E}	MiE	mathematical italic capital e	alpha
+𝐹	mitF mathit{F}	MiF	mathematical italic capital f	alpha
+𝐺	mitG mathit{G}	MiG	mathematical italic capital g	alpha
+𝐻	mitH mathit{H}	MiH	mathematical italic capital h	alpha
+𝐼	mitI mathit{I}	MiI	mathematical italic capital i	alpha
+𝐽	mitJ mathit{J}	MiJ	mathematical italic capital j	alpha
+𝐾	mitK mathit{K}	MiK	mathematical italic capital k	alpha
+𝐿	mitL mathit{L}	MiL	mathematical italic capital l	alpha
+𝑀	mitM mathit{M}	MiM	mathematical italic capital m	alpha
+𝑁	mitN mathit{N}	MiN	mathematical italic capital n	alpha
+𝑂	mitO mathit{O}	MiO	mathematical italic capital o	alpha
+𝑃	mitP mathit{P}	MiP	mathematical italic capital p	alpha
+𝑄	mitQ mathit{Q}	MiQ	mathematical italic capital q	alpha
+𝑅	mitR mathit{R}	MiR	mathematical italic capital r	alpha
+𝑆	mitS mathit{S}	MiS	mathematical italic capital s	alpha
+𝑇	mitT mathit{T}	MiT	mathematical italic capital t	alpha
+𝑈	mitU mathit{U}	MiU	mathematical italic capital u	alpha
+𝑉	mitV mathit{V}	MiV	mathematical italic capital v	alpha
+𝑊	mitW mathit{W}	MiW	mathematical italic capital w	alpha
+𝑋	mitX mathit{X}	MiX	mathematical italic capital x	alpha
+𝑌	mitY mathit{Y}	MiY	mathematical italic capital y	alpha
+𝑍	mitZ mathit{Z}	MiZ	mathematical italic capital z	alpha
+𝑎	mita mathit{a}	Mia	mathematical italic small a	alpha
+𝑏	mitb mathit{b}	Mib	mathematical italic small b	alpha
+𝑐	mitc mathit{c}	Mic	mathematical italic small c	alpha
+𝑑	mitd mathit{d}	Mid	mathematical italic small d	alpha
+𝑒	mite mathit{e}	Mie	mathematical italic small e	alpha
+𝑓	mitf mathit{f}	Mif	mathematical italic small f	alpha
+𝑔	mitg mathit{g}	Mig	mathematical italic small g	alpha
+𝑖	miti mathit{i}	Mii	mathematical italic small i	alpha
+𝑗	mitj mathit{j}	Mij	mathematical italic small j	alpha
+𝑘	mitk mathit{k}	Mik	mathematical italic small k	alpha
+𝑙	mitl mathit{l}	Mil	mathematical italic small l	alpha
+𝑚	mitm mathit{m}	Mim	mathematical italic small m	alpha
+𝑛	mitn mathit{n}	Min	mathematical italic small n	alpha
+𝑜	mito mathit{o}	Mio	mathematical italic small o	alpha
+𝑝	mitp mathit{p}	Mip	mathematical italic small p	alpha
+𝑞	mitq mathit{q}	Miq	mathematical italic small q	alpha
+𝑟	mitr mathit{r}	Mir	mathematical italic small r	alpha
+𝑠	mits mathit{s}	Mis	mathematical italic small s	alpha
+𝑡	mitt mathit{t}	Mit	mathematical italic small t	alpha
+𝑢	mitu mathit{u}	Miu	mathematical italic small u	alpha
+𝑣	mitv mathit{v}	Miv	mathematical italic small v	alpha
+𝑤	mitw mathit{w}	Miw	mathematical italic small w	alpha
+𝑥	mitx mathit{x}	Mix	mathematical italic small x	alpha
+𝑦	mity mathit{y}	Miy	mathematical italic small y	alpha
+𝑧	mitz mathit{z}	Miz	mathematical italic small z	alpha
+𝑨	mbfitA	MIA	mathematical bold italic capital a	alpha
+𝑩	mbfitB	MIB	mathematical bold italic capital b	alpha
+𝑪	mbfitC	MIC	mathematical bold italic capital c	alpha
+𝑫	mbfitD	MID	mathematical bold italic capital d	alpha
+𝑬	mbfitE	MIE	mathematical bold italic capital e	alpha
+𝑭	mbfitF	MIF	mathematical bold italic capital f	alpha
+𝑮	mbfitG	MIG	mathematical bold italic capital g	alpha
+𝑯	mbfitH	MIH	mathematical bold italic capital h	alpha
+𝑰	mbfitI	MII	mathematical bold italic capital i	alpha
+𝑱	mbfitJ	MIJ	mathematical bold italic capital j	alpha
+𝑲	mbfitK	MIK	mathematical bold italic capital k	alpha
+𝑳	mbfitL	MIL	mathematical bold italic capital l	alpha
+𝑴	mbfitM	MIM	mathematical bold italic capital m	alpha
+𝑵	mbfitN	MIN	mathematical bold italic capital n	alpha
+𝑶	mbfitO	MIO	mathematical bold italic capital o	alpha
+𝑷	mbfitP	MIP	mathematical bold italic capital p	alpha
+𝑸	mbfitQ	MIQ	mathematical bold italic capital q	alpha
+𝑹	mbfitR	MIR	mathematical bold italic capital r	alpha
+𝑺	mbfitS	MIS	mathematical bold italic capital s	alpha
+𝑻	mbfitT	MIT	mathematical bold italic capital t	alpha
+𝑼	mbfitU	MIU	mathematical bold italic capital u	alpha
+𝑽	mbfitV	MIV	mathematical bold italic capital v	alpha
+𝑾	mbfitW	MIW	mathematical bold italic capital w	alpha
+𝑿	mbfitX	MIX	mathematical bold italic capital x	alpha
+𝒀	mbfitY	MIY	mathematical bold italic capital y	alpha
+𝒁	mbfitZ	MIZ	mathematical bold italic capital z	alpha
+𝒂	mbfita mathbf{\ita}	MIa	mathematical bold italic small a	alpha
+𝒃	mbfitb mathbf{\itb}	MIb	mathematical bold italic small b	alpha
+𝒄	mbfitc mathbf{\itc}	MIc	mathematical bold italic small c	alpha
+𝒅	mbfitd mathbf{\itd}	MId	mathematical bold italic small d	alpha
+𝒆	mbfite mathbf{\ite}	MIe	mathematical bold italic small e	alpha
+𝒇	mbfitf mathbf{\itf}	MIf	mathematical bold italic small f	alpha
+𝒈	mbfitg mathbf{\itg}	MIg	mathematical bold italic small g	alpha
+𝒉	mbfith mathbf{\ith}	MIh	mathematical bold italic small h	alpha
+𝒊	mbfiti mathbf{\iti}	MIi	mathematical bold italic small i	alpha
+𝒋	mbfitj mathbf{\itj}	MIj	mathematical bold italic small j	alpha
+𝒌	mbfitk mathbf{\itk}	MIk	mathematical bold italic small k	alpha
+𝒍	mbfitl mathbf{\itl}	MIl	mathematical bold italic small l	alpha
+𝒎	mbfitm mathbf{\itm}	MIm	mathematical bold italic small m	alpha
+𝒏	mbfitn mathbf{\itn}	MIn	mathematical bold italic small n	alpha
+𝒐	mbfito mathbf{\ito}	MIo	mathematical bold italic small o	alpha
+𝒑	mbfitp mathbf{\itp}	MIp	mathematical bold italic small p	alpha
+𝒒	mbfitq mathbf{\itq}	MIq	mathematical bold italic small q	alpha
+𝒓	mbfitr mathbf{\itr}	MIr	mathematical bold italic small r	alpha
+𝒔	mbfits mathbf{\its}	MIs	mathematical bold italic small s	alpha
+𝒕	mbfitt mathbf{\itt}	MIt	mathematical bold italic small t	alpha
+𝒖	mbfitu mathbf{\itu}	MIu	mathematical bold italic small u	alpha
+𝒗	mbfitv mathbf{\itv}	MIv	mathematical bold italic small v	alpha
+𝒘	mbfitw mathbf{\itw}	MIw	mathematical bold italic small w	alpha
+𝒙	mbfitx mathbf{\itx}	MIx	mathematical bold italic small x	alpha
+𝒚	mbfity mathbf{\ity}	MIy	mathematical bold italic small y	alpha
+𝒛	mbfitz mathbf{\itz}	MIz	mathematical bold italic small z	alpha
+𝒜	mscrA mathscr{A} mathcal{A}	McA	mathematical script capital a	alpha
+𝒞	mscrC mathscr{C} mathcal{C}	McC	mathematical script capital c	alpha
+𝒟	mscrD mathscr{D} mathcal{D}	McD	mathematical script capital d	alpha
+𝒢	mscrG mathscr{G} mathcal{G}	McG	mathematical script capital g	alpha
+𝒥	mscrJ mathscr{J} mathcal{J}	McJ	mathematical script capital j	alpha
+𝒦	mscrK mathscr{K} mathcal{K}	McK	mathematical script capital k	alpha
+𝒩	mscrN mathscr{N} mathcal{N}	McN	mathematical script capital n	alpha
+𝒪	mscrO mathscr{O} mathcal{O}	McO	mathematical script capital o	alpha
+𝒫	mscrP mathscr{P} mathcal{P}	powerset McP	mathematical script capital p	alpha
+𝒬	mscrQ mathscr{Q} mathcal{Q}	McQ	mathematical script capital q	alpha
+𝒮	mscrS mathscr{S} mathcal{S}	McS	mathematical script capital s	alpha
+𝒯	mscrT mathscr{T} mathcal{T}	McT	mathematical script capital t	alpha
+𝒰	mscrU mathscr{U} mathcal{U}	McU	mathematical script capital u	alpha
+𝒱	mscrV mathscr{V} mathcal{V}	McV	mathematical script capital v	alpha
+𝒲	mscrW mathscr{W} mathcal{W}	McW	mathematical script capital w	alpha
+𝒳	mscrX mathscr{X} mathcal{X}	McX	mathematical script capital x	alpha
+𝒴	mscrY mathscr{Y} mathcal{Y}	McY	mathematical script capital y	alpha
+𝒵	mscrZ mathscr{Z} mathcal{Z}	McZ	mathematical script capital z	alpha
+𝒶	mscra mathscr{a} mathcal{a}	Mca	mathematical script small a	alpha
+𝒷	mscrb mathscr{b} mathcal{b}	Mcb	mathematical script small b	alpha
+𝒸	mscrc mathscr{c} mathcal{c}	Mcc	mathematical script small c	alpha
+𝒹	mscrd mathscr{d} mathcal{d}	Mcd	mathematical script small d	alpha
+𝒻	mscrf mathscr{f} mathcal{f}	Mcf	mathematical script small f	alpha
+𝒽	mscrh mathscr{h} mathcal{h}	Mch	mathematical script small h	alpha
+𝒾	mscri mathscr{i} mathcal{i}	Mci	mathematical script small i	alpha
+𝒿	mscrj mathscr{j} mathcal{j}	Mcj	mathematical script small j	alpha
+𝓀	mscrk mathscr{k} mathcal{k}	Mck	mathematical script small k	alpha
+𝓁	mscrl mathscr{l} mathcal{l}	Mcl	mathematical script small l	alpha
+𝓂	mscrm mathscr{m} mathcal{m}	Mcm	mathematical script small m	alpha
+𝓃	mscrn mathscr{n} mathcal{n}	Mcn	mathematical script small n	alpha
+𝓅	mscrp mathscr{p} mathcal{p}	Mcp	mathematical script small p	alpha
+𝓆	mscrq mathscr{q} mathcal{q}	Mcq	mathematical script small q	alpha
+𝓇	mscrr mathscr{r} mathcal{r}	Mcr	mathematical script small r	alpha
+𝓈	mscrs mathscr{s} mathcal{s}	Mcs	mathematical script small s	alpha
+𝓉	mscrt mathscr{t} mathcal{t}	Mct	mathematical script small t	alpha
+𝓊	mscru mathscr{u} mathcal{u}	Mcu	mathematical script small u	alpha
+𝓋	mscrv mathscr{v} mathcal{v}	Mcv	mathematical script small v	alpha
+𝓌	mscrw mathscr{w} mathcal{w}	Mcw	mathematical script small w	alpha
+𝓍	mscrx mathscr{x} mathcal{x}	Mcx	mathematical script small x	alpha
+𝓎	mscry mathscr{y} mathcal{y}	Mcy	mathematical script small y	alpha
+𝓏	mscrz mathscr{z} mathcal{z}	Mcz	mathematical script small z	alpha
+𝓐	mbfscrA	MCA	mathematical bold script capital a	alpha
+𝓑	mbfscrB	MCB	mathematical bold script capital b	alpha
+𝓒	mbfscrC	MCC	mathematical bold script capital c	alpha
+𝓓	mbfscrD	MCD	mathematical bold script capital d	alpha
+𝓔	mbfscrE	MCE	mathematical bold script capital e	alpha
+𝓕	mbfscrF	MCF	mathematical bold script capital f	alpha
+𝓖	mbfscrG	MCG	mathematical bold script capital g	alpha
+𝓗	mbfscrH	MCH	mathematical bold script capital h	alpha
+𝓘	mbfscrI	MCI	mathematical bold script capital i	alpha
+𝓙	mbfscrJ	MCJ	mathematical bold script capital j	alpha
+𝓚	mbfscrK	MCK	mathematical bold script capital k	alpha
+𝓛	mbfscrL	MCL	mathematical bold script capital l	alpha
+𝓜	mbfscrM	MCM	mathematical bold script capital m	alpha
+𝓝	mbfscrN	MCN nhds nbhds	mathematical bold script capital n	alpha
+𝓞	mbfscrO	MCO	mathematical bold script capital o	alpha
+𝓟	mbfscrP	MCP	mathematical bold script capital p	alpha
+𝓠	mbfscrQ	MCQ	mathematical bold script capital q	alpha
+𝓡	mbfscrR	MCR	mathematical bold script capital r	alpha
+𝓢	mbfscrS	MCS	mathematical bold script capital s	alpha
+𝓣	mbfscrT	MCT	mathematical bold script capital t	alpha
+𝓤	mbfscrU	MCU	mathematical bold script capital u	alpha
+𝓥	mbfscrV	MCV	mathematical bold script capital v	alpha
+𝓦	mbfscrW	MCW	mathematical bold script capital w	alpha
+𝓧	mbfscrX	MCX	mathematical bold script capital x	alpha
+𝓨	mbfscrY	MCY	mathematical bold script capital y	alpha
+𝓩	mbfscrZ	MCZ	mathematical bold script capital z	alpha
+𝓪	mbfscra mathbf{\scra}	MCa	mathematical bold script small a	alpha
+𝓫	mbfscrb mathbf{\scrb}	MCb	mathematical bold script small b	alpha
+𝓬	mbfscrc mathbf{\scrc}	MCc	mathematical bold script small c	alpha
+𝓭	mbfscrd mathbf{\scrd}	MCd	mathematical bold script small d	alpha
+𝓮	mbfscre mathbf{\scre}	MCe	mathematical bold script small e	alpha
+𝓯	mbfscrf mathbf{\scrf}	MCf	mathematical bold script small f	alpha
+𝓰	mbfscrg mathbf{\scrg}	MCg	mathematical bold script small g	alpha
+𝓱	mbfscrh mathbf{\scrh}	MCh	mathematical bold script small h	alpha
+𝓲	mbfscri mathbf{\scri}	MCi	mathematical bold script small i	alpha
+𝓳	mbfscrj mathbf{\scrj}	MCj	mathematical bold script small j	alpha
+𝓴	mbfscrk mathbf{\scrk}	MCk	mathematical bold script small k	alpha
+𝓵	mbfscrl mathbf{\scrl}	MCl	mathematical bold script small l	alpha
+𝓶	mbfscrm mathbf{\scrm}	MCm	mathematical bold script small m	alpha
+𝓷	mbfscrn mathbf{\scrn}	MCn	mathematical bold script small n	alpha
+𝓸	mbfscro mathbf{\scro}	MCo	mathematical bold script small o	alpha
+𝓹	mbfscrp mathbf{\scrp}	MCp	mathematical bold script small p	alpha
+𝓺	mbfscrq mathbf{\scrq}	MCq	mathematical bold script small q	alpha
+𝓻	mbfscrr mathbf{\scrr}	MCr	mathematical bold script small r	alpha
+𝓼	mbfscrs mathbf{\scrs}	MCs	mathematical bold script small s	alpha
+𝓽	mbfscrt mathbf{\scrt}	MCt	mathematical bold script small t	alpha
+𝓾	mbfscru mathbf{\scru}	MCu	mathematical bold script small u	alpha
+𝓿	mbfscrv mathbf{\scrv}	MCv	mathematical bold script small v	alpha
+𝔀	mbfscrw mathbf{\scrw}	MCw	mathematical bold script small w	alpha
+𝔁	mbfscrx mathbf{\scrx}	MCx	mathematical bold script small x	alpha
+𝔂	mbfscry mathbf{\scry}	MCy	mathematical bold script small y	alpha
+𝔃	mbfscrz mathbf{\scrz}	MCz	mathematical bold script small z	alpha
+𝔄	mfrakA mathfrak{A}	MfA	mathematical fraktur capital a	alpha
+𝔅	mfrakB mathfrak{B}	MfB	mathematical fraktur capital b	alpha
+𝔇	mfrakD mathfrak{D}	MfD	mathematical fraktur capital d	alpha
+𝔈	mfrakE mathfrak{E}	MfE	mathematical fraktur capital e	alpha
+𝔉	mfrakF mathfrak{F}	MfF	mathematical fraktur capital f	alpha
+𝔊	mfrakG mathfrak{G}	MfG	mathematical fraktur capital g	alpha
+𝔍	mfrakJ mathfrak{J}	MfJ	mathematical fraktur capital j	alpha
+𝔎	mfrakK mathfrak{K}	MfK	mathematical fraktur capital k	alpha
+𝔏	mfrakL mathfrak{L}	MfL	mathematical fraktur capital l	alpha
+𝔐	mfrakM mathfrak{M}	MfM	mathematical fraktur capital m	alpha
+𝔑	mfrakN mathfrak{N}	MfN	mathematical fraktur capital n	alpha
+𝔒	mfrakO mathfrak{O}	MfO	mathematical fraktur capital o	alpha
+𝔓	mfrakP mathfrak{P}	MfP	mathematical fraktur capital p	alpha
+𝔔	mfrakQ mathfrak{Q}	MfQ	mathematical fraktur capital q	alpha
+𝔖	mfrakS mathfrak{S}	MfS	mathematical fraktur capital s	alpha
+𝔗	mfrakT mathfrak{T}	MfT	mathematical fraktur capital t	alpha
+𝔘	mfrakU mathfrak{U}	MfU	mathematical fraktur capital u	alpha
+𝔙	mfrakV mathfrak{V}	MfV	mathematical fraktur capital v	alpha
+𝔚	mfrakW mathfrak{W}	MfW	mathematical fraktur capital w	alpha
+𝔛	mfrakX mathfrak{X}	MfX	mathematical fraktur capital x	alpha
+𝔜	mfrakY mathfrak{Y}	MfY	mathematical fraktur capital y	alpha
+𝔞	mfraka mathfrak{a}	Mfa	mathematical fraktur small a	alpha
+𝔟	mfrakb mathfrak{b}	Mfb	mathematical fraktur small b	alpha
+𝔠	mfrakc mathfrak{c}	Mfc	mathematical fraktur small c	alpha
+𝔡	mfrakd mathfrak{d}	Mfd	mathematical fraktur small d	alpha
+𝔢	mfrake mathfrak{e}	Mfe	mathematical fraktur small e	alpha
+𝔣	mfrakf mathfrak{f}	Mff	mathematical fraktur small f	alpha
+𝔤	mfrakg mathfrak{g}	Mfg	mathematical fraktur small g	alpha
+𝔥	mfrakh mathfrak{h}	Mfh	mathematical fraktur small h	alpha
+𝔦	mfraki mathfrak{i}	Mfi	mathematical fraktur small i	alpha
+𝔧	mfrakj mathfrak{j}	Mfj	mathematical fraktur small j	alpha
+𝔨	mfrakk mathfrak{k}	Mfk	mathematical fraktur small k	alpha
+𝔩	mfrakl mathfrak{l}	Mfl	mathematical fraktur small l	alpha
+𝔪	mfrakm mathfrak{m}	Mfm	mathematical fraktur small m	alpha
+𝔫	mfrakn mathfrak{n}	Mfn	mathematical fraktur small n	alpha
+𝔬	mfrako mathfrak{o}	Mfo	mathematical fraktur small o	alpha
+𝔭	mfrakp mathfrak{p}	Mfp	mathematical fraktur small p	alpha
+𝔮	mfrakq mathfrak{q}	Mfq	mathematical fraktur small q	alpha
+𝔯	mfrakr mathfrak{r}	Mfr	mathematical fraktur small r	alpha
+𝔰	mfraks mathfrak{s}	Mfs	mathematical fraktur small s	alpha
+𝔱	mfrakt mathfrak{t}	Mft	mathematical fraktur small t	alpha
+𝔲	mfraku mathfrak{u}	Mfu	mathematical fraktur small u	alpha
+𝔳	mfrakv mathfrak{v}	Mfv	mathematical fraktur small v	alpha
+𝔴	mfrakw mathfrak{w}	Mfw	mathematical fraktur small w	alpha
+𝔵	mfrakx mathfrak{x}	Mfx	mathematical fraktur small x	alpha
+𝔶	mfraky mathfrak{y}	Mfy	mathematical fraktur small y	alpha
+𝔷	mfrakz mathfrak{z}	Mfz	mathematical fraktur small z	alpha
+𝔸	BbbA mathbb{A}	A bbA	mathematical double-struck capital a	alpha
+𝔹	BbbB mathbb{B}	bb bbB	mathematical double-struck capital b	alpha
+𝔻	BbbD mathbb{D}	bbD	mathematical double-struck capital d	alpha
+𝔼	BbbE mathbb{E}	bbE	mathematical double-struck capital e	alpha
+𝔽	BbbF mathbb{F}	F bbF	mathematical double-struck capital f	alpha
+𝔾	BbbG mathbb{G}	bbG	mathematical double-struck capital g	alpha
+𝕀	BbbI mathbb{I}	bbI	mathematical double-struck capital i	alpha
+𝕁	BbbJ mathbb{J}	bbJ	mathematical double-struck capital j	alpha
+𝕂	BbbK mathbb{K}	K bbK	mathematical double-struck capital k	alpha
+𝕃	BbbL mathbb{L}	bbL	mathematical double-struck capital l	alpha
+𝕄	BbbM mathbb{M}	bbM	mathematical double-struck capital m	alpha
+𝕆	BbbO mathbb{O}	bbO	mathematical double-struck capital o	alpha
+𝕊	BbbS mathbb{S}	bbS	mathematical double-struck capital s	alpha
+𝕋	BbbT mathbb{T}	bbT	mathematical double-struck capital t	alpha
+𝕌	BbbU mathbb{U}	bbU	mathematical double-struck capital u	alpha
+𝕍	BbbV mathbb{V}	bbV	mathematical double-struck capital v	alpha
+𝕎	BbbW mathbb{W}	bbW	mathematical double-struck capital w	alpha
+𝕏	BbbX mathbb{X}	bbX	mathematical double-struck capital x	alpha
+𝕐	BbbY mathbb{Y}	bbY	mathematical double-struck capital y	alpha
+𝕒	Bbba mathbb{a}	bba	mathematical double-struck small a	alpha
+𝕓	Bbbb mathbb{b}	bbb	mathematical double-struck small b	alpha
+𝕔	Bbbc mathbb{c}	bbc	mathematical double-struck small c	alpha
+𝕕	Bbbd mathbb{d}	bbd	mathematical double-struck small d	alpha
+𝕖	Bbbe mathbb{e}	bbe	mathematical double-struck small e	alpha
+𝕗	Bbbf mathbb{f}	bbf	mathematical double-struck small f	alpha
+𝕘	Bbbg mathbb{g}	bbg	mathematical double-struck small g	alpha
+𝕙	Bbbh mathbb{h}	bbh	mathematical double-struck small h	alpha
+𝕚	Bbbi mathbb{i}	bbi	mathematical double-struck small i	alpha
+𝕛	Bbbj mathbb{j}	bbj	mathematical double-struck small j	alpha
+𝕜	Bbbk mathbb{k}	bbk	mathematical double-struck small k	alpha
+𝕝	Bbbl mathbb{l}	bbl	mathematical double-struck small l	alpha
+𝕞	Bbbm mathbb{m}	bbm	mathematical double-struck small m	alpha
+𝕟	Bbbn mathbb{n}	bbn	mathematical double-struck small n	alpha
+𝕠	Bbbo mathbb{o}	bbo	mathematical double-struck small o	alpha
+𝕡	Bbbp mathbb{p}	bbp	mathematical double-struck small p	alpha
+𝕢	Bbbq mathbb{q}	bbq	mathematical double-struck small q	alpha
+𝕣	Bbbr mathbb{r}	bbr	mathematical double-struck small r	alpha
+𝕤	Bbbs mathbb{s}	bbs	mathematical double-struck small s	alpha
+𝕥	Bbbt mathbb{t}	bbt	mathematical double-struck small t	alpha
+𝕦	Bbbu mathbb{u}	bbu	mathematical double-struck small u	alpha
+𝕧	Bbbv mathbb{v}	bbv	mathematical double-struck small v	alpha
+𝕨	Bbbw mathbb{w}	bbw	mathematical double-struck small w	alpha
+𝕩	Bbbx mathbb{x}	bbx	mathematical double-struck small x	alpha
+𝕪	Bbby mathbb{y}	bby	mathematical double-struck small y	alpha
+𝕫	Bbbz mathbb{z}	bbz	mathematical double-struck small z	alpha
+𝕬	mbffrakA		mathematical bold fraktur capital a	alpha
+𝕭	mbffrakB		mathematical bold fraktur capital b	alpha
+𝕮	mbffrakC		mathematical bold fraktur capital c	alpha
+𝕯	mbffrakD		mathematical bold fraktur capital d	alpha
+𝕰	mbffrakE		mathematical bold fraktur capital e	alpha
+𝕱	mbffrakF		mathematical bold fraktur capital f	alpha
+𝕲	mbffrakG		mathematical bold fraktur capital g	alpha
+𝕳	mbffrakH		mathematical bold fraktur capital h	alpha
+𝕴	mbffrakI		mathematical bold fraktur capital i	alpha
+𝕵	mbffrakJ		mathematical bold fraktur capital j	alpha
+𝕶	mbffrakK		mathematical bold fraktur capital k	alpha
+𝕷	mbffrakL		mathematical bold fraktur capital l	alpha
+𝕸	mbffrakM		mathematical bold fraktur capital m	alpha
+𝕹	mbffrakN		mathematical bold fraktur capital n	alpha
+𝕺	mbffrakO		mathematical bold fraktur capital o	alpha
+𝕻	mbffrakP		mathematical bold fraktur capital p	alpha
+𝕼	mbffrakQ		mathematical bold fraktur capital q	alpha
+𝕽	mbffrakR		mathematical bold fraktur capital r	alpha
+𝕾	mbffrakS		mathematical bold fraktur capital s	alpha
+𝕿	mbffrakT		mathematical bold fraktur capital t	alpha
+𝖀	mbffrakU		mathematical bold fraktur capital u	alpha
+𝖁	mbffrakV		mathematical bold fraktur capital v	alpha
+𝖂	mbffrakW		mathematical bold fraktur capital w	alpha
+𝖃	mbffrakX		mathematical bold fraktur capital x	alpha
+𝖄	mbffrakY		mathematical bold fraktur capital y	alpha
+𝖅	mbffrakZ		mathematical bold fraktur capital z	alpha
+𝖆	mbffraka mathbf{\fraka}		mathematical bold fraktur small a	alpha
+𝖇	mbffrakb mathbf{\frakb}		mathematical bold fraktur small b	alpha
+𝖈	mbffrakc mathbf{\frakc}		mathematical bold fraktur small c	alpha
+𝖉	mbffrakd mathbf{\frakd}		mathematical bold fraktur small d	alpha
+𝖊	mbffrake mathbf{\frake}		mathematical bold fraktur small e	alpha
+𝖋	mbffrakf mathbf{\frakf}		mathematical bold fraktur small f	alpha
+𝖌	mbffrakg mathbf{\frakg}		mathematical bold fraktur small g	alpha
+𝖍	mbffrakh mathbf{\frakh}		mathematical bold fraktur small h	alpha
+𝖎	mbffraki mathbf{\fraki}		mathematical bold fraktur small i	alpha
+𝖏	mbffrakj mathbf{\frakj}		mathematical bold fraktur small j	alpha
+𝖐	mbffrakk mathbf{\frakk}		mathematical bold fraktur small k	alpha
+𝖑	mbffrakl mathbf{\frakl}		mathematical bold fraktur small l	alpha
+𝖒	mbffrakm mathbf{\frakm}		mathematical bold fraktur small m	alpha
+𝖓	mbffrakn mathbf{\frakn}		mathematical bold fraktur small n	alpha
+𝖔	mbffrako mathbf{\frako}		mathematical bold fraktur small o	alpha
+𝖕	mbffrakp mathbf{\frakp}		mathematical bold fraktur small p	alpha
+𝖖	mbffrakq mathbf{\frakq}		mathematical bold fraktur small q	alpha
+𝖗	mbffrakr mathbf{\frakr}		mathematical bold fraktur small r	alpha
+𝖘	mbffraks mathbf{\fraks}		mathematical bold fraktur small s	alpha
+𝖙	mbffrakt mathbf{\frakt}		mathematical bold fraktur small t	alpha
+𝖚	mbffraku mathbf{\fraku}		mathematical bold fraktur small u	alpha
+𝖛	mbffrakv mathbf{\frakv}		mathematical bold fraktur small v	alpha
+𝖜	mbffrakw mathbf{\frakw}		mathematical bold fraktur small w	alpha
+𝖝	mbffrakx mathbf{\frakx}		mathematical bold fraktur small x	alpha
+𝖞	mbffraky mathbf{\fraky}		mathematical bold fraktur small y	alpha
+𝖟	mbffrakz mathbf{\frakz}		mathematical bold fraktur small z	alpha
+𝖠	msansA mathsf{A}		mathematical sans-serif capital a	alpha
+𝖡	msansB mathsf{B}		mathematical sans-serif capital b	alpha
+𝖢	msansC mathsf{C}		mathematical sans-serif capital c	alpha
+𝖣	msansD mathsf{D}		mathematical sans-serif capital d	alpha
+𝖤	msansE mathsf{E}		mathematical sans-serif capital e	alpha
+𝖥	msansF mathsf{F}		mathematical sans-serif capital f	alpha
+𝖦	msansG mathsf{G}		mathematical sans-serif capital g	alpha
+𝖧	msansH mathsf{H}		mathematical sans-serif capital h	alpha
+𝖨	msansI mathsf{I}		mathematical sans-serif capital i	alpha
+𝖩	msansJ mathsf{J}		mathematical sans-serif capital j	alpha
+𝖪	msansK mathsf{K}		mathematical sans-serif capital k	alpha
+𝖫	msansL mathsf{L}		mathematical sans-serif capital l	alpha
+𝖬	msansM mathsf{M}		mathematical sans-serif capital m	alpha
+𝖭	msansN mathsf{N}		mathematical sans-serif capital n	alpha
+𝖮	msansO mathsf{O}		mathematical sans-serif capital o	alpha
+𝖯	msansP mathsf{P}		mathematical sans-serif capital p	alpha
+𝖰	msansQ mathsf{Q}		mathematical sans-serif capital q	alpha
+𝖱	msansR mathsf{R}		mathematical sans-serif capital r	alpha
+𝖲	msansS mathsf{S}		mathematical sans-serif capital s	alpha
+𝖳	msansT mathsf{T}		mathematical sans-serif capital t	alpha
+𝖴	msansU mathsf{U}		mathematical sans-serif capital u	alpha
+𝖵	msansV mathsf{V}		mathematical sans-serif capital v	alpha
+𝖶	msansW mathsf{W}		mathematical sans-serif capital w	alpha
+𝖷	msansX mathsf{X}		mathematical sans-serif capital x	alpha
+𝖸	msansY mathsf{Y}		mathematical sans-serif capital y	alpha
+𝖹	msansZ mathsf{Z}		mathematical sans-serif capital z	alpha
+𝖺	msansa mathsf{a}		mathematical sans-serif small a	alpha
+𝖻	msansb mathsf{b}		mathematical sans-serif small b	alpha
+𝖼	msansc mathsf{c}		mathematical sans-serif small c	alpha
+𝖽	msansd mathsf{d}		mathematical sans-serif small d	alpha
+𝖾	msanse mathsf{e}		mathematical sans-serif small e	alpha
+𝖿	msansf mathsf{f}		mathematical sans-serif small f	alpha
+𝗀	msansg mathsf{g}		mathematical sans-serif small g	alpha
+𝗁	msansh mathsf{h}		mathematical sans-serif small h	alpha
+𝗂	msansi mathsf{i}		mathematical sans-serif small i	alpha
+𝗃	msansj mathsf{j}		mathematical sans-serif small j	alpha
+𝗄	msansk mathsf{k}		mathematical sans-serif small k	alpha
+𝗅	msansl mathsf{l}		mathematical sans-serif small l	alpha
+𝗆	msansm mathsf{m}		mathematical sans-serif small m	alpha
+𝗇	msansn mathsf{n}		mathematical sans-serif small n	alpha
+𝗈	msanso mathsf{o}		mathematical sans-serif small o	alpha
+𝗉	msansp mathsf{p}		mathematical sans-serif small p	alpha
+𝗊	msansq mathsf{q}		mathematical sans-serif small q	alpha
+𝗋	msansr mathsf{r}		mathematical sans-serif small r	alpha
+𝗌	msanss mathsf{s}		mathematical sans-serif small s	alpha
+𝗍	msanst mathsf{t}		mathematical sans-serif small t	alpha
+𝗎	msansu mathsf{u}		mathematical sans-serif small u	alpha
+𝗏	msansv mathsf{v}		mathematical sans-serif small v	alpha
+𝗐	msansw mathsf{w}		mathematical sans-serif small w	alpha
+𝗑	msansx mathsf{x}		mathematical sans-serif small x	alpha
+𝗒	msansy mathsf{y}		mathematical sans-serif small y	alpha
+𝗓	msansz mathsf{z}		mathematical sans-serif small z	alpha
+𝗔	mbfsansA		mathematical sans-serif bold capital a	alpha
+𝗕	mbfsansB		mathematical sans-serif bold capital b	alpha
+𝗖	mbfsansC		mathematical sans-serif bold capital c	alpha
+𝗗	mbfsansD		mathematical sans-serif bold capital d	alpha
+𝗘	mbfsansE		mathematical sans-serif bold capital e	alpha
+𝗙	mbfsansF		mathematical sans-serif bold capital f	alpha
+𝗚	mbfsansG		mathematical sans-serif bold capital g	alpha
+𝗛	mbfsansH		mathematical sans-serif bold capital h	alpha
+𝗜	mbfsansI		mathematical sans-serif bold capital i	alpha
+𝗝	mbfsansJ		mathematical sans-serif bold capital j	alpha
+𝗞	mbfsansK		mathematical sans-serif bold capital k	alpha
+𝗟	mbfsansL		mathematical sans-serif bold capital l	alpha
+𝗠	mbfsansM		mathematical sans-serif bold capital m	alpha
+𝗡	mbfsansN		mathematical sans-serif bold capital n	alpha
+𝗢	mbfsansO		mathematical sans-serif bold capital o	alpha
+𝗣	mbfsansP		mathematical sans-serif bold capital p	alpha
+𝗤	mbfsansQ		mathematical sans-serif bold capital q	alpha
+𝗥	mbfsansR		mathematical sans-serif bold capital r	alpha
+𝗦	mbfsansS		mathematical sans-serif bold capital s	alpha
+𝗧	mbfsansT		mathematical sans-serif bold capital t	alpha
+𝗨	mbfsansU		mathematical sans-serif bold capital u	alpha
+𝗩	mbfsansV		mathematical sans-serif bold capital v	alpha
+𝗪	mbfsansW		mathematical sans-serif bold capital w	alpha
+𝗫	mbfsansX		mathematical sans-serif bold capital x	alpha
+𝗬	mbfsansY		mathematical sans-serif bold capital y	alpha
+𝗭	mbfsansZ		mathematical sans-serif bold capital z	alpha
+𝗮	mbfsansa mathbf{\sansa}		mathematical sans-serif bold small a	alpha
+𝗯	mbfsansb mathbf{\sansb}		mathematical sans-serif bold small b	alpha
+𝗰	mbfsansc mathbf{\sansc}		mathematical sans-serif bold small c	alpha
+𝗱	mbfsansd mathbf{\sansd}		mathematical sans-serif bold small d	alpha
+𝗲	mbfsanse mathbf{\sanse}		mathematical sans-serif bold small e	alpha
+𝗳	mbfsansf mathbf{\sansf}		mathematical sans-serif bold small f	alpha
+𝗴	mbfsansg mathbf{\sansg}		mathematical sans-serif bold small g	alpha
+𝗵	mbfsansh mathbf{\sansh}		mathematical sans-serif bold small h	alpha
+𝗶	mbfsansi mathbf{\sansi}		mathematical sans-serif bold small i	alpha
+𝗷	mbfsansj mathbf{\sansj}		mathematical sans-serif bold small j	alpha
+𝗸	mbfsansk mathbf{\sansk}		mathematical sans-serif bold small k	alpha
+𝗹	mbfsansl mathbf{\sansl}		mathematical sans-serif bold small l	alpha
+𝗺	mbfsansm mathbf{\sansm}		mathematical sans-serif bold small m	alpha
+𝗻	mbfsansn mathbf{\sansn}		mathematical sans-serif bold small n	alpha
+𝗼	mbfsanso mathbf{\sanso}		mathematical sans-serif bold small o	alpha
+𝗽	mbfsansp mathbf{\sansp}		mathematical sans-serif bold small p	alpha
+𝗾	mbfsansq mathbf{\sansq}		mathematical sans-serif bold small q	alpha
+𝗿	mbfsansr mathbf{\sansr}		mathematical sans-serif bold small r	alpha
+𝘀	mbfsanss mathbf{\sanss}		mathematical sans-serif bold small s	alpha
+𝘁	mbfsanst mathbf{\sanst}		mathematical sans-serif bold small t	alpha
+𝘂	mbfsansu mathbf{\sansu}		mathematical sans-serif bold small u	alpha
+𝘃	mbfsansv mathbf{\sansv}		mathematical sans-serif bold small v	alpha
+𝘄	mbfsansw mathbf{\sansw}		mathematical sans-serif bold small w	alpha
+𝘅	mbfsansx mathbf{\sansx}		mathematical sans-serif bold small x	alpha
+𝘆	mbfsansy mathbf{\sansy}		mathematical sans-serif bold small y	alpha
+𝘇	mbfsansz mathbf{\sansz}		mathematical sans-serif bold small z	alpha
+𝘈	mitsansA		mathematical sans-serif italic capital a	alpha
+𝘉	mitsansB		mathematical sans-serif italic capital b	alpha
+𝘊	mitsansC		mathematical sans-serif italic capital c	alpha
+𝘋	mitsansD		mathematical sans-serif italic capital d	alpha
+𝘌	mitsansE		mathematical sans-serif italic capital e	alpha
+𝘍	mitsansF		mathematical sans-serif italic capital f	alpha
+𝘎	mitsansG		mathematical sans-serif italic capital g	alpha
+𝘏	mitsansH		mathematical sans-serif italic capital h	alpha
+𝘐	mitsansI		mathematical sans-serif italic capital i	alpha
+𝘑	mitsansJ		mathematical sans-serif italic capital j	alpha
+𝘒	mitsansK		mathematical sans-serif italic capital k	alpha
+𝘓	mitsansL		mathematical sans-serif italic capital l	alpha
+𝘔	mitsansM		mathematical sans-serif italic capital m	alpha
+𝘕	mitsansN		mathematical sans-serif italic capital n	alpha
+𝘖	mitsansO		mathematical sans-serif italic capital o	alpha
+𝘗	mitsansP		mathematical sans-serif italic capital p	alpha
+𝘘	mitsansQ		mathematical sans-serif italic capital q	alpha
+𝘙	mitsansR		mathematical sans-serif italic capital r	alpha
+𝘚	mitsansS		mathematical sans-serif italic capital s	alpha
+𝘛	mitsansT		mathematical sans-serif italic capital t	alpha
+𝘜	mitsansU		mathematical sans-serif italic capital u	alpha
+𝘝	mitsansV		mathematical sans-serif italic capital v	alpha
+𝘞	mitsansW		mathematical sans-serif italic capital w	alpha
+𝘟	mitsansX		mathematical sans-serif italic capital x	alpha
+𝘠	mitsansY		mathematical sans-serif italic capital y	alpha
+𝘡	mitsansZ		mathematical sans-serif italic capital z	alpha
+𝘢	mitsansa mathit{\sansa}		mathematical sans-serif italic small a	alpha
+𝘣	mitsansb mathit{\sansb}		mathematical sans-serif italic small b	alpha
+𝘤	mitsansc mathit{\sansc}		mathematical sans-serif italic small c	alpha
+𝘥	mitsansd mathit{\sansd}		mathematical sans-serif italic small d	alpha
+𝘦	mitsanse mathit{\sanse}		mathematical sans-serif italic small e	alpha
+𝘧	mitsansf mathit{\sansf}		mathematical sans-serif italic small f	alpha
+𝘨	mitsansg mathit{\sansg}		mathematical sans-serif italic small g	alpha
+𝘩	mitsansh mathit{\sansh}		mathematical sans-serif italic small h	alpha
+𝘪	mitsansi mathit{\sansi}		mathematical sans-serif italic small i	alpha
+𝘫	mitsansj mathit{\sansj}		mathematical sans-serif italic small j	alpha
+𝘬	mitsansk mathit{\sansk}		mathematical sans-serif italic small k	alpha
+𝘭	mitsansl mathit{\sansl}		mathematical sans-serif italic small l	alpha
+𝘮	mitsansm mathit{\sansm}		mathematical sans-serif italic small m	alpha
+𝘯	mitsansn mathit{\sansn}		mathematical sans-serif italic small n	alpha
+𝘰	mitsanso mathit{\sanso}		mathematical sans-serif italic small o	alpha
+𝘱	mitsansp mathit{\sansp}		mathematical sans-serif italic small p	alpha
+𝘲	mitsansq mathit{\sansq}		mathematical sans-serif italic small q	alpha
+𝘳	mitsansr mathit{\sansr}		mathematical sans-serif italic small r	alpha
+𝘴	mitsanss mathit{\sanss}		mathematical sans-serif italic small s	alpha
+𝘵	mitsanst mathit{\sanst}		mathematical sans-serif italic small t	alpha
+𝘶	mitsansu mathit{\sansu}		mathematical sans-serif italic small u	alpha
+𝘷	mitsansv mathit{\sansv}		mathematical sans-serif italic small v	alpha
+𝘸	mitsansw mathit{\sansw}		mathematical sans-serif italic small w	alpha
+𝘹	mitsansx mathit{\sansx}		mathematical sans-serif italic small x	alpha
+𝘺	mitsansy mathit{\sansy}		mathematical sans-serif italic small y	alpha
+𝘻	mitsansz mathit{\sansz}		mathematical sans-serif italic small z	alpha
+𝘼	mbfitsansA		mathematical sans-serif bold italic capital a	alpha
+𝘽	mbfitsansB		mathematical sans-serif bold italic capital b	alpha
+𝘾	mbfitsansC		mathematical sans-serif bold italic capital c	alpha
+𝘿	mbfitsansD		mathematical sans-serif bold italic capital d	alpha
+𝙀	mbfitsansE		mathematical sans-serif bold italic capital e	alpha
+𝙁	mbfitsansF		mathematical sans-serif bold italic capital f	alpha
+𝙂	mbfitsansG		mathematical sans-serif bold italic capital g	alpha
+𝙃	mbfitsansH		mathematical sans-serif bold italic capital h	alpha
+𝙄	mbfitsansI		mathematical sans-serif bold italic capital i	alpha
+𝙅	mbfitsansJ		mathematical sans-serif bold italic capital j	alpha
+𝙆	mbfitsansK		mathematical sans-serif bold italic capital k	alpha
+𝙇	mbfitsansL		mathematical sans-serif bold italic capital l	alpha
+𝙈	mbfitsansM		mathematical sans-serif bold italic capital m	alpha
+𝙉	mbfitsansN		mathematical sans-serif bold italic capital n	alpha
+𝙊	mbfitsansO		mathematical sans-serif bold italic capital o	alpha
+𝙋	mbfitsansP		mathematical sans-serif bold italic capital p	alpha
+𝙌	mbfitsansQ		mathematical sans-serif bold italic capital q	alpha
+𝙍	mbfitsansR		mathematical sans-serif bold italic capital r	alpha
+𝙎	mbfitsansS		mathematical sans-serif bold italic capital s	alpha
+𝙏	mbfitsansT		mathematical sans-serif bold italic capital t	alpha
+𝙐	mbfitsansU		mathematical sans-serif bold italic capital u	alpha
+𝙑	mbfitsansV		mathematical sans-serif bold italic capital v	alpha
+𝙒	mbfitsansW		mathematical sans-serif bold italic capital w	alpha
+𝙓	mbfitsansX		mathematical sans-serif bold italic capital x	alpha
+𝙔	mbfitsansY		mathematical sans-serif bold italic capital y	alpha
+𝙕	mbfitsansZ		mathematical sans-serif bold italic capital z	alpha
+𝙖	mbfitsansa mathbf{\itsansa}		mathematical sans-serif bold italic small a	alpha
+𝙗	mbfitsansb mathbf{\itsansb}		mathematical sans-serif bold italic small b	alpha
+𝙘	mbfitsansc mathbf{\itsansc}		mathematical sans-serif bold italic small c	alpha
+𝙙	mbfitsansd mathbf{\itsansd}		mathematical sans-serif bold italic small d	alpha
+𝙚	mbfitsanse mathbf{\itsanse}		mathematical sans-serif bold italic small e	alpha
+𝙛	mbfitsansf mathbf{\itsansf}		mathematical sans-serif bold italic small f	alpha
+𝙜	mbfitsansg mathbf{\itsansg}		mathematical sans-serif bold italic small g	alpha
+𝙝	mbfitsansh mathbf{\itsansh}		mathematical sans-serif bold italic small h	alpha
+𝙞	mbfitsansi mathbf{\itsansi}		mathematical sans-serif bold italic small i	alpha
+𝙟	mbfitsansj mathbf{\itsansj}		mathematical sans-serif bold italic small j	alpha
+𝙠	mbfitsansk mathbf{\itsansk}		mathematical sans-serif bold italic small k	alpha
+𝙡	mbfitsansl mathbf{\itsansl}		mathematical sans-serif bold italic small l	alpha
+𝙢	mbfitsansm mathbf{\itsansm}		mathematical sans-serif bold italic small m	alpha
+𝙣	mbfitsansn mathbf{\itsansn}		mathematical sans-serif bold italic small n	alpha
+𝙤	mbfitsanso mathbf{\itsanso}		mathematical sans-serif bold italic small o	alpha
+𝙥	mbfitsansp mathbf{\itsansp}		mathematical sans-serif bold italic small p	alpha
+𝙦	mbfitsansq mathbf{\itsansq}		mathematical sans-serif bold italic small q	alpha
+𝙧	mbfitsansr mathbf{\itsansr}		mathematical sans-serif bold italic small r	alpha
+𝙨	mbfitsanss mathbf{\itsanss}		mathematical sans-serif bold italic small s	alpha
+𝙩	mbfitsanst mathbf{\itsanst}		mathematical sans-serif bold italic small t	alpha
+𝙪	mbfitsansu mathbf{\itsansu}		mathematical sans-serif bold italic small u	alpha
+𝙫	mbfitsansv mathbf{\itsansv}		mathematical sans-serif bold italic small v	alpha
+𝙬	mbfitsansw mathbf{\itsansw}		mathematical sans-serif bold italic small w	alpha
+𝙭	mbfitsansx mathbf{\itsansx}		mathematical sans-serif bold italic small x	alpha
+𝙮	mbfitsansy mathbf{\itsansy}		mathematical sans-serif bold italic small y	alpha
+𝙯	mbfitsansz mathbf{\itsansz}		mathematical sans-serif bold italic small z	alpha
+𝙰	mttA mathtt{A}		mathematical monospace capital a	alpha
+𝙱	mttB mathtt{B}		mathematical monospace capital b	alpha
+𝙲	mttC mathtt{C}		mathematical monospace capital c	alpha
+𝙳	mttD mathtt{D}		mathematical monospace capital d	alpha
+𝙴	mttE mathtt{E}		mathematical monospace capital e	alpha
+𝙵	mttF mathtt{F}		mathematical monospace capital f	alpha
+𝙶	mttG mathtt{G}		mathematical monospace capital g	alpha
+𝙷	mttH mathtt{H}		mathematical monospace capital h	alpha
+𝙸	mttI mathtt{I}		mathematical monospace capital i	alpha
+𝙹	mttJ mathtt{J}		mathematical monospace capital j	alpha
+𝙺	mttK mathtt{K}		mathematical monospace capital k	alpha
+𝙻	mttL mathtt{L}		mathematical monospace capital l	alpha
+𝙼	mttM mathtt{M}		mathematical monospace capital m	alpha
+𝙽	mttN mathtt{N}		mathematical monospace capital n	alpha
+𝙾	mttO mathtt{O}		mathematical monospace capital o	alpha
+𝙿	mttP mathtt{P}		mathematical monospace capital p	alpha
+𝚀	mttQ mathtt{Q}		mathematical monospace capital q	alpha
+𝚁	mttR mathtt{R}		mathematical monospace capital r	alpha
+𝚂	mttS mathtt{S}		mathematical monospace capital s	alpha
+𝚃	mttT mathtt{T}		mathematical monospace capital t	alpha
+𝚄	mttU mathtt{U}		mathematical monospace capital u	alpha
+𝚅	mttV mathtt{V}		mathematical monospace capital v	alpha
+𝚆	mttW mathtt{W}		mathematical monospace capital w	alpha
+𝚇	mttX mathtt{X}		mathematical monospace capital x	alpha
+𝚈	mttY mathtt{Y}		mathematical monospace capital y	alpha
+𝚉	mttZ mathtt{Z}		mathematical monospace capital z	alpha
+𝚊	mtta mathtt{a}		mathematical monospace small a	alpha
+𝚋	mttb mathtt{b}		mathematical monospace small b	alpha
+𝚌	mttc mathtt{c}		mathematical monospace small c	alpha
+𝚍	mttd mathtt{d}		mathematical monospace small d	alpha
+𝚎	mtte mathtt{e}		mathematical monospace small e	alpha
+𝚏	mttf mathtt{f}		mathematical monospace small f	alpha
+𝚐	mttg mathtt{g}		mathematical monospace small g	alpha
+𝚑	mtth mathtt{h}		mathematical monospace small h	alpha
+𝚒	mtti mathtt{i}		mathematical monospace small i	alpha
+𝚓	mttj mathtt{j}		mathematical monospace small j	alpha
+𝚔	mttk mathtt{k}		mathematical monospace small k	alpha
+𝚕	mttl mathtt{l}		mathematical monospace small l	alpha
+𝚖	mttm mathtt{m}		mathematical monospace small m	alpha
+𝚗	mttn mathtt{n}		mathematical monospace small n	alpha
+𝚘	mtto mathtt{o}		mathematical monospace small o	alpha
+𝚙	mttp mathtt{p}		mathematical monospace small p	alpha
+𝚚	mttq mathtt{q}		mathematical monospace small q	alpha
+𝚛	mttr mathtt{r}		mathematical monospace small r	alpha
+𝚜	mtts mathtt{s}		mathematical monospace small s	alpha
+𝚝	mttt mathtt{t}		mathematical monospace small t	alpha
+𝚞	mttu mathtt{u}		mathematical monospace small u	alpha
+𝚟	mttv mathtt{v}		mathematical monospace small v	alpha
+𝚠	mttw mathtt{w}		mathematical monospace small w	alpha
+𝚡	mttx mathtt{x}		mathematical monospace small x	alpha
+𝚢	mtty mathtt{y}		mathematical monospace small y	alpha
+𝚣	mttz mathtt{z}		mathematical monospace small z	alpha
+𝚤	imath		mathematical italic small dotless i	alpha
+𝚥	jmath		mathematical italic small dotless j	alpha
+𝚨	mbfAlpha		mathematical bold capital alpha	alpha
+𝚩	mbfBeta		mathematical bold capital beta	alpha
+𝚪	mbfGamma		mathematical bold capital gamma	alpha
+𝚫	mbfDelta		mathematical bold capital delta	alpha
+𝚬	mbfEpsilon		mathematical bold capital epsilon	alpha
+𝚭	mbfZeta		mathematical bold capital zeta	alpha
+𝚮	mbfEta		mathematical bold capital eta	alpha
+𝚯	mbfTheta		mathematical bold capital theta	alpha
+𝚰	mbfIota		mathematical bold capital iota	alpha
+𝚱	mbfKappa		mathematical bold capital kappa	alpha
+𝚲	mbfLambda		mathematical bold capital lambda	alpha
+𝚳	mbfMu		mathematical bold capital mu	alpha
+𝚴	mbfNu		mathematical bold capital nu	alpha
+𝚵	mbfXi		mathematical bold capital xi	alpha
+𝚶	mbfOmicron		mathematical bold capital omicron	alpha
+𝚷	mbfPi		mathematical bold capital pi	alpha
+𝚸	mbfRho		mathematical bold capital rho	alpha
+𝚹	mbfvarTheta		mathematical bold capital theta symbol	alpha
+𝚺	mbfSigma		mathematical bold capital sigma	alpha
+𝚻	mbfTau		mathematical bold capital tau	alpha
+𝚼	mbfUpsilon		mathematical bold capital upsilon	alpha
+𝚽	mbfPhi		mathematical bold capital phi	alpha
+𝚾	mbfChi		mathematical bold capital chi	alpha
+𝚿	mbfPsi		mathematical bold capital psi	alpha
+𝛀	mbfOmega		mathematical bold capital omega	alpha
+𝛁	mbfnabla mathbf{\nabla}		mathematical bold nabla	alpha
+𝛂	mbfalpha mathbf{\alpha}		mathematical bold small alpha	alpha
+𝛃	mbfbeta mathbf{\beta}		mathematical bold small beta	alpha
+𝛄	mbfgamma mathbf{\gamma}		mathematical bold small gamma	alpha
+𝛅	mbfdelta mathbf{\delta}		mathematical bold small delta	alpha
+𝛆	mbfvarepsilon mathbf{\varepsilon}		mathematical bold small varepsilon	alpha
+𝛇	mbfzeta mathbf{\zeta}		mathematical bold small zeta	alpha
+𝛈	mbfeta mathbf{\eta}		mathematical bold small eta	alpha
+𝛉	mbftheta mathbf{\theta}		mathematical bold small theta	alpha
+𝛊	mbfiota mathbf{\iota}		mathematical bold small iota	alpha
+𝛋	mbfkappa mathbf{\kappa}		mathematical bold small kappa	alpha
+𝛌	mbflambda mathbf{\lambda}		mathematical bold small lambda	alpha
+𝛍	mbfmu mathbf{\mu}		mathematical bold small mu	alpha
+𝛎	mbfnu mathbf{\nu}		mathematical bold small nu	alpha
+𝛏	mbfxi mathbf{\xi}		mathematical bold small xi	alpha
+𝛐	mbfomicron mathbf{\omicron}		mathematical bold small omicron	alpha
+𝛑	mbfpi mathbf{\pi}		mathematical bold small pi	alpha
+𝛒	mbfrho mathbf{\rho}		mathematical bold small rho	alpha
+𝛓	mbfvarsigma mathbf{\varsigma}		mathematical bold small final sigma	alpha
+𝛔	mbfsigma mathbf{\sigma}		mathematical bold small sigma	alpha
+𝛕	mbftau mathbf{\tau}		mathematical bold small tau	alpha
+𝛖	mbfupsilon mathbf{\upsilon}		mathematical bold small upsilon	alpha
+𝛗	mbfvarphi mathbf{\varphi}		mathematical bold small phi	alpha
+𝛘	mbfchi mathbf{\chi}		mathematical bold small chi	alpha
+𝛙	mbfpsi mathbf{\psi}		mathematical bold small psi	alpha
+𝛚	mbfomega mathbf{\omega}		mathematical bold small omega	alpha
+𝛛	mbfpartial mathbf{\partial}		mathematical bold partial differential	alpha
+𝛜	mbfepsilon mathbf{\epsilon}		mathematical bold varepsilon symbol	alpha
+𝛝	mbfvartheta mathbf{\vartheta}		mathematical bold theta symbol	alpha
+𝛞	mbfvarkappa mathbf{\varkappa}		mathematical bold kappa symbol	alpha
+𝛟	mbfphi mathbf{\phi}		mathematical bold phi symbol	alpha
+𝛠	mbfvarrho mathbf{\varrho}		mathematical bold rho symbol	alpha
+𝛡	mbfvarpi mathbf{\varpi}		mathematical bold pi symbol	alpha
+𝛢	mitAlpha		mathematical italic capital alpha	alpha
+𝛣	mitBeta		mathematical italic capital beta	alpha
+𝛤	mitGamma		mathematical italic capital gamma	alpha
+𝛥	mitDelta		mathematical italic capital delta	alpha
+𝛦	mitEpsilon		mathematical italic capital epsilon	alpha
+𝛧	mitZeta		mathematical italic capital zeta	alpha
+𝛨	mitEta		mathematical italic capital eta	alpha
+𝛩	mitTheta		mathematical italic capital theta	alpha
+𝛪	mitIota		mathematical italic capital iota	alpha
+𝛫	mitKappa		mathematical italic capital kappa	alpha
+𝛬	mitLambda		mathematical italic capital lambda	alpha
+𝛭	mitMu		mathematical italic capital mu	alpha
+𝛮	mitNu		mathematical italic capital nu	alpha
+𝛯	mitXi		mathematical italic capital xi	alpha
+𝛰	mitOmicron		mathematical italic capital omicron	alpha
+𝛱	mitPi		mathematical italic capital pi	alpha
+𝛲	mitRho		mathematical italic capital rho	alpha
+𝛳	mitvarTheta		mathematical italic capital theta symbol	alpha
+𝛴	mitSigma		mathematical italic capital sigma	alpha
+𝛵	mitTau		mathematical italic capital tau	alpha
+𝛶	mitUpsilon		mathematical italic capital upsilon	alpha
+𝛷	mitPhi		mathematical italic capital phi	alpha
+𝛸	mitChi		mathematical italic capital chi	alpha
+𝛹	mitPsi		mathematical italic capital psi	alpha
+𝛺	mitOmega		mathematical italic capital omega	alpha
+𝛻	mitnabla mathit{\nabla}		mathematical italic nabla	alpha
+𝛼	mitalpha mathit{\alpha}		mathematical italic small alpha	alpha
+𝛽	mitbeta mathit{\beta}		mathematical italic small beta	alpha
+𝛾	mitgamma mathit{\gamma}		mathematical italic small gamma	alpha
+𝛿	mitdelta mathit{\delta}		mathematical italic small delta	alpha
+𝜀	mitvarepsilon mathit{\varepsilon}		mathematical italic small varepsilon	alpha
+𝜁	mitzeta mathit{\zeta}		mathematical italic small zeta	alpha
+𝜂	miteta mathit{\eta}		mathematical italic small eta	alpha
+𝜃	mittheta mathit{\theta}		mathematical italic small theta	alpha
+𝜄	mitiota mathit{\iota}		mathematical italic small iota	alpha
+𝜅	mitkappa mathit{\kappa}		mathematical italic small kappa	alpha
+𝜆	mitlambda mathit{\lambda}		mathematical italic small lambda	alpha
+𝜇	mitmu mathit{\mu}		mathematical italic small mu	alpha
+𝜈	mitnu mathit{\nu}		mathematical italic small nu	alpha
+𝜉	mitxi mathit{\xi}		mathematical italic small xi	alpha
+𝜊	mitomicron mathit{\omicron}		mathematical italic small omicron	alpha
+𝜋	mitpi mathit{\pi}		mathematical italic small pi	alpha
+𝜌	mitrho mathit{\rho}		mathematical italic small rho	alpha
+𝜍	mitvarsigma mathit{\varsigma}		mathematical italic small final sigma	alpha
+𝜎	mitsigma mathit{\sigma}		mathematical italic small sigma	alpha
+𝜏	mittau mathit{\tau}		mathematical italic small tau	alpha
+𝜐	mitupsilon mathit{\upsilon}		mathematical italic small upsilon	alpha
+𝜑	mitvarphi mathit{\varphi}		mathematical italic small phi	alpha
+𝜒	mitchi mathit{\chi}		mathematical italic small chi	alpha
+𝜓	mitpsi mathit{\psi}		mathematical italic small psi	alpha
+𝜔	mitomega mathit{\omega}		mathematical italic small omega	alpha
+𝜕	mitpartial mathit{\partial}		mathematical italic partial differential	alpha
+𝜖	mitepsilon mathit{\epsilon}		mathematical italic varepsilon symbol	alpha
+𝜗	mitvartheta mathit{\vartheta}		mathematical italic theta symbol	alpha
+𝜘	mitvarkappa mathit{\varkappa}		mathematical italic kappa symbol	alpha
+𝜙	mitphi mathit{\phi}		mathematical italic phi symbol	alpha
+𝜚	mitvarrho mathit{\varrho}		mathematical italic rho symbol	alpha
+𝜛	mitvarpi mathit{\varpi}		mathematical italic pi symbol	alpha
+𝜜	mbfitAlpha		mathematical bold italic capital alpha	alpha
+𝜝	mbfitBeta		mathematical bold italic capital beta	alpha
+𝜞	mbfitGamma		mathematical bold italic capital gamma	alpha
+𝜟	mbfitDelta		mathematical bold italic capital delta	alpha
+𝜠	mbfitEpsilon		mathematical bold italic capital epsilon	alpha
+𝜡	mbfitZeta		mathematical bold italic capital zeta	alpha
+𝜢	mbfitEta		mathematical bold italic capital eta	alpha
+𝜣	mbfitTheta		mathematical bold italic capital theta	alpha
+𝜤	mbfitIota		mathematical bold italic capital iota	alpha
+𝜥	mbfitKappa		mathematical bold italic capital kappa	alpha
+𝜦	mbfitLambda		mathematical bold italic capital lambda	alpha
+𝜧	mbfitMu		mathematical bold italic capital mu	alpha
+𝜨	mbfitNu		mathematical bold italic capital nu	alpha
+𝜩	mbfitXi		mathematical bold italic capital xi	alpha
+𝜪	mbfitOmicron		mathematical bold italic capital omicron	alpha
+𝜫	mbfitPi		mathematical bold italic capital pi	alpha
+𝜬	mbfitRho		mathematical bold italic capital rho	alpha
+𝜭	mbfitvarTheta		mathematical bold italic capital theta symbol	alpha
+𝜮	mbfitSigma		mathematical bold italic capital sigma	alpha
+𝜯	mbfitTau		mathematical bold italic capital tau	alpha
+𝜰	mbfitUpsilon		mathematical bold italic capital upsilon	alpha
+𝜱	mbfitPhi		mathematical bold italic capital phi	alpha
+𝜲	mbfitChi		mathematical bold italic capital chi	alpha
+𝜳	mbfitPsi		mathematical bold italic capital psi	alpha
+𝜴	mbfitOmega		mathematical bold italic capital omega	alpha
+𝜵	mbfitnabla mathbf{\itnabla}		mathematical bold italic nabla	alpha
+𝜶	mbfitalpha mathbf{\italpha}		mathematical bold italic small alpha	alpha
+𝜷	mbfitbeta mathbf{\itbeta}		mathematical bold italic small beta	alpha
+𝜸	mbfitgamma mathbf{\itgamma}		mathematical bold italic small gamma	alpha
+𝜹	mbfitdelta mathbf{\itdelta}		mathematical bold italic small delta	alpha
+𝜺	mbfitvarepsilon mathbf{\itvarepsilon}		mathematical bold italic small varepsilon	alpha
+𝜻	mbfitzeta mathbf{\itzeta}		mathematical bold italic small zeta	alpha
+𝜼	mbfiteta mathbf{\iteta}		mathematical bold italic small eta	alpha
+𝜽	mbfittheta mathbf{\ittheta}		mathematical bold italic small theta	alpha
+𝜾	mbfitiota mathbf{\itiota}		mathematical bold italic small iota	alpha
+𝜿	mbfitkappa mathbf{\itkappa}		mathematical bold italic small kappa	alpha
+𝝀	mbfitlambda mathbf{\itlambda}		mathematical bold italic small lambda	alpha
+𝝁	mbfitmu mathbf{\itmu}		mathematical bold italic small mu	alpha
+𝝂	mbfitnu mathbf{\itnu}		mathematical bold italic small nu	alpha
+𝝃	mbfitxi mathbf{\itxi}		mathematical bold italic small xi	alpha
+𝝄	mbfitomicron mathbf{\itomicron}		mathematical bold italic small omicron	alpha
+𝝅	mbfitpi mathbf{\itpi}		mathematical bold italic small pi	alpha
+𝝆	mbfitrho mathbf{\itrho}		mathematical bold italic small rho	alpha
+𝝇	mbfitvarsigma mathbf{\itvarsigma}		mathematical bold italic small final sigma	alpha
+𝝈	mbfitsigma mathbf{\itsigma}		mathematical bold italic small sigma	alpha
+𝝉	mbfittau mathbf{\ittau}		mathematical bold italic small tau	alpha
+𝝊	mbfitupsilon mathbf{\itupsilon}		mathematical bold italic small upsilon	alpha
+𝝋	mbfitvarphi mathbf{\itvarphi}		mathematical bold italic small phi	alpha
+𝝌	mbfitchi mathbf{\itchi}		mathematical bold italic small chi	alpha
+𝝍	mbfitpsi mathbf{\itpsi}		mathematical bold italic small psi	alpha
+𝝎	mbfitomega mathbf{\itomega}		mathematical bold italic small omega	alpha
+𝝏	mbfitpartial mathbf{\itpartial}		mathematical bold italic partial differential	alpha
+𝝐	mbfitepsilon mathbf{\itepsilon}		mathematical bold italic varepsilon symbol	alpha
+𝝑	mbfitvartheta mathbf{\itvartheta}		mathematical bold italic theta symbol	alpha
+𝝒	mbfitvarkappa mathbf{\itvarkappa}		mathematical bold italic kappa symbol	alpha
+𝝓	mbfitphi mathbf{\itphi}		mathematical bold italic phi symbol	alpha
+𝝔	mbfitvarrho mathbf{\itvarrho}		mathematical bold italic rho symbol	alpha
+𝝕	mbfitvarpi mathbf{\itvarpi}		mathematical bold italic pi symbol	alpha
+𝝖	mbfsansAlpha		mathematical sans-serif bold capital alpha	alpha
+𝝗	mbfsansBeta		mathematical sans-serif bold capital beta	alpha
+𝝘	mbfsansGamma		mathematical sans-serif bold capital gamma	alpha
+𝝙	mbfsansDelta		mathematical sans-serif bold capital delta	alpha
+𝝚	mbfsansEpsilon		mathematical sans-serif bold capital epsilon	alpha
+𝝛	mbfsansZeta		mathematical sans-serif bold capital zeta	alpha
+𝝜	mbfsansEta		mathematical sans-serif bold capital eta	alpha
+𝝝	mbfsansTheta		mathematical sans-serif bold capital theta	alpha
+𝝞	mbfsansIota		mathematical sans-serif bold capital iota	alpha
+𝝟	mbfsansKappa		mathematical sans-serif bold capital kappa	alpha
+𝝠	mbfsansLambda		mathematical sans-serif bold capital lambda	alpha
+𝝡	mbfsansMu		mathematical sans-serif bold capital mu	alpha
+𝝢	mbfsansNu		mathematical sans-serif bold capital nu	alpha
+𝝣	mbfsansXi		mathematical sans-serif bold capital xi	alpha
+𝝤	mbfsansOmicron		mathematical sans-serif bold capital omicron	alpha
+𝝥	mbfsansPi		mathematical sans-serif bold capital pi	alpha
+𝝦	mbfsansRho		mathematical sans-serif bold capital rho	alpha
+𝝧	mbfsansvarTheta		mathematical sans-serif bold capital theta symbol	alpha
+𝝨	mbfsansSigma		mathematical sans-serif bold capital sigma	alpha
+𝝩	mbfsansTau		mathematical sans-serif bold capital tau	alpha
+𝝪	mbfsansUpsilon		mathematical sans-serif bold capital upsilon	alpha
+𝝫	mbfsansPhi		mathematical sans-serif bold capital phi	alpha
+𝝬	mbfsansChi		mathematical sans-serif bold capital chi	alpha
+𝝭	mbfsansPsi		mathematical sans-serif bold capital psi	alpha
+𝝮	mbfsansOmega		mathematical sans-serif bold capital omega	alpha
+𝝯	mbfsansnabla mathbf{\sansnabla}		mathematical sans-serif bold nabla	alpha
+𝝰	mbfsansalpha mathbf{\sansalpha}		mathematical sans-serif bold small alpha	alpha
+𝝱	mbfsansbeta mathbf{\sansbeta}		mathematical sans-serif bold small beta	alpha
+𝝲	mbfsansgamma mathbf{\sansgamma}		mathematical sans-serif bold small gamma	alpha
+𝝳	mbfsansdelta mathbf{\sansdelta}		mathematical sans-serif bold small delta	alpha
+𝝴	mbfsansvarepsilon mathbf{\sansvarepsilon}		mathematical sans-serif bold small varepsilon	alpha
+𝝵	mbfsanszeta mathbf{\sanszeta}		mathematical sans-serif bold small zeta	alpha
+𝝶	mbfsanseta mathbf{\sanseta}		mathematical sans-serif bold small eta	alpha
+𝝷	mbfsanstheta mathbf{\sanstheta}		mathematical sans-serif bold small theta	alpha
+𝝸	mbfsansiota mathbf{\sansiota}		mathematical sans-serif bold small iota	alpha
+𝝹	mbfsanskappa mathbf{\sanskappa}		mathematical sans-serif bold small kappa	alpha
+𝝺	mbfsanslambda mathbf{\sanslambda}		mathematical sans-serif bold small lambda	alpha
+𝝻	mbfsansmu mathbf{\sansmu}		mathematical sans-serif bold small mu	alpha
+𝝼	mbfsansnu mathbf{\sansnu}		mathematical sans-serif bold small nu	alpha
+𝝽	mbfsansxi mathbf{\sansxi}		mathematical sans-serif bold small xi	alpha
+𝝾	mbfsansomicron mathbf{\sansomicron}		mathematical sans-serif bold small omicron	alpha
+𝝿	mbfsanspi mathbf{\sanspi}		mathematical sans-serif bold small pi	alpha
+𝞀	mbfsansrho mathbf{\sansrho}		mathematical sans-serif bold small rho	alpha
+𝞁	mbfsansvarsigma mathbf{\sansvarsigma}		mathematical sans-serif bold small final sigma	alpha
+𝞂	mbfsanssigma mathbf{\sanssigma}		mathematical sans-serif bold small sigma	alpha
+𝞃	mbfsanstau mathbf{\sanstau}		mathematical sans-serif bold small tau	alpha
+𝞄	mbfsansupsilon mathbf{\sansupsilon}		mathematical sans-serif bold small upsilon	alpha
+𝞅	mbfsansvarphi mathbf{\sansvarphi}		mathematical sans-serif bold small phi	alpha
+𝞆	mbfsanschi mathbf{\sanschi}		mathematical sans-serif bold small chi	alpha
+𝞇	mbfsanspsi mathbf{\sanspsi}		mathematical sans-serif bold small psi	alpha
+𝞈	mbfsansomega mathbf{\sansomega}		mathematical sans-serif bold small omega	alpha
+𝞉	mbfsanspartial mathbf{\sanspartial}		mathematical sans-serif bold partial differential	alpha
+𝞊	mbfsansepsilon mathbf{\sansepsilon}		mathematical sans-serif bold varepsilon symbol	alpha
+𝞋	mbfsansvartheta mathbf{\sansvartheta}		mathematical sans-serif bold theta symbol	alpha
+𝞌	mbfsansvarkappa mathbf{\sansvarkappa}		mathematical sans-serif bold kappa symbol	alpha
+𝞍	mbfsansphi mathbf{\sansphi}		mathematical sans-serif bold phi symbol	alpha
+𝞎	mbfsansvarrho mathbf{\sansvarrho}		mathematical sans-serif bold rho symbol	alpha
+𝞏	mbfsansvarpi mathbf{\sansvarpi}		mathematical sans-serif bold pi symbol	alpha
+𝞐	mbfitsansAlpha		mathematical sans-serif bold italic capital alpha	alpha
+𝞑	mbfitsansBeta		mathematical sans-serif bold italic capital beta	alpha
+𝞒	mbfitsansGamma		mathematical sans-serif bold italic capital gamma	alpha
+𝞓	mbfitsansDelta		mathematical sans-serif bold italic capital delta	alpha
+𝞔	mbfitsansEpsilon		mathematical sans-serif bold italic capital epsilon	alpha
+𝞕	mbfitsansZeta		mathematical sans-serif bold italic capital zeta	alpha
+𝞖	mbfitsansEta		mathematical sans-serif bold italic capital eta	alpha
+𝞗	mbfitsansTheta		mathematical sans-serif bold italic capital theta	alpha
+𝞘	mbfitsansIota		mathematical sans-serif bold italic capital iota	alpha
+𝞙	mbfitsansKappa		mathematical sans-serif bold italic capital kappa	alpha
+𝞚	mbfitsansLambda		mathematical sans-serif bold italic capital lambda	alpha
+𝞛	mbfitsansMu		mathematical sans-serif bold italic capital mu	alpha
+𝞜	mbfitsansNu		mathematical sans-serif bold italic capital nu	alpha
+𝞝	mbfitsansXi		mathematical sans-serif bold italic capital xi	alpha
+𝞞	mbfitsansOmicron		mathematical sans-serif bold italic capital omicron	alpha
+𝞟	mbfitsansPi		mathematical sans-serif bold italic capital pi	alpha
+𝞠	mbfitsansRho		mathematical sans-serif bold italic capital rho	alpha
+𝞡	mbfitsansvarTheta		mathematical sans-serif bold italic capital theta symbol	alpha
+𝞢	mbfitsansSigma		mathematical sans-serif bold italic capital sigma	alpha
+𝞣	mbfitsansTau		mathematical sans-serif bold italic capital tau	alpha
+𝞤	mbfitsansUpsilon		mathematical sans-serif bold italic capital upsilon	alpha
+𝞥	mbfitsansPhi		mathematical sans-serif bold italic capital phi	alpha
+𝞦	mbfitsansChi		mathematical sans-serif bold italic capital chi	alpha
+𝞧	mbfitsansPsi		mathematical sans-serif bold italic capital psi	alpha
+𝞨	mbfitsansOmega		mathematical sans-serif bold italic capital omega	alpha
+𝞩	mbfitsansnabla mathbf{\itsansnabla}		mathematical sans-serif bold italic nabla	alpha
+𝞪	mbfitsansalpha mathbf{\itsansalpha}		mathematical sans-serif bold italic small alpha	alpha
+𝞫	mbfitsansbeta mathbf{\itsansbeta}		mathematical sans-serif bold italic small beta	alpha
+𝞬	mbfitsansgamma mathbf{\itsansgamma}		mathematical sans-serif bold italic small gamma	alpha
+𝞭	mbfitsansdelta mathbf{\itsansdelta}		mathematical sans-serif bold italic small delta	alpha
+𝞮	mbfitsansvarepsilon mathbf{\itsansvarepsilon}		mathematical sans-serif bold italic small varepsilon	alpha
+𝞯	mbfitsanszeta mathbf{\itsanszeta}		mathematical sans-serif bold italic small zeta	alpha
+𝞰	mbfitsanseta mathbf{\itsanseta}		mathematical sans-serif bold italic small eta	alpha
+𝞱	mbfitsanstheta mathbf{\itsanstheta}		mathematical sans-serif bold italic small theta	alpha
+𝞲	mbfitsansiota mathbf{\itsansiota}		mathematical sans-serif bold italic small iota	alpha
+𝞳	mbfitsanskappa mathbf{\itsanskappa}		mathematical sans-serif bold italic small kappa	alpha
+𝞴	mbfitsanslambda mathbf{\itsanslambda}		mathematical sans-serif bold italic small lambda	alpha
+𝞵	mbfitsansmu mathbf{\itsansmu}		mathematical sans-serif bold italic small mu	alpha
+𝞶	mbfitsansnu mathbf{\itsansnu}		mathematical sans-serif bold italic small nu	alpha
+𝞷	mbfitsansxi mathbf{\itsansxi}		mathematical sans-serif bold italic small xi	alpha
+𝞸	mbfitsansomicron mathbf{\itsansomicron}		mathematical sans-serif bold italic small omicron	alpha
+𝞹	mbfitsanspi mathbf{\itsanspi}		mathematical sans-serif bold italic small pi	alpha
+𝞺	mbfitsansrho mathbf{\itsansrho}		mathematical sans-serif bold italic small rho	alpha
+𝞻	mbfitsansvarsigma mathbf{\itsansvarsigma}		mathematical sans-serif bold italic small final sigma	alpha
+𝞼	mbfitsanssigma mathbf{\itsanssigma}		mathematical sans-serif bold italic small sigma	alpha
+𝞽	mbfitsanstau mathbf{\itsanstau}		mathematical sans-serif bold italic small tau	alpha
+𝞾	mbfitsansupsilon mathbf{\itsansupsilon}		mathematical sans-serif bold italic small upsilon	alpha
+𝞿	mbfitsansvarphi mathbf{\itsansvarphi}		mathematical sans-serif bold italic small phi	alpha
+𝟀	mbfitsanschi mathbf{\itsanschi}		mathematical sans-serif bold italic small chi	alpha
+𝟁	mbfitsanspsi mathbf{\itsanspsi}		mathematical sans-serif bold italic small psi	alpha
+𝟂	mbfitsansomega mathbf{\itsansomega}		mathematical sans-serif bold italic small omega	alpha
+𝟃	mbfitsanspartial mathbf{\itsanspartial}		mathematical sans-serif bold italic partial differential	alpha
+𝟄	mbfitsansepsilon mathbf{\itsansepsilon}		mathematical sans-serif bold italic varepsilon symbol	alpha
+𝟅	mbfitsansvartheta mathbf{\itsansvartheta}		mathematical sans-serif bold italic theta symbol	alpha
+𝟆	mbfitsansvarkappa mathbf{\itsansvarkappa}		mathematical sans-serif bold italic kappa symbol	alpha
+𝟇	mbfitsansphi mathbf{\itsansphi}		mathematical sans-serif bold italic phi symbol	alpha
+𝟈	mbfitsansvarrho mathbf{\itsansvarrho}		mathematical sans-serif bold italic rho symbol	alpha
+𝟉	mbfitsansvarpi mathbf{\itsansvarpi}		mathematical sans-serif bold italic pi symbol	alpha
+𝟊	mbfDigamma		mathematical bold capital digamma	alpha
+𝟋	mbfdigamma mathbf{\digamma}		mathematical bold small digamma	alpha
+𝟎	mbfzero mathbf{\zero}		mathematical bold digit 0	ord
+𝟏	mbfone mathbf{\one}		mathematical bold digit 1	ord
+𝟐	mbftwo mathbf{\two}		mathematical bold digit 2	ord
+𝟑	mbfthree mathbf{\three}		mathematical bold digit 3	ord
+𝟒	mbffour mathbf{\four}		mathematical bold digit 4	ord
+𝟓	mbffive mathbf{\five}		mathematical bold digit 5	ord
+𝟔	mbfsix mathbf{\six}		mathematical bold digit 6	ord
+𝟕	mbfseven mathbf{\seven}		mathematical bold digit 7	ord
+𝟖	mbfeight mathbf{\eight}		mathematical bold digit 8	ord
+𝟗	mbfnine mathbf{\nine}		mathematical bold digit 9	ord
+𝟘	Bbbzero mathbb{\zero}	b0	mathematical double-struck digit 0	ord
+𝟙	Bbbone mathbb{\one}	b1	mathematical double-struck digit 1	ord
+𝟚	Bbbtwo mathbb{\two}	b2	mathematical double-struck digit 2	ord
+𝟛	Bbbthree mathbb{\three}	b3	mathematical double-struck digit 3	ord
+𝟜	Bbbfour mathbb{\four}	b4	mathematical double-struck digit 4	ord
+𝟝	Bbbfive mathbb{\five}	b5	mathematical double-struck digit 5	ord
+𝟞	Bbbsix mathbb{\six}	b6	mathematical double-struck digit 6	ord
+𝟟	Bbbseven mathbb{\seven}	b7	mathematical double-struck digit 7	ord
+𝟠	Bbbeight mathbb{\eight}	b8	mathematical double-struck digit 8	ord
+𝟡	Bbbnine mathbb{\nine}	b9	mathematical double-struck digit 9	ord
+𝟢	msanszero mathsf{\zero}		mathematical sans-serif digit 0	ord
+𝟣	msansone mathsf{\one}		mathematical sans-serif digit 1	ord
+𝟤	msanstwo mathsf{\two}		mathematical sans-serif digit 2	ord
+𝟥	msansthree mathsf{\three}		mathematical sans-serif digit 3	ord
+𝟦	msansfour mathsf{\four}		mathematical sans-serif digit 4	ord
+𝟧	msansfive mathsf{\five}		mathematical sans-serif digit 5	ord
+𝟨	msanssix mathsf{\six}		mathematical sans-serif digit 6	ord
+𝟩	msansseven mathsf{\seven}		mathematical sans-serif digit 7	ord
+𝟪	msanseight mathsf{\eight}		mathematical sans-serif digit 8	ord
+𝟫	msansnine mathsf{\nine}		mathematical sans-serif digit 9	ord
+𝟬	mbfsanszero mathbf{\sanszero}	sb0	mathematical sans-serif bold digit 0	ord
+𝟭	mbfsansone mathbf{\sansone}	sb1	mathematical sans-serif bold digit 1	ord
+𝟮	mbfsanstwo mathbf{\sanstwo}	sb2	mathematical sans-serif bold digit 2	ord
+𝟯	mbfsansthree mathbf{\sansthree}	sb3	mathematical sans-serif bold digit 3	ord
+𝟰	mbfsansfour mathbf{\sansfour}	sb4	mathematical sans-serif bold digit 4	ord
+𝟱	mbfsansfive mathbf{\sansfive}	sb5	mathematical sans-serif bold digit 5	ord
+𝟲	mbfsanssix mathbf{\sanssix}	sb6	mathematical sans-serif bold digit 6	ord
+𝟳	mbfsansseven mathbf{\sansseven}	sb7	mathematical sans-serif bold digit 7	ord
+𝟴	mbfsanseight mathbf{\sanseight}	sb8	mathematical sans-serif bold digit 8	ord
+𝟵	mbfsansnine mathbf{\sansnine}	sb9	mathematical sans-serif bold digit 9	ord
+𝟶	mttzero mathtt{\zero}		mathematical monospace digit 0	ord
+𝟷	mttone mathtt{\one}		mathematical monospace digit 1	ord
+𝟸	mtttwo mathtt{\two}		mathematical monospace digit 2	ord
+𝟹	mttthree mathtt{\three}		mathematical monospace digit 3	ord
+𝟺	mttfour mathtt{\four}		mathematical monospace digit 4	ord
+𝟻	mttfive mathtt{\five}		mathematical monospace digit 5	ord
+𝟼	mttsix mathtt{\six}		mathematical monospace digit 6	ord
+𝟽	mttseven mathtt{\seven}		mathematical monospace digit 7	ord
+𝟾	mtteight mathtt{\eight}		mathematical monospace digit 8	ord
+𝟿	mttnine mathtt{\nine}		mathematical monospace digit 9	ord
+𞁞		_c	cyrillic subscript small letter es	
+𞻰	arabicmaj		arabic mathematical operator meem with hah with tatweel	op
+𞻱	arabichad		arabic mathematical operator hah with dal	op
+🚧		construction	construction sign	
+🛇		prohibited	prohibited sign	
+🛑		octagonal	octagonal sign	

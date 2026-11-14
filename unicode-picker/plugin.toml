@@ -1,0 +1,24 @@
+id = "fisherman/unicode-picker"
+name = "Unicode Picker"
+version = "0.1.0"
+plugin_api = 3
+author = "fisherman"
+license = "MIT"
+dependencies = []
+tags = ["unicode", "latex", "lean", "launcher"]
+icon = "math-symbols"
+description = "Find unicode characters by LaTeX or Lean 4 input-method name from the launcher and copy them to the clipboard."
+
+[[setting]]
+key = "notify_on_copy"
+type = "bool"
+label_key = "settings.notify_on_copy.label"
+description_key = "settings.notify_on_copy.description"
+default = true
+
+[[launcher_provider]]
+id = "unicode"
+entry = "unicode.luau"
+prefix = "uni"
+glyph = "math-symbols"
+include_in_global_search = false
