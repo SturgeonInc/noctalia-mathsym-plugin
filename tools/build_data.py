@@ -7,13 +7,13 @@ Inputs (vendored in tools/sources/, see `make fetch-sources`):
   unicode-math-table.tex   LaTeX names (LPPL)
   abbreviations.json       Lean 4 VS Code input method (Apache-2.0)
 
-Outputs (next to OUT, tab-separated, one record per output string, rows sorted by codepoint):
-  data.tsv   char, title, subtitle (display; title/subtitle are ready to show),
-             code points as uppercase hex padded to 4 digits (U+XXXX style) and as decimal,
-             space-separated for multi-character entries like `∀ᵐ`
-  names.tsv  name, row   one line per normalized (no backslash/braces/spaces), case-sensitive
-                         LaTeX or Lean name
-  desc.tsv   lowercase description, row
+Outputs (next to OUT, tab-separated, rows sorted by codepoint; "row" is the 1-based line of data.tsv):
+  data.tsv       char, title, subtitle (title/subtitle are ready to show)
+  names.tsv      name, row   one line per normalized (no backslash/braces/spaces), case-sensitive
+                             LaTeX or Lean name
+  desc.tsv       lowercase description, row
+  codes_hex.tsv  first code point as padded uppercase hex (U+XXXX style), row
+  codes_dec.tsv  first code point as decimal, row
 """
 import json
 import re
@@ -147,20 +147,25 @@ def main():
         if not r["desc"] and len(ch) == 1:
             r["desc"] = unicodedata.name(ch, "").lower()
 
-    # data.tsv: char, title, subtitle (display), code point in hex, code point in decimal
-    # (space-separated for multi-character entries; search.sh matches U+XXXX queries against them). names.tsv: name, row number (one line per name).
-    # desc.tsv: lowercase description, row number. Row numbers are 1-based lines of data.tsv.
-    # search.sh feeds names.tsv/desc.tsv to fzf and joins the hits back to data.tsv.
+    # data.tsv: char, title, subtitle (display). names.tsv: name, row number (one line per name).
+    # desc.tsv: lowercase description, row number. codes_hex.tsv / codes_dec.tsv: the first code
+    # point as padded uppercase hex (`0229`) / decimal, row number. Row numbers are 1-based lines
+    # of data.tsv. search.sh feeds these to fzf and joins the hits back to data.tsv.
+    def writer(name):
+        return out.with_name(name).open("w", encoding="utf8", newline="\n")
+
     with out.open("w", encoding="utf8", newline="\n") as f, \
-            out.with_name("names.tsv").open("w", encoding="utf8", newline="\n") as fn, \
-            out.with_name("desc.tsv").open("w", encoding="utf8", newline="\n") as fd:
+            writer("names.tsv") as fn, writer("desc.tsv") as fd, \
+            writer("codes_hex.tsv") as fh, writer("codes_dec.tsv") as fc:
         for row_no, ch in enumerate(sorted(rows), 1):
             r = rows[ch]
-            f.write("\t".join([ch, title(ch), subtitle(ch, r), " ".join("%04X" % ord(c) for c in ch), " ".join(str(ord(c)) for c in ch)]) + "\n")
+            f.write("\t".join([ch, title(ch), subtitle(ch, r)]) + "\n")
             for name in searchable_names(r).split():
                 fn.write("%s\t%d\n" % (name, row_no))
             if r["desc"]:
                 fd.write("%s\t%d\n" % (r["desc"].lower(), row_no))
+            fh.write("%04X\t%d\n" % (ord(ch[0]), row_no))
+            fc.write("%d\t%d\n" % (ord(ch[0]), row_no))
     print("%d characters -> %s" % (len(rows), out))
 
 

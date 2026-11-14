@@ -29,8 +29,8 @@ uninstall:
 
 # Sanity checks: row shapes, and the top search hit for a few known queries (runs search.sh, needs fzf).
 check:
-	@awk -F'\t' 'NF != 5 { print "bad data.tsv row " NR; bad = 1 } END { exit bad }' $(PLUGIN)/data.tsv
-	@awk -F'\t' 'NF != 2 { print "bad names/desc row " NR; bad = 1 } END { exit bad }' $(PLUGIN)/names.tsv $(PLUGIN)/desc.tsv
+	@awk -F'\t' 'NF != 3 { print "bad data.tsv row " NR; bad = 1 } END { exit bad }' $(PLUGIN)/data.tsv
+	@awk -F'\t' 'NF != 2 { print "bad names/desc row " NR; bad = 1 } END { exit bad }' $(PLUGIN)/names.tsv $(PLUGIN)/desc.tsv $(PLUGIN)/codes_hex.tsv $(PLUGIN)/codes_dec.tsv
 	@printf '%s\n' 'alpha|α' 'leq|≤' 'le|≤' 'mathbb{R}|ℝ' 'Nat|ℕ' 'Rightarrow|⇒' 'rightarrow|→' 'to|→' \
 	    'lnot|¬' 'Go|ω' 'go|⊢' '<=|≤' 'greek lambda|λ' 'r|→' \
 	    'U+2264|≤' 'u+2264|≤' '0x2264|≤' '\u2264|≤' 'U+226|≠' '2264|≤' '8804|≤' '945|α' | while IFS='|' read -r query want; do \

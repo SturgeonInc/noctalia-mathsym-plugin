@@ -28,15 +28,14 @@ Type `/uni` and a name. The leading backslash is optional and braces and spaces 
 | `Rightarrow`, `rightarrow` | ⇒, → (case-sensitive hits rank first) |
 | `integral`, `greek lambda` | description search |
 | `rghtarrw` | → (fuzzy, tolerates typos) |
-| `U+2264`, `u+2264`, `0x2264`, `\u2264` | ≤ by code point |
-| `U+226` | every code point starting with those digits (the 226x block) |
-| `8804`, `2264` | ≤, as a last resort (see below) |
+| `U+2264`, `0x2264`, `\u2264`, `2264`, `8804` | ≤ by code point (hex or decimal) |
+| `U+226` | code points containing 226, those starting with it first (the 226x block) |
 
 Each result shows its LaTeX names, its Lean names (typed with a leading `\` in VS Code), its description and its code point. Enter copies the character to the clipboard.
 
-Code points: with a `U+`, `u+`, `0x` or `\u` prefix the query is a code-point lookup: an exact match first, then every code point starting with the digits you typed (digits line up as in `U+0229`, so `U+22` browses the 22xx block). Only characters in the plugin's data (math symbols and Lean abbreviations) can match. Bare numbers are ambiguous with names (`ae` is a Lean name, so is `1`), so they are the weakest tier: bare hex of 4 to 6 digits and bare decimal are looked up exactly and appended after all name and description results, never ahead of them.
+Code points: the last search pass matches the digits you type against code points, as exact substrings of the hex form (`2264`) or the decimal form (`8804`). A leading `U+`, `u+`, `0x` or `\u` is dropped and means hex only (so `U+226` browses the 226x block and does not pick up decimal 226). Without a prefix, hex and decimal are searched together, shorter numbers first. Only characters in the plugin's data (math symbols and Lean abbreviations) can match. This pass is the weakest on purpose: bare numbers are ambiguous with names (`ae` and `1` are Lean names), so it never ranks above a name or description match.
 
-Ranking: name matches that are an exact, case-sensitive substring come first (Lean's input method is case-sensitive: `\Go` is ω, `\go` is not), then fuzzy case-insensitive name matches, then description matches. Within each group, fzf's score decides, and shorter names win ties.
+Ranking: name matches that are an exact, case-sensitive substring come first (Lean's input method is case-sensitive: `\Go` is ω, `\go` is not), then fuzzy case-insensitive name matches, then description matches, then code points. Within each group, fzf's score decides, and shorter names win ties.
 
 ## Settings
 
@@ -50,6 +49,6 @@ Noctalia's global `auto_paste` launcher setting only applies to built-in provide
 
 ## Notes
 
-- **Processes spawned:** on every query, `sh search.sh`, which runs `fzf` (three times), `tr` and `awk`. With `paste_after_copy`, `sh -c 'sleep …; exec wtype …'` once per activation. No network access and no files written.
+- **Processes spawned:** on every query, `sh search.sh`, which runs `fzf` (up to four times), `tr`, `cat` and `awk`. With `paste_after_copy`, `sh -c 'sleep …; exec wtype …'` once per activation. No network access and no files written.
 - **Why not search in Luau:** Noctalia gives each script callback 25 ms of CPU time, too little to parse about 3000 rows, so the search runs in a helper process (about 20 ms per query).
-- **Data:** `data.tsv` (display text plus code points), `names.tsv` and `desc.tsv` are generated from the sources by `tools/build_data.py` in the source repository (not needed at runtime). Sources: `unicode-math-table.tex` from the LaTeX `unicode-math` package (LPPL), with `\mathbb{X}`-style aliases derived from its `\BbbX`, `\mbfX`, … names, and the Lean 4 VS Code abbreviation table from [leanprover/vscode-lean4](https://github.com/leanprover/vscode-lean4) (Apache-2.0).
+- **Data:** `data.tsv`, `names.tsv`, `desc.tsv`, `codes_hex.tsv` and `codes_dec.tsv` are generated from the sources by `tools/build_data.py` in the source repository (not needed at runtime). Sources: `unicode-math-table.tex` from the LaTeX `unicode-math` package (LPPL), with `\mathbb{X}`-style aliases derived from its `\BbbX`, `\mbfX`, … names, and the Lean 4 VS Code abbreviation table from [leanprover/vscode-lean4](https://github.com/leanprover/vscode-lean4) (Apache-2.0).
