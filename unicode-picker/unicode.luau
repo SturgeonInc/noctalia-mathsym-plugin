@@ -7,7 +7,7 @@
 -- its entry. Enter copies the character to the clipboard (and optionally types it).
 --
 -- Script callbacks only get a 25 ms CPU budget, which parsing the ~3000-row
--- data.tsv blows through. So the search runs in search.py via noctalia.runAsync
+-- data.tsv blows through. So the search runs in search.sh (fzf) via noctalia.runAsync
 -- (the same approach as the community file-search plugin) and this script only
 -- relays its tab-separated rows to the launcher.
 
@@ -76,10 +76,10 @@ function onQuery(query)
     hint(query, "Search failed", "Could not locate the plugin directory", "alert-triangle")
     return
   end
-  local ok = noctalia.runAsync({ "python3", "-I", "-S", dir .. "/search.py", dir, text }, function(result)
+  local ok = noctalia.runAsync({ "sh", dir .. "/search.sh", dir, text }, function(result)
     if result.exitCode ~= 0 or result.timedOut then
       noctalia.log(result.stderr)
-      hint(query, "Search failed", "Is python3 installed? See the noctalia log", "alert-triangle")
+      hint(query, "Search failed", "Is fzf installed? See the noctalia log", "alert-triangle")
       return
     end
     local rows = {}
@@ -94,7 +94,7 @@ function onQuery(query)
           title = title,
           subtitle = subtitle,
           glyph = "math-symbols",
-          score = 1000 - tonumber(rank), -- search.py already ranked them
+          score = 1000 - tonumber(rank), -- search.sh already ranked them
         })
       end
     end
@@ -106,7 +106,7 @@ function onQuery(query)
     launcher.setResults(query, rows)
   end, 5000)
   if not ok then
-    hint(query, "Search failed", "Could not start python3", "alert-triangle")
+    hint(query, "Search failed", "Could not start sh", "alert-triangle")
   end
 end
 
