@@ -32,7 +32,7 @@ check:
 	@awk -F'\t' 'NF != 3 { print "bad data.tsv row " NR; bad = 1 } END { exit bad }' $(PLUGIN)/data.tsv
 	@awk -F'\t' 'NF != 2 { print "bad names/desc row " NR; bad = 1 } END { exit bad }' $(PLUGIN)/names.tsv $(PLUGIN)/desc.tsv
 	@printf '%s\n' 'alpha|α' 'leq|≤' 'le|≤' 'mathbb{R}|ℝ' 'Nat|ℕ' 'Rightarrow|⇒' 'rightarrow|→' 'to|→' \
-	    'lnot|¬' 'Go|ω' 'go|⊢' '<=|≤' 'greek lambda|λ' | while IFS='|' read -r query want; do \
+	    'lnot|¬' 'Go|ω' 'go|⊢' '<=|≤' 'greek lambda|λ' 'r|→' | while IFS='|' read -r query want; do \
 	  got=$$(sh $(PLUGIN)/search.sh "$(CURDIR)/$(PLUGIN)" "$$query" | head -n 1 | cut -f2); \
 	  [ "$$got" = "$$want" ] || { echo "'$$query': want $$want, got $$got"; exit 1; }; \
 	done

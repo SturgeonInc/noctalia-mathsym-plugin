@@ -24,11 +24,13 @@ desc_query=$(printf '%s' "$query" | tr -d '\\{}')
 [ -n "$name_query" ] || exit 0
 
 # fzf in filter mode over "text<TAB>row" lines, matching the text field only.
+# --with-nth (not --nth): the length tiebreak must measure just the text, otherwise the digits
+# of the row number decide ties and `r!` (row 26) beats the exact name `r` (row 582).
 # Usage: fz QUERY [fzf options...] < file
 fz() {
     q=$1
     shift
-    fzf -f "$q" -d '\t' --nth 1 --tiebreak=length,index "$@"
+    fzf -f "$q" -d '\t' --with-nth 1 --tiebreak=length,index "$@"
 }
 
 {
