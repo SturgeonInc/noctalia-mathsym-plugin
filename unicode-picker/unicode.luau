@@ -45,6 +45,10 @@ function onQuery(query)
     end
     for _, r in rows do
       r.glyph = "math-symbols"
+      -- The launcher keeps the highlight on the same result id across result updates, so a
+      -- stale highlight from an earlier keystroke would survive reordering. A per-query
+      -- suffix makes ids new each query, so the highlight resets to the top row.
+      r.id = r.id .. "\t" .. query
     end
     launcher.setResults(query, rows)
   end, 5000)
@@ -54,11 +58,11 @@ function onQuery(query)
 end
 
 function onActivate(id)
-  -- sub() rather than patterns: the payload is an arbitrary character.
+  -- The payload is an arbitrary character followed by a tab and the query (see onQuery).
   if id:sub(1, 2) ~= "u:" then
     return
   end
-  local ch = id:sub(3)
+  local ch = id:sub(3):match("^[^\t]*")
   if ch == "" then
     return
   end
