@@ -6,7 +6,7 @@ SOURCES    := tools/sources
 UPSTREAM_ABBR := https://raw.githubusercontent.com/leanprover/vscode-lean4/master/lean4-unicode-input/src/abbreviations.json
 UNICODE_MATH_TABLE ?= $(shell find /var/home/linuxbrew/.linuxbrew/Cellar/texlive -name unicode-math-table.tex 2>/dev/null | sort | tail -1)
 
-.PHONY: data fetch-sources install uninstall check
+.PHONY: data fetch-sources install uninstall check lint
 
 # Regenerate the search database from the vendored sources.
 data:
@@ -38,3 +38,12 @@ check:
 	  [ "$$got" = "$$want" ] || { echo "'$$query': want $$want, got $$got"; exit 1; }; \
 	done
 	@echo "data ok"
+
+# Static checks: shellcheck on the search script, luau-analyze on the entry script (the host-injected
+# globals noctalia/launcher are unknown to it, so those reports are filtered), manifest and
+# translations parse. For full API checking use luau-lsp with the official noctalia.d.luau.
+lint:
+	shellcheck -s sh $(PLUGIN)/search.sh
+	@luau-analyze $(PLUGIN)/unicode.luau 2>&1 | grep -v -E "Unknown global '(noctalia|launcher)'|FunctionUnused: Function 'on(Query|Activate)'" || true
+	@python3 -I -c "import json, tomllib; tomllib.load(open('$(PLUGIN)/plugin.toml', 'rb')); json.load(open('$(PLUGIN)/translations/en.json'))"
+	@python3 -I -c "import ast; ast.parse(open('tools/build_data.py').read())" && echo "lint ok"

@@ -3,8 +3,8 @@
 --
 -- Type `/uni` followed by a LaTeX command name (`\alpha`, `leq`, `mathbb{R}`) or a
 -- Lean 4 VS Code abbreviation (`Rightarrow`, `nat`, `<=`) to find the character;
--- anything else is matched against the character's description ("integral").
--- Enter copies the character to the clipboard.
+-- a description ("integral") or a code point (`U+2264`, `8804`); pasting a character finds
+-- its entry. Enter copies the character to the clipboard (and optionally types it).
 --
 -- Script callbacks only get a 25 ms CPU budget, which parsing the ~3000-row
 -- data.tsv blows through. So the search runs in search.sh (fzf) via noctalia.runAsync
@@ -42,8 +42,10 @@ local function noMatchHint(text)
   local compact = (text:gsub("%s", "")):lower()
   local dec = compact:match("^%d+$")
   if dec and #dec <= 7 then
+    local code = string.format("U+%04X", tonumber(dec) :: number)
     return "No character with code point " .. dec,
-      string.format("Decimal %s is U+%04X, which is not in the data. Type U+%s to browse code points starting with %s", dec, tonumber(dec) :: number, dec, dec)
+      "Decimal " .. dec .. " is " .. code .. ", which is not in the data. Type U+" .. dec
+        .. " to browse code points starting with " .. dec
   end
   local hex = compact:match("^u%+(%x+)$") or compact:match("^0x(%x+)$") or compact:match("^\\u(%x+)$")
   if hex then
@@ -70,6 +72,10 @@ function onQuery(query)
   end
 
   local dir = noctalia.pluginDir()
+  if not dir then
+    hint(query, "Search failed", "Could not locate the plugin directory", "alert-triangle")
+    return
+  end
   local ok = noctalia.runAsync({ "sh", dir .. "/search.sh", dir, text }, function(result)
     if result.exitCode ~= 0 or result.timedOut then
       noctalia.log(result.stderr)

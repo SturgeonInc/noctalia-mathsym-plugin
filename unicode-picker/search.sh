@@ -33,6 +33,8 @@ desc_query=$(printf '%s' "$query" | tr -d '\\{}')
 [ -n "$name_query" ] || exit 0
 
 # Code-point pass: strip an explicit prefix (which then means hex only), keep only hex digits.
+# ASCII-only lowercase on purpose (hex digits and prefixes), hence A-Z rather than [:upper:].
+# shellcheck disable=SC2018,SC2019
 compact=$(printf '%s' "$name_query" | tr 'A-Z' 'a-z')
 hex_only=
 case $compact in
