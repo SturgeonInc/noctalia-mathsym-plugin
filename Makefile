@@ -1,5 +1,5 @@
 # Develop in this directory; `make install` copies the plugin into Noctalia's plugin dir.
-PLUGIN     := unicode-picker
+PLUGIN     := mathsym
 DATA_HOME  ?= $(or $(XDG_DATA_HOME),$(HOME)/.local/share)
 DEST       := $(DATA_HOME)/noctalia/plugins/$(PLUGIN)
 SOURCES    := tools/sources
@@ -18,7 +18,7 @@ fetch-sources:
 	cp "$(UNICODE_MATH_TABLE)" $(SOURCES)/unicode-math-table.tex
 
 # Copy (not symlink) the plugin. Files are updated in place (never rm -rf the dir) so Noctalia's
-# file watcher on unicode.luau keeps firing; manifest changes still need a config reload.
+# file watcher on mathsym.luau keeps firing; manifest changes still need a config reload.
 install:
 	mkdir -p "$(DEST)"
 	rsync -a --inplace --delete $(PLUGIN)/ "$(DEST)/"
@@ -44,6 +44,6 @@ check:
 # translations parse. For full API checking use luau-lsp with the official noctalia.d.luau.
 lint:
 	shellcheck -s sh $(PLUGIN)/search.sh
-	@luau-analyze $(PLUGIN)/unicode.luau 2>&1 | grep -v -E "Unknown global '(noctalia|launcher)'|FunctionUnused: Function 'on(Query|Activate)'" || true
+	@luau-analyze $(PLUGIN)/mathsym.luau 2>&1 | grep -v -E "Unknown global '(noctalia|launcher)'|FunctionUnused: Function 'on(Query|Activate)'" || true
 	@python3 -I -c "import json, tomllib; tomllib.load(open('$(PLUGIN)/plugin.toml', 'rb')); json.load(open('$(PLUGIN)/translations/en.json'))"
 	@python3 -I -c "import ast; ast.parse(open('tools/build_data.py').read())" && echo "lint ok"

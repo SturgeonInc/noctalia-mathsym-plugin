@@ -1,5 +1,5 @@
-id = "fisherman/unicode-picker"
-name = "Unicode Picker"
+id = "fisherman/mathsym"
+name = "Mathsym"
 version = "0.1.0"
 # 24 for argv-style noctalia.runAsync.
 plugin_api = 24
@@ -8,7 +8,7 @@ license = "MIT"
 dependencies = ["fzf", "wtype"]
 tags = ["unicode", "latex", "lean", "launcher"]
 icon = "math-symbols"
-description = "Find unicode characters by LaTeX or Lean 4 input-method name from the launcher and copy them to the clipboard."
+description = "Find math unicode characters by LaTeX or Lean 4 input-method name from the launcher and copy them to the clipboard."
 
 [[setting]]
 key = "notify_on_copy"
@@ -34,9 +34,9 @@ min = 0
 max = 2000
 
 [[launcher_provider]]
-id = "unicode"
-entry = "unicode.luau"
-prefix = "uni"
+id = "mathsym"
+entry = "mathsym.luau"
+prefix = "sym"
 glyph = "math-symbols"
 include_in_global_search = false
 debounce_ms = 60

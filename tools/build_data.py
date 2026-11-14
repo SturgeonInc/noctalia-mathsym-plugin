@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Merge the unicode-math table and the Lean 4 abbreviation table into data.tsv.
 
-Usage: python3 -I tools/build_data.py [OUT]   (default: unicode-picker/data.tsv)
+Usage: python3 -I tools/build_data.py [OUT]   (default: mathsym/data.tsv)
 
 Inputs (vendored in tools/sources/, see `make fetch-sources`):
   unicode-math-table.tex   LaTeX names (LPPL)
@@ -23,7 +23,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "sources"
-DEFAULT_OUT = ROOT.parent / "unicode-picker" / "data.tsv"
+DEFAULT_OUT = ROOT.parent / "mathsym" / "data.tsv"
 
 SYMBOL_RE = re.compile(r'\\UnicodeMathSymbol\{"([0-9A-Fa-f]+)\}\{\\(\S+?)\s*\}\{\\(\w+)\}\{(.*)\}%')
 
@@ -91,12 +91,12 @@ def name_list(names, limit=3):
 
 def subtitle(ch, r):
     parts = []
+    if r["desc"]:
+        parts.append(r["desc"])
     if r["latex"]:
         parts.append(name_list(r["latex"]))
     if r["lean"]:
         parts.append("Lean: " + name_list(r["lean"]))
-    if r["desc"]:
-        parts.append(r["desc"])
     parts.append("U+%04X" % ord(ch[0]))
     return "  \u00b7  ".join(parts)
 

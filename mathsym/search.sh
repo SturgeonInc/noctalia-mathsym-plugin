@@ -2,7 +2,7 @@
 # Search the unicode tables with fzf; print "rank<TAB>char<TAB>title<TAB>subtitle", best first.
 # Usage: search.sh DIR QUERY   (DIR holds the .tsv files written by tools/build_data.py)
 #
-# Run by unicode.luau through noctalia.runAsync, because Luau callbacks only get a 25 ms CPU budget.
+# Run by mathsym.luau through noctalia.runAsync, because Luau callbacks only get a 25 ms CPU budget.
 #
 # A query containing a non-ASCII character (a pasted `∀`) is a reverse lookup: names are ASCII, so
 # it is unambiguous and goes first. Exact character, then entries that start with it (`∀ᵐ`).

@@ -1,4 +1,4 @@
-# Unicode Picker
+# Mathsym
 
 Find unicode characters from the Noctalia launcher by their **LaTeX command name** or their **Lean 4 VS Code input-method name**, then copy (and optionally type) them. Built for mathematical symbols: `\alpha`, `\leq`, `\mathbb{R}`, `\Rightarrow`.
 
@@ -6,9 +6,9 @@ Find unicode characters from the Noctalia launcher by their **LaTeX command name
 
 | Field | Value |
 | --- | --- |
-| ID | `fisherman/unicode-picker` |
-| Entries | Launcher provider: `unicode` |
-| Launcher Prefix | `/uni` |
+| ID | `fisherman/mathsym` |
+| Entries | Launcher provider: `mathsym` |
+| Launcher Prefix | `/sym` |
 
 ## Requirements
 
@@ -18,7 +18,7 @@ Find unicode characters from the Noctalia launcher by their **LaTeX command name
 
 ## Usage
 
-Type `/uni` and a name. The leading backslash is optional and braces and spaces are ignored, so `\mathbb{R}`, `mathbb R` and `mathbbR` are the same query.
+Type `/sym` and a name. The leading backslash is optional and braces and spaces are ignored, so `\mathbb{R}`, `mathbb R` and `mathbbR` are the same query.
 
 | Query | Finds |
 | --- | --- |
@@ -50,7 +50,7 @@ Ranking: name matches that are an exact, case-sensitive substring come first (Le
 
 Noctalia's global `auto_paste` launcher setting only applies to built-in providers, so it has no effect here.
 
-## Notes
+## Implementation Notes
 
 - **Processes spawned:** on every query, `sh search.sh`, which runs `fzf` (up to four times), `tr`, `cat` and `awk`. With `paste_after_copy`, `sh -c 'sleep …; exec wtype …'` once per activation. No network access and no files written.
 - **Why not search in Luau:** Noctalia gives each script callback 25 ms of CPU time, too little to parse about 3000 rows, so the search runs in a helper process (about 20 ms per query).

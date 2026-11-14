@@ -1,7 +1,7 @@
 --!nonstrict
--- Unicode picker launcher provider.
+-- Mathsym launcher provider.
 --
--- Type `/uni` followed by a LaTeX command name (`\alpha`, `leq`, `mathbb{R}`) or a
+-- Type `/sym` followed by a LaTeX command name (`\alpha`, `leq`, `mathbb{R}`) or a
 -- Lean 4 VS Code abbreviation (`Rightarrow`, `nat`, `<=`) to find the character;
 -- a description ("integral") or a code point (`U+2264`, `8804`); pasting a character finds
 -- its entry. Enter copies the character to the clipboard (and optionally types it).
@@ -58,14 +58,14 @@ local function noMatchHint(text)
   return "No matches", "Try a different name"
 end
 
--- `query` is the launcher text after the `/uni` prefix.
+-- `query` is the launcher text after the `/sym` prefix.
 function onQuery(query)
   local text = noctalia.string.trim(query)
   if text == "" then
     hint(
       query,
-      "Search unicode characters",
-      "LaTeX name (\\alpha, mathbb{R}), Lean abbreviation (Rightarrow), or description",
+      "Search mathematical symbols",
+      "try LaTeX name, Lean abbr., unicode number, literal symbol, or description",
       "math-symbols"
     )
     return
