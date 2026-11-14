@@ -36,6 +36,26 @@ local function hint(query, title, subtitle, glyph)
   launcher.setResults(query, { { id = "", title = title, subtitle = subtitle, glyph = glyph } })
 end
 
+-- Title and subtitle for an empty result. Numeric-looking queries get a specific hint, since
+-- "no matches" for `22` would hide that it was read as a code point and found nothing.
+local function noMatchHint(text)
+  local compact = (text:gsub("%s", "")):lower()
+  local dec = compact:match("^%d+$")
+  if dec and #dec <= 7 then
+    return "No character with code point " .. dec,
+      string.format("Decimal %s is U+%04X, which is not in the data. Type U+%s to browse code points starting with %s", dec, tonumber(dec) :: number, dec, dec)
+  end
+  local hex = compact:match("^u%+(%x+)$") or compact:match("^0x(%x+)$") or compact:match("^\\u(%x+)$")
+  if hex then
+    return "No character at U+" .. hex:upper(),
+      "Only math symbols and Lean abbreviations are included, not every unicode character"
+  end
+  if compact:match("^%x+$") then
+    return "No matches", "If you meant a code point, type U+" .. compact:upper()
+  end
+  return "No matches", "Try a different name"
+end
+
 -- `query` is the launcher text after the `/uni` prefix.
 function onQuery(query)
   local text = noctalia.string.trim(query)
@@ -73,7 +93,8 @@ function onQuery(query)
       end
     end
     if #rows == 0 then
-      hint(query, "No matches", "Try a different name", "mood-empty")
+      local title, subtitle = noMatchHint(text)
+      hint(query, title, subtitle, "mood-empty")
       return
     end
     launcher.setResults(query, rows)
