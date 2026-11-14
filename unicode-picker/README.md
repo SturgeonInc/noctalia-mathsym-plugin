@@ -12,9 +12,9 @@ Find unicode characters from the Noctalia launcher by their **LaTeX command name
 
 ## Requirements
 
-- `fzf` on `PATH` (search and ranking).
+- `python3` on `PATH` (standard library only; the search and ranking run in `search.py`).
 - `wtype` on `PATH`, only for the optional **Paste After Copy** setting. A Wayland compositor that supports the virtual-keyboard protocol is needed for it.
-- A POSIX `sh`, `awk`, `tr` and `sleep` (present on any Linux system). `sleep` is given a fractional number of seconds, which GNU, BSD and busybox accept.
+- `sh` and `sleep`, only for the optional **Paste After Copy** setting. `sleep` is given a fractional number of seconds, which GNU, BSD and busybox accept.
 
 ## Usage
 
@@ -38,7 +38,7 @@ Code points: the last search pass matches the digits you type against code point
 
 Pasting a non-ASCII character looks it up directly and ranks first; a name can't be non-ASCII, so there is no ambiguity. Single ASCII characters like `<` stay ordinary name queries.
 
-Ranking: name matches that are an exact, case-sensitive substring come first (Lean's input method is case-sensitive: `\Go` is ω, `\go` is not), then fuzzy case-insensitive name matches, then description matches, then code points. Within each group, fzf's score decides, and shorter names win ties.
+Ranking: name matches that are an exact, case-sensitive substring come first (Lean's input method is case-sensitive: `\Go` is ω, `\go` is not), then fuzzy case-insensitive name matches, then description matches, then code points. Within each group the order follows fzf's scoring (this plugin used fzf before; the matcher reproduces its bonuses for word boundaries and consecutive characters), and shorter names win ties.
 
 ## Settings
 
@@ -52,6 +52,6 @@ Noctalia's global `auto_paste` launcher setting only applies to built-in provide
 
 ## Notes
 
-- **Processes spawned:** on every query, `sh search.sh`, which runs `fzf` (up to four times), `tr`, `cat` and `awk`. With `paste_after_copy`, `sh -c 'sleep …; exec wtype …'` once per activation. No network access and no files written.
-- **Why not search in Luau:** Noctalia gives each script callback 25 ms of CPU time, too little to parse about 3000 rows, so the search runs in a helper process (about 15 ms per query).
+- **Processes spawned:** `python3 -I -S search.py` once per query. With `paste_after_copy`, `sh -c 'sleep …; exec wtype …'` once per activation. No network access and no files written.
+- **Why not search in Luau:** Noctalia gives each script callback 25 ms of CPU time, too little to parse about 3000 rows, so the search runs in a helper process (about 20 ms per query).
 - **Data:** `data.tsv`, `names.tsv`, `desc.tsv`, `codes_hex.tsv` and `codes_dec.tsv` are generated from the sources by `tools/build_data.py` in the source repository (not needed at runtime). Sources: `unicode-math-table.tex` from the LaTeX `unicode-math` package (LPPL), with `\mathbb{X}`-style aliases derived from its `\BbbX`, `\mbfX`, … names, and the Lean 4 VS Code abbreviation table from [leanprover/vscode-lean4](https://github.com/leanprover/vscode-lean4) (Apache-2.0).

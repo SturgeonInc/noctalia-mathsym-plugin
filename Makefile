@@ -27,23 +27,23 @@ install:
 uninstall:
 	rm -rf "$(DEST)"
 
-# Sanity checks: row shapes, and the top search hit for a few known queries (runs search.sh, needs fzf).
+# Sanity checks: row shapes, and the top search hit for a few known queries (runs search.py).
 check:
 	@awk -F'\t' 'NF != 3 { print "bad data.tsv row " NR; bad = 1 } END { exit bad }' $(PLUGIN)/data.tsv
 	@awk -F'\t' 'NF != 2 { print "bad names/desc row " NR; bad = 1 } END { exit bad }' $(PLUGIN)/names.tsv $(PLUGIN)/desc.tsv $(PLUGIN)/codes_hex.tsv $(PLUGIN)/codes_dec.tsv
 	@printf '%s\n' 'alpha|α' 'leq|≤' 'le|≤' 'mathbb{R}|ℝ' 'Nat|ℕ' 'Rightarrow|⇒' 'rightarrow|→' 'to|→' \
 	    'lnot|¬' 'Go|ω' 'go|⊢' '<=|≤' 'greek lambda|λ' 'r|→' \
 	    'U+2264|≤' 'u+2264|≤' '0x2264|≤' '\u2264|≤' 'U+226|≠' '2264|≤' '8804|≤' '945|α' '∀|∀' 'ℝ|ℝ' 'λ|λ' | while IFS='|' read -r query want; do \
-	  got=$$(sh $(PLUGIN)/search.sh "$(CURDIR)/$(PLUGIN)" "$$query" | head -n 1 | cut -f2); \
+	  got=$$(python3 -I -S $(PLUGIN)/search.py "$(CURDIR)/$(PLUGIN)" "$$query" | head -n 1 | cut -f2); \
 	  [ "$$got" = "$$want" ] || { echo "'$$query': want $$want, got $$got"; exit 1; }; \
 	done
 	@echo "data ok"
 
-# Static checks: shellcheck on the search script, luau-analyze on the entry script (the host-injected
-# globals noctalia/launcher are unknown to it, so those reports are filtered), manifest and
-# translations parse. For full API checking use luau-lsp with the official noctalia.d.luau.
+# Static checks: both Python scripts and the entry script parse (luau-analyze reports the host-injected
+# globals noctalia/launcher as unknown, so those lines are filtered), manifest and translations parse.
+# For full API checking use luau-lsp with the official noctalia.d.luau.
 lint:
-	shellcheck -s sh $(PLUGIN)/search.sh
+	@python3 -I -c "import ast; [ast.parse(open(f).read(), f) for f in ('$(PLUGIN)/search.py', 'tools/build_data.py')]"
 	@luau-analyze $(PLUGIN)/unicode.luau 2>&1 | grep -v -E "Unknown global '(noctalia|launcher)'|FunctionUnused: Function 'on(Query|Activate)'" || true
 	@python3 -I -c "import json, tomllib; tomllib.load(open('$(PLUGIN)/plugin.toml', 'rb')); json.load(open('$(PLUGIN)/translations/en.json'))"
-	@python3 -I -c "import ast; ast.parse(open('tools/build_data.py').read())" && echo "lint ok"
+	@echo "lint ok"
