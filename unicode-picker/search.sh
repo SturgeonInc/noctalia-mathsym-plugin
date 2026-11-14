@@ -9,6 +9,9 @@
 # ambiguous with names (`ae` is a Lean name, `1` is too), so they are the weakest tier: bare hex of
 # 4-6 digits and bare decimal are looked up exactly and appended after the 50 ranked results.
 #
+# A prefix lookup like `U+2` matches over a thousand characters, so it is capped at 100 rows
+# (type more digits to narrow it); name/description results are capped at 50.
+#
 # Names and descriptions are three fzf passes whose outputs are concatenated and de-duplicated:
 #   1. names, case-sensitive exact substring. Lean's input method is case-sensitive (`\Go` is
 #      omega, `\go` is not), so a hit that differs only in case must not beat e.g. `goal`.
@@ -28,9 +31,10 @@ unset FZF_DEFAULT_COMMAND
 code_tag=$(printf '\001')
 
 # Read "key<TAB>row" lines (row = line of data.tsv); print ranked, de-duplicated display rows.
-# Lines tagged with $code_tag are appended past the cap of 50.
+# Prints at most $1 rows. With EXEMPT=1 ($2), lines tagged with $code_tag go past that cap (the
+# weakest-tier number lookups must not be pushed out by fuzzy hits).
 join_rows() {
-    awk -F'\t' -v data="$dir/data.tsv" -v tag="$code_tag" '
+    awk -F'\t' -v data="$dir/data.tsv" -v tag="$code_tag" -v cap="$1" -v exempt="$2" '
         BEGIN {
             while ((getline line < data) > 0) {
                 n++
@@ -39,7 +43,7 @@ join_rows() {
             }
         }
         !seen[$2]++ {
-            if ($1 != tag && rank >= 50) next
+            if (!(exempt && $1 == tag) && rank >= cap) next
             rank++
             print rank "\t" char[$2] "\t" title[$2] "\t" subtitle[$2]
         }'
@@ -78,7 +82,7 @@ case $digits in
     '' | *[!0-9a-f]*) ;;
     *)
         # Exact code point first, then the code points that start with these digits.
-        code_rows "$(canon_hex "$digits")" "" "$(printf '%s' "$digits" | tr 'a-f' 'A-F')" | join_rows
+        code_rows "$(canon_hex "$digits")" "" "$(printf '%s' "$digits" | tr 'a-f' 'A-F')" | join_rows 100 0
         exit 0
         ;;
 esac
@@ -120,4 +124,4 @@ fz() {
     if [ -n "$bare_hex$bare_dec" ]; then
         code_rows "$bare_hex" "$bare_dec" ""
     fi
-} | join_rows
+} | join_rows 50 1
