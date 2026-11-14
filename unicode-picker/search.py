@@ -2,7 +2,9 @@
 """Search data.tsv; print launcher rows as JSON. Usage: search.py DATA_DIR QUERY
 
 Run via noctalia.runAsync from unicode.luau, since Luau callbacks only get a 25 ms CPU budget.
-Rank: case-sensitive exact > case-insensitive exact > prefix > substring > description words.
+Rank: case-sensitive exact > short prefix > case-insensitive exact > longer prefix > substring > description
+words. (Lean's input method is case-sensitive: `\\Go` is omega but `\\go` is not, so a match that
+differs only in case is a fallback and must not beat e.g. `goal`.)
 """
 import json
 import re
@@ -42,7 +44,7 @@ def main():
             if name == token:
                 score = 1000
             elif low == tl:
-                score = 900
+                score = 650
             elif low.startswith(tl):
                 score = 700 - min(len(low) - len(tl), 99)
             else:
