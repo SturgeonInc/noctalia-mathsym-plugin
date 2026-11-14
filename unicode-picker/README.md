@@ -29,11 +29,14 @@ Type `/uni` and a name. The leading backslash is optional and braces and spaces 
 | `integral`, `greek lambda` | description search |
 | `rghtarrw` | → (fuzzy, tolerates typos) |
 | `U+2264`, `0x2264`, `\u2264`, `2264`, `8804` | ≤ by code point (hex or decimal) |
+| `∀` (paste a character) | its entry, then entries starting with it (`∀ᵐ`, `∀ᶠ`) |
 | `U+226` | code points containing 226, those starting with it first (the 226x block) |
 
 Each result shows its LaTeX names, its Lean names (typed with a leading `\` in VS Code), its description and its code point. Enter copies the character to the clipboard.
 
 Code points: the last search pass matches the digits you type against code points, as exact substrings of the hex form (`2264`) or the decimal form (`8804`). A leading `U+`, `u+`, `0x` or `\u` is dropped and means hex only (so `U+226` browses the 226x block and does not pick up decimal 226). Without a prefix, hex and decimal are searched together, shorter numbers first. Only characters in the plugin's data (math symbols and Lean abbreviations) can match. This pass is the weakest on purpose: bare numbers are ambiguous with names (`ae` and `1` are Lean names), so it never ranks above a name or description match.
+
+Pasting a non-ASCII character looks it up directly and ranks first; a name can't be non-ASCII, so there is no ambiguity. Single ASCII characters like `<` stay ordinary name queries.
 
 Ranking: name matches that are an exact, case-sensitive substring come first (Lean's input method is case-sensitive: `\Go` is ω, `\go` is not), then fuzzy case-insensitive name matches, then description matches, then code points. Within each group, fzf's score decides, and shorter names win ties.
 
