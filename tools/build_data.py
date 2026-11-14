@@ -107,10 +107,26 @@ def main():
         if not r["desc"] and len(ch) == 1:
             r["desc"] = unicodedata.name(ch, "").lower()
 
-    with out.open("w", encoding="utf8", newline="\n") as f:
+    def norm(name):
+        return re.sub(r"[\\{}\s]", "", name)
+
+    # data.tsv: display fields. names.txt: normalized, case-sensitive searchable names
+    # (tab-delimited, one line per character, same order). desc.txt: lowercase descriptions.
+    # The Luau side searches these blobs with plain string.find to stay inside the
+    # 25 ms per-callback CPU budget.
+    with out.open("w", encoding="utf8", newline="\n") as f, \
+            out.with_name("names.txt").open("w", encoding="utf8", newline="\n") as fn, \
+            out.with_name("desc.txt").open("w", encoding="utf8", newline="\n") as fd:
         for ch in sorted(rows):
             r = rows[ch]
             f.write("\t".join([ch, " ".join(r["latex"]), " ".join(r["lean"]), r["desc"], r["cls"]]) + "\n")
+            names = []
+            for n in r["latex"] + r["lean"]:
+                n = norm(n)
+                if n and n not in names:
+                    names.append(n)
+            fn.write("\t" + "".join(n + "\t" for n in names) + "\n")
+            fd.write(r["desc"].lower() + "\n")
     print("%d characters -> %s" % (len(rows), out))
 
 

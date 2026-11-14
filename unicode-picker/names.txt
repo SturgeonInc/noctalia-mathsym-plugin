@@ -1,0 +1,2872 @@
+	mathexclam	
+	mathoctothorpe	
+	mathdollar	
+	mathpercent	
+	mathampersand	
+	lparen	
+	rparen	
+	mathplus	
+	mathcomma	
+	mathperiod	
+	mathslash	
+	mathcolon	
+	mathsemicolon	
+	less	
+	equal	
+	greater	
+	mathquestion	
+	mathatsign	
+	lbrack	
+	backslash	setminus	
+	n	
+	rbrack	
+	lbrace	
+	vert	
+	rbrace	
+	r!	
+	cent	
+	mathsterling	pounds	pound	
+	currency	
+	mathyen	yen	
+	brokenbar	
+	mathsection	section	
+	copyright	
+	ordfeminine	^a_	
+	f<<	flqq	
+	neg	lnot	!	not	
+	circledR	registered	
+	degree	
+	pm	
+	^2	
+	^3	
+	textmu	micro	
+	mathparagraph	paragraph	pilcrow	
+	cdotp	centerdot	.	dot	cdot	
+	^1	
+	ordmasculine	^o_	
+	f>>	frqq	
+	frac14	frac	
+	frac12	
+	frac34	
+	?	
+	`A	
+	'A	
+	^A	
+	~A	
+	"A	
+	AA	
+	AE	
+	cC	
+	`E	
+	'E	
+	^E	
+	"E	
+	`I	
+	'I	
+	^I	
+	"I	
+	DH	
+	~N	
+	`O	
+	'O	
+	^O	
+	~O	
+	"O	
+	times	x	multiplication	
+	xs	
+	xf	
+	O	/O	
+	`U	
+	'U	
+	^U	
+	"U	
+	'Y	
+	TH	
+	`a	
+	'a	
+	^a	
+	~a	
+	"a	
+	aa	
+	ae	
+	cc	
+	`e	
+	'e	
+	^e	
+	"e	
+	`i	
+	'i	
+	^i	
+	"i	
+	matheth	dh	
+	~n	
+	`o	
+	'o	
+	^o	
+	~o	
+	"o	
+	div	division	
+	/o	
+	`u	
+	'u	
+	^u	
+	"u	
+	'y	
+	"y	
+	-A	
+	-a	
+	vC	
+	vc	
+	vD	
+	vd	
+	-E	
+	-e	
+	vE	
+	ve	
+	-I	
+	-i	
+	kI	
+	ki	
+	imath	
+	/L	
+	-O	
+	-o	
+	OE	
+	oe	
+	-U	
+	-u	
+	Gl-	
+	Zbar	
+	ce	
+	^h	
+	^hhook	^hwithhook	
+	^j	
+	^r	
+	^turnedr	
+	^turnedrhook	^turnedrwithhook	
+	^Rinverted	
+	^w	
+	^y	
+	^gamma	
+	^l	
+	^s	
+	^x	
+	^stop	
+	grave	
+	acute	
+	hat	widehat	
+	tilde	widetilde	
+	bar	
+	overbar	wideoverbar	
+	breve	widebreve	
+	dot	
+	ddot	
+	ovhook	
+	ocirc	
+	check	widecheck	
+	candra	
+	oturnedcomma	
+	ocommatopright	
+	droang	
+	wideutilde	
+	mathunderbar	
+	notaccent	
+	underleftrightarrow	
+	Heta	
+	heta	
+	Yot	
+	mupAlpha	Alpha	GA	
+	mupBeta	Beta	GB	
+	mupGamma	Gamma	G	GG	
+	mupDelta	Delta	D	GD	
+	mupEpsilon	Epsilon	GE	
+	mupZeta	Zeta	GZ	
+	mupEta	Eta	
+	mupTheta	Theta	GTH	
+	mupIota	Iota	GI	
+	mupKappa	Kappa	GK	
+	mupLambda	Lambda	L	GL	Lamda	
+	mupMu	Mu	GM	
+	mupNu	Nu	GN	
+	mupXi	Xi	GX	
+	mupOmicron	Omicron	
+	mupPi	Pi	p	P	
+	Pi0	P0	Pi_0	P_0	
+	mupRho	Rho	GR	
+	mupSigma	Sigma	S	GS	
+	mupTau	Tau	GT	
+	mupUpsilon	Upsilon	GU	
+	mupPhi	Phi	GF	
+	mupChi	Chi	GC	
+	mupPsi	Psi	GP	
+	mupOmega	Omega	GO	
+	mupalpha	alpha	a	Ga	
+	mupbeta	beta	b	be	Gb	
+	mupgamma	gamma	g	ga	Gg	
+	mupdelta	delta	de	Gd	
+	mupvarepsilon	varepsilon	e	ep	epsilon	eps	Ge	
+	mupzeta	zeta	ze	Gz	
+	mupeta	eta	et	
+	muptheta	theta	th	Gth	
+	mupiota	iota	io	Gi	
+	mupkappa	kappa	ka	Gk	
+	muplambda	lambda	la	lamda	lam	Gl	fun	
+	mupmu	mu	m	Gm	
+	mupnu	nu	Gn	
+	mupxi	xi	Gx	
+	mupomicron	omicron	
+	muppi	pi	
+	muprho	rho	rh	Gr	
+	mupvarsigma	varsigma	vsi	
+	mupsigma	sigma	si	Gs	
+	muptau	tau	ta	Gt	
+	mupupsilon	upsilon	Gu	
+	mupvarphi	varphi	ph	phi	straightphi	Gf	
+	mupchi	chi	c	ch	Gc	
+	muppsi	psi	ps	Gp	
+	mupomega	omega	om	Go	
+	varbeta	
+	mupvartheta	vartheta	
+	mupphi	straightphi	phi	varphi	
+	mupvarpi	varpi	
+	varkai	
+	Stigma	
+	stigma	
+	upDigamma	Digamma	
+	updigamma	digamma	
+	Koppa	
+	koppa	
+	Sampi	
+	sampi	
+	Shei	
+	shei	
+	Fei	
+	fei	
+	Khei	
+	khei	
+	Hori	
+	hori	
+	Gangia	
+	gangia	
+	Shima	
+	shima	
+	Dei	
+	dei	
+	mupvarkappa	varkappa	
+	mupvarrho	varrho	
+	mupvarTheta	varTheta	
+	mupepsilon	epsilon	
+	upbackepsilon	
+	Sho	
+	sho	
+	San	
+	san	
+	textbaht	
+	^perp	^bot	
+	^A	
+	^Ae	
+	^B	
+	^Bbarred	
+	^D	
+	^E	
+	^Ereversed	
+	^G	
+	^H	
+	^I	
+	^J	
+	^K	
+	^L	
+	^M	
+	^N	
+	^Nreversed	
+	^O	
+	^Ou	
+	^P	
+	^R	
+	^T	
+	^U	
+	^W	
+	^a	
+	addopposite	aop	
+	^turneda	
+	^alpha	
+	^turnedae	
+	^b	
+	^d	
+	^e	
+	^schwa	
+	^eopen	
+	^turnede	
+	^g	
+	^turnedi	
+	^k	
+	^m	
+	mulopposite	mop	
+	^eng	
+	^o	
+	od	orderdual	
+	opposite	op	
+	^oopen	
+	^otop	
+	^obottom	
+	^p	
+	^t	
+	^u	
+	^usideways	
+	^turnedm	
+	^v	
+	^ain	
+	^beta	
+	^vargamma	
+	^varphi	
+	^chi	
+	_i	
+	_r	
+	_u	
+	_v	
+	^turnedalpha	
+	compl	complement	^c	
+	^ccurl	
+	^eth	
+	^ereversedopen	
+	^f	
+	^gscript	
+	^turnedh	
+	^istroke	
+	^iota	
+	^Ismall	
+	^Istroke	
+	^jtail	
+	^lretroflexhook	
+	^lhook	
+	^Lsmall	
+	^mhook	
+	^turnedmleg	
+	^nlefthook	
+	^nretroflexhook	
+	^Nsmall	
+	^obarred	
+	^phi	
+	^shook	
+	^esh	
+	^twithpalatalhook	
+	^ubar	
+	^upsilon	
+	^Usmall	
+	^vhook	
+	^turnedv	
+	^z	
+	^zretroflexhook	
+	^zcurl	
+	^ezh	
+	^theta	
+	mathhyphen	
+	en	
+	em	
+	horizbar	
+	Vert	||	fuzzy	
+	twolowline	
+	lq	grq	
+	rq	
+	glq	
+	ldq	grqq	
+	rdq	
+	glqq	
+	dagger	dag	
+	ddagger	ddag	
+	smblkcircle	bullet	smul	bub	bu	
+	but	
+	enleadertwodots	
+	unicodeellipsis	ldots	
+	permil	
+	textpertenthousand	
+	prime	varprime	
+	dprime	
+	trprime	
+	backprime	
+	backdprime	
+	backtrprime	
+	caretinsert	
+	f<	flq	
+	f>	frq	
+	textreferencemark	
+	Exclam	!!	
+	textinterrobang	?!	
+	undertie	
+	tieconcat	tie	
+	hyphenbullet	
+	fracslash	textfractionsolidus	
+	textlquill	liel	bracketl	[-	
+	textrquill	lier	-]	bracketr	
+	Question	??	
+	!?	
+	asterisk	
+	closure	
+	textdiscount	
+	qprime	
+	^0	
+	^i	
+	^4	
+	^5	
+	^6	
+	^7	
+	^8	
+	^9	
+	^+	
+	^-	
+	-2	
+	-3	
+	-	inv	-1	^-1	sy	
+	preim	preimage	
+	^=	
+	^(	
+	^)	
+	^n	
+	0	_0	
+	1	_1	
+	2	_2	
+	3	_3	
+	4	_4	
+	5	_5	
+	6	_6	
+	7	_7	
+	8	_8	
+	9	_9	
+	_+	
+	_-	
+	_=	
+	_(	
+	_)	
+	_a	
+	_e	
+	_o	
+	_x	
+	_h	
+	_k	
+	_l	
+	_m	
+	_n	
+	_p	
+	_s	
+	_t	
+	_w	
+	_y	
+	_z	
+	textcolonmonetary	colon	
+	cruzeiro	
+	textlira	lira	
+	mill	
+	naira	textnaira	
+	peseta	
+	rupee	
+	textwon	won	
+	dong	
+	euro	
+	kip	
+	tugrik	
+	drachma	
+	textpeso	peso	
+	guarani	
+	austral	
+	hryvnia	
+	cedi	
+	spesmilo	
+	tenge	
+	manat	
+	ruble	
+	lari	
+	leftharpoonaccent	overleftharpoon	
+	rightharpoonaccent	overrightharpoon	
+	vertoverlay	
+	overleftarrow	
+	overrightarrow	vec	
+	dddot	
+	ddddot	
+	enclosecircle	
+	enclosesquare	
+	enclosediamond	
+	overleftrightarrow	
+	enclosetriangle	
+	annuity	
+	threeunderdot	
+	widebridgeabove	
+	underrightharpoondown	
+	underleftharpoondown	
+	underleftarrow	
+	underrightarrow	
+	asteraccent	
+	BbbC	mathbbC	C	Com	com	bc	bbC	
+	celsius	
+	Eulerconst	
+	mscrg	mathscrg	mathcalg	Mcg	
+	mscrH	mathscrH	mathcalH	McH	
+	mfrakH	mathfrakH	MfH	
+	BbbH	mathbbH	H	bbH	
+	Planckconst	
+	hslash	hbar	
+	mscrI	mathscrI	mathcalI	McI	
+	Im	MfI	
+	mscrL	mathscrL	mathcalL	McL	
+	ell	
+	BbbN	mathbbN	N	nat	bn	Nat	bbN	
+	enat	
+	numero	textnumero	
+	textcircledP	
+	wp	
+	BbbP	mathbbP	bp	bbP	
+	BbbQ	mathbbQ	Q	bq	rat	Rat	bbQ	
+	mscrR	mathscrR	mathcalR	McR	
+	Re	MfR	
+	BbbR	mathbbR	R	br	real	Real	bbR	
+	Rge0	R>=0	nnreal	
+	textrecipe	
+	^SM	
+	telephone	^TEL	
+	^TM	
+	BbbZ	mathbbZ	Z	int	Int	bz	bbZ	
+	Zsqrt	zsqrtd	
+	ounce	
+	ohm	
+	mho	
+	mfrakZ	mathfrakZ	MfZ	
+	turnediota	
+	kelvin	
+	Angstrom	angstrom	
+	mscrB	mathscrB	mathcalB	McB	
+	mfrakC	mathfrakC	MfC	
+	textestimated	
+	mscre	mathscre	mathcale	Mce	
+	mscrE	mathscrE	mathcalE	McE	
+	mscrF	mathscrF	mathcalF	McF	
+	Finv	
+	mscrM	mathscrM	mathcalM	McM	
+	mscro	mathscro	mathcalo	Mco	
+	aleph	
+	aleph0	
+	beth	
+	gimel	
+	daleth	
+	facsimile	
+	Bbbpi	mathbbpi	
+	Bbbgamma	mathbbgamma	
+	BbbGamma	
+	BbbPi	
+	Bbbsum	mathbbsum	bsum	
+	Game	
+	sansLturned	
+	sansLmirrored	
+	Yup	
+	mitBbbD	
+	mitBbbd	
+	mitBbbe	
+	mitBbbi	
+	mitBbbj	
+	PropertyLine	
+	upand	&	
+	per	
+	frac13	
+	frac23	
+	frac15	
+	frac25	
+	frac35	
+	frac45	
+	frac16	
+	frac56	
+	frac18	
+	frac38	
+	frac58	
+	frac78	
+	frac1	
+	leftarrow	gets	l	l-	<-	
+	uparrow	u	coe	u-	
+	rightarrow	to	r	imp	->	r-	
+	tob	rb	to^b	r^b	boundedcontinuousfunction	
+	to0	r0	to_0	r_0	finsupp	
+	to1	r1	to_1	r_1	l1	
+	to1s	r1s	to_1s	r_1s	l1simplefunc	
+	toa	ra	to_a	r_a	alghom	
+	tol	rl	to_l	r_l	linearmap	
+	tom	rm	to_m	r_m	aeeqfun	
+	rp	to_p	r_p	dfinsupp	
+	tos	rs	to_s	r_s	simplefunc	
+	tosl	rsl	to_sl	r_sl	semilinearmap	
+	downarrow	d	d-	
+	leftrightarrow	iff	lr-	lr	<->	
+	updownarrow	ud-	ud	
+	nwarrow	ul-	ul	
+	nearrow	ur-	ur	
+	searrow	dr-	dr	
+	swarrow	dl-	dl	
+	nleftarrow	l-n	<-n	
+	nrightarrow	->n	r-n	
+	leftwavearrow	l~	
+	rightwavearrow	leadsto	r~	
+	twoheadleftarrow	ll-	
+	twoheaduparrow	uu-	
+	twoheadrightarrow	rr-	
+	twoheaddownarrow	dd-	
+	leftarrowtail	l->	
+	rightarrowtail	pr	r->	
+	mapsfrom	l-|	
+	mapsup	u-|	
+	mapsto	ma	|->	r-|	
+	mapsdown	d-|	
+	updownarrowbar	ud-|	
+	hookleftarrow	
+	hookrightarrow	
+	looparrowleft	
+	looparrowright	
+	leftrightsquigarrow	lr~	
+	nleftrightarrow	lr-n	<->n	
+	downzigzagarrow	dz	
+	Lsh	lsh	
+	Rsh	rsh	
+	Ldsh	
+	Rdsh	
+	linefeed	
+	carriagereturn	
+	curvearrowleft	
+	curvearrowright	
+	barovernorthwestarrow	
+	barleftarrowrightarrowbar	
+	acwopencirclearrow	circlearrowleft	
+	cwopencirclearrow	circlearrowright	
+	leftharpoonup	
+	leftharpoondown	
+	upharpoonright	restriction	uprightharpoon	
+	upharpoonleft	upleftharpoon	
+	rightharpoonup	
+	rightharpoondown	
+	downharpoonright	downrightharpoon	
+	downharpoonleft	downleftharpoon	
+	rightleftarrows	r-l-	
+	updownarrows	u-d-	
+	leftrightarrows	l-r-	
+	leftleftarrows	l-2	
+	upuparrows	u-2	
+	rightrightarrows	r-2	
+	downdownarrows	d-2	
+	leftrightharpoons	
+	rightleftharpoons	
+	nLeftarrow	l=n	
+	nLeftrightarrow	lr=n	<=>n	
+	nRightarrow	=>n	r=n	
+	Leftarrow	l=	Longleftarrow	
+	Uparrow	u=	
+	Rightarrow	=>	Longrightarrow	r=	
+	Downarrow	d=	
+	Leftrightarrow	lr=	<=>	Longleftrightarrow	bihimp	
+	Updownarrow	ud=	
+	Nwarrow	ul=	
+	Nearrow	ur=	
+	Searrow	dr=	
+	Swarrow	dl=	
+	Lleftarrow	l==	
+	Rrightarrow	r==	
+	leftsquigarrow	
+	rightsquigarrow	squigarrowright	
+	nHuparrow	
+	nHdownarrow	
+	leftdasharrow	
+	updasharrow	
+	rightdasharrow	
+	downdasharrow	
+	barleftarrow	
+	rightarrowbar	
+	leftwhitearrow	
+	upwhitearrow	
+	rightwhitearrow	heyting	himp	
+	downwhitearrow	
+	whitearrowupfrombar	
+	|=>	
+	circleonrightarrow	
+	downuparrows	d-u-	
+	rightthreearrows	r-3	
+	nvleftarrow	
+	nvrightarrow	
+	nvleftrightarrow	
+	nVleftarrow	
+	nVrightarrow	
+	nVleftrightarrow	
+	leftarrowtriangle	
+	rightarrowtriangle	
+	leftrightarrowtriangle	
+	forall	all	
+	allm	all^m	
+	allf	all^f	
+	complement	complementprefix	Complement	
+	partial	pd	
+	exists	ex	
+	exf	
+	nexists	exn	
+	varnothing	emptyset	empty	
+	increment	symmdiff	
+	nabla	
+	in	member	mem	
+	notin	nin	inn	
+	smallin	
+	ni	
+	nni	
+	smallni	ni	owns	backepsilon	
+	QED	qed	
+	prod	
+	finprod	
+	coprod	amalg	smallamalg	bigcoprod	sigmaobj	
+	sum	
+	finsum	
+	minus	
+	mp	
+	dotplus	.+	
+	divslash	
+	setminus	smallsetminus	
+	ast	
+	vysmwhtcircle	o	comp	circ	
+	o*	
+	vysmblkcircle	span	
+	sqrt	surd	root	
+	cuberoot	surd3	
+	fourthroot	surd4	
+	propto	varpropto	
+	infty	
+	rightangle	
+	angle	
+	measuredangle	
+	sphericalangle	
+	mid	|	dvd	shortmid	
+	nmid	nshortmid	|n	
+	parallel	
+	nparallel	
+	wedge	land	and	an	
+	vee	lor	v	or	
+	cap	i	inter	intersection	
+	cup	union	un	
+	int	integral	
+	iint	
+	iiint	
+	oint	
+	oiint	tint	
+	oiiint	
+	intclockwise	
+	varointclockwise	
+	ointctrclockwise	
+	therefore	
+	because	
+	mathratio	:	
+	Colon	::	
+	dotminus	.-	
+	dashcolon	-:	
+	dotsminusdots	::-	
+	kernelcontraction	:~	
+	sim	~	homotopy	thicksim	
+	backsim	
+	invlazys	
+	sinewave	
+	wr	
+	nsim	~n	
+	eqsim	-~	
+	simeq	sime	equiv	~-	
+	nsime	nsimeq	~-n	
+	cong	iso	~=	
+	simneqq	
+	ncong	~=n	
+	approx	~~	thickapprox	
+	napprox	~~n	
+	approxeq	~~-	
+	approxident	~~~	
+	backcong	
+	asymp	heq	
+	Bumpeq	
+	bumpeq	
+	doteq	.=	
+	Doteq	doteqdot	doteq	.=.	
+	fallingdotseq	
+	risingdotseq	
+	coloneq	:=	
+	eqcolon	=:	
+	eqcirc	
+	circeq	=o	
+	arceq	(=	
+	wedgeq	and=	defs	
+	veeeq	or=	
+	stareq	*=	
+	triangleq	t=	
+	eqdef	def=	
+	measeq	m=	
+	questeq	?=	
+	ne	neq	eqn	=n	
+	equiv	==	
+	nequiv	==n	
+	Equiv	===	
+	leq	le	leqslant	<=	
+	geq	ge	geqslant	>=	
+	leqq	
+	geqq	
+	lneqq	lneq	lvertneqq	
+	gneqq	gneq	gvertneqq	
+	ll	
+	gg	
+	between	
+	nasymp	
+	nless	notlt	
+	ngtr	>n	
+	nleq	nleqq	nleqslant	leqn	len	<=n	
+	ngeq	ngeqq	ngeqslant	geqn	gen	>=n	
+	lesssim	lessapprox	<~	
+	gtrsim	gtrapprox	>~	
+	nlesssim	<~nn	
+	ngtrsim	>~nn	
+	lessgtr	
+	gtrless	
+	nlessgtr	
+	ngtrless	
+	prec	
+	succ	
+	preccurlyeq	preceq	curlypreceq	
+	succcurlyeq	succeq	
+	precsim	precapprox	
+	succsim	succapprox	
+	nprec	
+	nsucc	
+	subset	ssub	ssubset	
+	supset	ssup	ssupset	
+	nsubset	ssubn	
+	nsupset	ssupn	
+	subseteq	ss	subseteqq	subset	sub	
+	supseteq	supseteqq	supset	
+	nsubseteq	nsubseteqq	subn	
+	nsupseteq	nsupseteqq	supn	
+	subsetneq	subsetneqq	
+	supsetneq	supsetneqq	
+	cupleftarrow	
+	cupdot	u.	
+	uplus	u+	
+	sqsubset	ssqub	
+	sqsupset	ssqup	
+	sqsubseteq	squb	
+	sqsupseteq	squp	
+	sqcap	inf	meet	glb	
+	sqcup	lub	sup	join	
+	oplus	o+	
+	ominus	o--	
+	otimes	ox	tensorproduct	
+	oslash	o/	
+	odot	o.	
+	circledcirc	oo	
+	circledast	
+	circledequal	o=	
+	circleddash	o-	
+	boxplus	b+	
+	boxminus	b-	
+	boxtimes	bx	
+	boxdot	dotsquare	b.	
+	vdash	entails	|-	goal	
+	dashv	-|	
+	top	
+	bot	
+	assert	
+	models	
+	vDash	|=	
+	Vdash	||-	
+	Vvdash	|||-	
+	VDash	||=	
+	nvdash	|-n	
+	nvDash	|=n	
+	nVdash	||-n	
+	nVDash	||=n	
+	prurel	
+	scurel	
+	vartriangleleft	
+	vartriangleright	
+	trianglelefteq	
+	trianglerighteq	
+	origof	
+	imageof	
+	multimap	-o	r-o	
+	hermitmatrix	
+	intercal	
+	veebar	
+	barwedge	
+	barvee	
+	measuredrightangle	
+	varlrtriangle	
+	bigwedge	And	
+	bigvee	Or	
+	bigcap	I	Inter	bInter	
+	I0	sInter	
+	bigcup	U	Un	Union	bUnion	
+	U0	sUnion	
+	smwhtdiamond	diamond	
+	cdot	
+	star	*	st	
+	divideontimes	
+	bowtie	
+	ltimes	
+	rtimes	
+	leftthreetimes	
+	rightthreetimes	
+	backsimeq	
+	curlyvee	
+	curlywedge	
+	Subset	
+	Supset	
+	Cap	cap	doublecap	
+	Cup	cup	doublecup	
+	pitchfork	
+	equalparallel	
+	lessdot	covers	covby	<:	
+	gtrdot	:>	
+	lll	ll	llless	Ll	
+	ggg	gg	gggtr	
+	lesseqgtr	lesseqqgtr	
+	gtreqless	gtreqqless	
+	eqless	eqslantless	
+	eqgtr	eqslantgtr	
+	curlyeqprec	
+	curlyeqsucc	
+	npreccurlyeq	npreceq	
+	nsucccurlyeq	nsucceq	
+	nsqsubseteq	squbn	
+	nsqsupseteq	squpn	
+	sqsubsetneq	
+	sqsupsetneq	
+	lnsim	lnapprox	<~n	
+	gnsim	gnapprox	>~n	
+	precnsim	precnapprox	
+	succnsim	succnapprox	
+	nvartriangleleft	ntriangleleft	
+	nvartriangleright	ntriangleright	
+	ntrianglelefteq	
+	ntrianglerighteq	
+	vdots	
+	unicodecdots	...	cdots	
+	adots	
+	ddots	
+	disin	
+	varisins	
+	isins	
+	isindot	
+	varisinobar	
+	isinobar	
+	isinvb	
+	isinE	
+	nisd	
+	varnis	
+	nis	
+	varniobar	
+	niobar	
+	bagmember	
+	diameter	
+	house	
+	varbarwedge	barwedge	
+	vardoublebarwedge	doublebarwedge	
+	lceil	cuL	
+	rceil	cuR	
+	lfloor	clL	
+	rfloor	clR	
+	invnot	
+	sqlozenge	
+	profline	
+	profsurf	
+	viewdata	
+	turnednot	
+	ulcorner	cul	cu	
+	urcorner	cur	
+	llcorner	cll	cl	
+	lrcorner	clr	
+	inttop	
+	intbottom	
+	frown	
+	smile	smallsmile	
+	varhexagonlrbonds	
+	conictaper	
+	topbot	apl	
+	obar	
+	APLnotslash	
+	APLnotbackslash	
+	APLboxupcaret	
+	O*	
+	APLboxquestion	
+	rangledownzigzagarrow	
+	hexagon	
+	lparenuend	
+	lparenextender	
+	lparenlend	
+	rparenuend	
+	rparenextender	
+	rparenlend	
+	lbrackuend	
+	lbrackextender	
+	lbracklend	
+	rbrackuend	
+	rbrackextender	
+	rbracklend	
+	lbraceuend	
+	lbracemid	
+	lbracelend	
+	vbraceextender	
+	rbraceuend	
+	rbracemid	
+	rbracelend	
+	intextender	
+	harrowextender	
+	lmoustache	
+	rmoustache	
+	sumtop	
+	sumbottom	
+	overbracket	
+	underbracket	
+	bbrktbrk	
+	sqrtbottom	
+	lvboxline	
+	rvboxline	
+	varcarriagereturn	
+	overparen	
+	underparen	
+	overbrace	
+	underbrace	
+	obrbrak	
+	ubrbrak	
+	trapezium	
+	benzenr	
+	strns	
+	fltns	
+	accurrent	
+	elinters	
+	blanksymbol	
+	mathvisiblespace	
+	circledS	
+	---	
+	--_	
+	bdtriplevdash	
+	--.	
+	--=	
+	blockuphalf	
+	blocklowhalf	
+	blockfull	
+	blocklefthalf	
+	blockrighthalf	
+	blockqtrshaded	
+	blockhalfshaded	
+	blockthreeqtrshaded	
+	mdlgblksquare	sqb	
+	mdlgwhtsquare	square	sqw	Box	
+	squoval	sqo	
+	blackinwhitesquare	sq.	
+	squarehfill	
+	squarevfill	
+	squarehvfill	
+	squarenwsefill	
+	squareneswfill	
+	squarecrossfill	
+	smblksquare	blacksquare	
+	smwhtsquare	
+	hrectangleblack	reb	re	
+	hrectangle	rew	
+	vrectangleblack	
+	vrectangle	
+	parallelogramblack	pab	pa	
+	parallelogram	paw	
+	bigblacktriangleup	
+	bigtriangleup	
+	blacktriangle	
+	vartriangle	triangle	
+	blacktriangleright	
+	triangleright	rhd	
+	smallblacktriangleright	t	rw	blacktriangleright	
+	smalltriangleright	transport	trans	triangleright	
+	blackpointerright	
+	whitepointerright	
+	bigblacktriangledown	
+	bigtriangledown	
+	blacktriangledown	
+	triangledown	
+	blacktriangleleft	Tr	Tb	
+	triangleleft	lhd	Tw	
+	smallblacktriangleleft	tb	blacktriangleleft	
+	smalltriangleleft	triangleleft	tw	
+	blackpointerleft	
+	whitepointerleft	
+	mdlgblkdiamond	dib	di	
+	mdlgwhtdiamond	diw	Diamond	
+	blackinwhitediamond	di.	
+	fisheye	
+	mdlgwhtlozenge	
+	mdlgwhtcircle	ciw	
+	dottedcircle	ci..	
+	circlevertfill	
+	bullseye	ci.	
+	mdlgblkcircle	cib	ci	
+	circlelefthalfblack	
+	circlerighthalfblack	
+	circlebottomhalfblack	
+	circletophalfblack	
+	circleurquadblack	
+	blackcircleulquadwhite	
+	blacklefthalfcircle	
+	blackrighthalfcircle	
+	inversebullet	
+	inversewhitecircle	
+	invwhiteupperhalfcircle	
+	invwhitelowerhalfcircle	
+	ularc	
+	urarc	
+	lrarc	
+	llarc	
+	topsemicircle	
+	botsemicircle	
+	lrblacktriangle	
+	llblacktriangle	
+	ulblacktriangle	
+	urblacktriangle	
+	smwhtcircle	textopenbullet	buw	
+	squareleftblack	
+	squarerightblack	
+	squareulblack	
+	squarelrblack	
+	boxbar	boxmid	hcomp	
+	trianglecdot	
+	triangleleftblack	
+	trianglerightblack	
+	lgwhtcircle	ciO	bigcirc	
+	squareulquad	
+	squarellquad	
+	squarelrquad	
+	squareurquad	
+	circleulquad	
+	circlellquad	
+	circlelrquad	
+	circleurquad	
+	ultriangle	
+	urtriangle	
+	lltriangle	
+	mdwhtsquare	
+	mdblksquare	
+	mdsmwhtsquare	
+	mdsmblksquare	sq	
+	lrtriangle	
+	bigstar	
+	bigwhitestar	
+	astrosun	
+	danger	caution	
+	radioactive	
+	biohazard	
+	Frowny	
+	Smiley	
+	blacksmiley	
+	sun	
+	rightmoon	
+	leftmoon	
+	female	
+	male	
+	spadesuit	
+	heartsuit	
+	diamondsuit	
+	clubsuit	
+	varspadesuit	
+	varheartsuit	heartsuit	
+	vardiamondsuit	
+	varclubsuit	
+	quarternote	note	
+	eighthnote	textmusicalnote	
+	twonotes	
+	flat	
+	natural	
+	sharp	#	
+	acidfree	
+	dicei	die	
+	diceii	
+	diceiii	
+	diceiv	
+	dicev	
+	dicevi	
+	circledrightdot	
+	circledtwodots	
+	blackcircledrightdot	
+	blackcircledtwodots	
+	warning	
+	Hermaphrodite	
+	mdwhtcircle	
+	mdblkcircle	
+	mdsmwhtcircle	
+	neuter	
+	scissor	
+	Letter	
+	checkmark	
+	textdied	
+	maltese	
+	st4	blacklozenge	
+	lozenge	
+	circledstar	
+	st8	
+	varstar	st6	
+	st12	
+	dingasterisk	
+	h<	
+	h>	
+	lbrbrak	
+	rbrbrak	
+	draftingarrow	
+	threedangle	
+	whiteinwhitetriangle	
+	perp	
+	subsetcirc	
+	supsetcirc	
+	lbag	(b	
+	rbag	)b	
+	veedot	
+	bsolhsub	
+	suphsol	
+	diagup	
+	longdivision	
+	diagdown	
+	diamondcdot	
+	wedgedot	
+	upin	
+	pullback	
+	pushout	
+	leftouterjoin	
+	rightouterjoin	
+	fullouterjoin	
+	bigbot	
+	bigtop	
+	DashVDash	
+	dashVdash	
+	multimapinv	
+	vlongdash	
+	longdashv	
+	cirbot	
+	lozengeminus	
+	concavediamond	
+	concavediamondtickleft	
+	concavediamondtickright	
+	whitesquaretickleft	
+	whitesquaretickright	
+	lBrack	[[	
+	rBrack	]]	
+	langle	<	
+	rangle	>	
+	lAngle	<<	
+	rAngle	>>	
+	Lbrbrak	
+	Rbrbrak	
+	lgroup	([	
+	rgroup	])	
+	UUparrow	u==	
+	DDownarrow	d==	
+	acwgapcirclearrow	
+	cwgapcirclearrow	
+	rightarrowonoplus	
+	longleftarrow	l--	<--	
+	longrightarrow	hom	-->	r--	
+	longleftrightarrow	lr--	<-->	
+	Longleftarrow	
+	Longrightarrow	nattrans	nat_trans	==>	
+	Longleftrightarrow	
+	longmapsfrom	
+	longmapsto	
+	Longmapsfrom	
+	Longmapsto	
+	longrightsquigarrow	
+	nvtwoheadrightarrow	
+	nVtwoheadrightarrow	
+	nvLeftarrow	
+	nvRightarrow	
+	nvLeftrightarrow	
+	twoheadmapsto	
+	Mapsfrom	
+	Mapsto	
+	downarrowbarred	
+	uparrowbarred	
+	Uuparrow	
+	Ddownarrow	
+	leftbkarrow	
+	rightbkarrow	
+	leftdbkarrow	
+	dbkarrow	
+	drbkarrow	
+	rightdotarrow	
+	baruparrow	
+	downarrowbar	
+	nvrightarrowtail	
+	nVrightarrowtail	
+	twoheadrightarrowtail	
+	nvtwoheadrightarrowtail	
+	nVtwoheadrightarrowtail	
+	lefttail	
+	righttail	
+	leftdbltail	
+	rightdbltail	
+	diamondleftarrow	
+	rightarrowdiamond	
+	diamondleftarrowbar	
+	barrightarrowdiamond	
+	nwsearrow	
+	neswarrow	
+	hknwarrow	
+	hknearrow	
+	hksearrow	
+	hkswarrow	
+	tona	
+	toea	
+	tosa	
+	towa	
+	rdiagovfdiag	
+	fdiagovrdiag	
+	seovnearrow	
+	neovsearrow	
+	fdiagovnearrow	
+	rdiagovsearrow	
+	neovnwarrow	
+	nwovnearrow	
+	rightcurvedarrow	specializes	~>	
+	uprightcurvearrow	
+	downrightcurvedarrow	
+	leftdowncurvedarrow	
+	rightdowncurvedarrow	
+	cwrightarcarrow	
+	acwleftarcarrow	
+	acwoverarcarrow	
+	acwunderarcarrow	
+	curvearrowrightminus	
+	curvearrowleftplus	
+	cwundercurvearrow	
+	ccwundercurvearrow	
+	acwcirclearrow	
+	cwcirclearrow	
+	rightarrowshortleftarrow	
+	leftarrowshortrightarrow	
+	shortrightarrowleftarrow	
+	rightarrowplus	
+	leftarrowplus	
+	rightarrowx	
+	leftrightarrowcircle	
+	twoheaduparrowcircle	
+	leftrightharpoonupdown	
+	leftrightharpoondownup	
+	updownharpoonrightleft	
+	updownharpoonleftright	
+	leftrightharpoonupup	
+	updownharpoonrightright	
+	leftrightharpoondowndown	
+	updownharpoonleftleft	
+	barleftharpoonup	
+	rightharpoonupbar	
+	barupharpoonright	
+	downharpoonrightbar	
+	barleftharpoondown	
+	rightharpoondownbar	
+	barupharpoonleft	
+	downharpoonleftbar	
+	leftharpoonupbar	
+	barrightharpoonup	
+	upharpoonrightbar	
+	bardownharpoonright	
+	leftharpoondownbar	
+	barrightharpoondown	
+	upharpoonleftbar	
+	bardownharpoonleft	
+	leftharpoonsupdown	
+	upharpoonsleftright	
+	rightharpoonsupdown	functor	
+	downharpoonsleftright	
+	leftrightharpoonsup	
+	leftrightharpoonsdown	
+	rightleftharpoonsup	
+	rightleftharpoonsdown	
+	leftharpoonupdash	
+	dashleftharpoondown	
+	rightharpoonupdash	
+	dashrightharpoondown	
+	updownharpoonsleftright	
+	downupharpoonsleftright	
+	rightimply	
+	equalrightarrow	
+	similarrightarrow	
+	leftarrowsimilar	
+	rightarrowsimilar	
+	rightarrowapprox	
+	ltlarr	
+	leftarrowless	
+	gtrarr	
+	subrarr	
+	leftarrowsubset	
+	suplarr	
+	leftfishtail	
+	rightfishtail	
+	upfishtail	
+	downfishtail	
+	Vvert	
+	mdsmblkcircle	
+	typecolon	:t	
+	lBrace	
+	rBrace	
+	lParen	
+	rParen	
+	llparenthesis	
+	rrparenthesis	
+	llangle	
+	rrangle	
+	lbrackubar	lsimplex	
+	rbrackubar	rsimplex	
+	lbrackultick	
+	rbracklrtick	
+	lbracklltick	
+	rbrackurtick	
+	langledot	
+	rangledot	
+	lparenless	
+	rparengtr	
+	Lparengtr	
+	Rparenless	
+	lblkbrbrak	
+	rblkbrbrak	
+	fourvdots	
+	vzigzag	
+	measuredangleleft	
+	rightanglesqr	
+	rightanglemdot	
+	angles	
+	angdnr	
+	gtlpar	
+	sphericalangleup	
+	turnangle	
+	revangle	
+	angleubar	
+	revangleubar	
+	wideangledown	
+	wideangleup	
+	measanglerutone	
+	measanglelutonw	
+	measanglerdtose	
+	measangleldtosw	
+	measangleurtone	
+	measangleultonw	
+	measangledrtose	
+	measangledltosw	
+	revemptyset	
+	emptysetobar	
+	emptysetocirc	
+	emptysetoarr	
+	emptysetoarrl	
+	circlehbar	
+	circledvert	
+	circledparallel	
+	obslash	
+	operp	
+	obot	
+	olcross	
+	odotslashdot	
+	uparrowoncircle	
+	circledwhitebullet	
+	circledbullet	
+	olessthan	
+	ogreaterthan	
+	cirscir	
+	cirE	
+	boxdiag	
+	boxbslash	
+	boxast	
+	boxcircle	
+	boxbox	
+	boxonbox	
+	triangleodot	
+	triangleubar	
+	triangles	
+	triangleserifs	
+	rtriltri	
+	ltrivb	lf	<|	
+	vbrtri	
+	lfbowtie	
+	rfbowtie	
+	fbowtie	
+	lftimes	
+	rftimes	
+	hourglass	
+	blackhourglass	
+	lvzigzag	
+	rvzigzag	
+	Lvzigzag	
+	Rvzigzag	
+	iinfin	
+	tieinfty	
+	nvinfty	
+	dualmap	
+	laplac	
+	lrtriangleeq	
+	shuffle	
+	eparsl	
+	smeparsl	
+	eqvparsl	
+	gleichstark	
+	thermod	
+	downtriangleleftblack	
+	downtrianglerightblack	
+	blackdiamonddownarrow	
+	mdlgblklozenge	
+	circledownarrow	
+	blackcircledownarrow	
+	errbarsquare	
+	errbarblacksquare	
+	errbardiamond	
+	errbarblackdiamond	
+	errbarcircle	
+	errbarblackcircle	
+	ruledelayed	
+	reversesolidus	
+	dsol	
+	rsolbar	
+	xsol	quot	bigsolidus	/	
+	xbsol	
+	doubleplus	
+	tripleplus	
+	lcurvyangle	
+	rcurvyangle	
+	tplus	tiny	
+	tminus	miny	
+	bigodot	O.	
+	bigoplus	O+	directsum	
+	bigotimes	pitensorproduct	tensorpower	Ox	
+	bigcupdot	U.	
+	biguplus	U+	
+	bigsqcap	infi	Glb	Inf	Meet	Sqcap	bigglb	biginf	bigmeet	
+	bigsqcup	supr	Join	Lub	Sup	Sqcup	bigjoin	biglub	bigsup	
+	conjquant	
+	disjquant	
+	bigtimes	
+	modtwosum	
+	sumint	
+	iiiint	
+	intbar	integral-	average	-int	
+	intBar	
+	fint	
+	cirfnint	
+	awint	
+	rppolint	
+	scpolint	
+	npolint	
+	pointint	
+	sqint	
+	intlarhk	
+	intx	
+	intcap	
+	intcup	
+	upint	
+	lowint	
+	Join	
+	bigtriangleleft	
+	zcmp	
+	zpipe	
+	zproject	
+	ringplus	
+	plushat	
+	simplus	
+	plusdot	
+	plussim	
+	plussubtwo	
+	plustrif	
+	commaminus	
+	minusdot	
+	minusfdots	
+	minusrdots	
+	opluslhrim	
+	oplusrhrim	
+	vectimes	X	vectorproduct	crossproduct	
+	dottimes	
+	timesbar	
+	btimes	
+	smashtimes	
+	otimeslhrim	
+	otimesrhrim	
+	otimeshat	
+	Otimes	
+	odiv	
+	triangleplus	
+	triangleminus	
+	triangletimes	
+	intprod	
+	intprodr	
+	fcmp	
+	amalg	coprod	
+	capdot	
+	uminus	
+	barcup	
+	barcap	
+	capwedge	
+	cupvee	
+	cupovercap	
+	capovercup	
+	cupbarcap	
+	capbarcup	
+	twocups	
+	twocaps	
+	closedvarcup	
+	closedvarcap	
+	Sqcap	
+	Sqcup	
+	closedvarcupsmashprod	
+	wedgeodot	
+	veeodot	
+	Wedge	
+	Vee	
+	wedgeonwedge	
+	veeonvee	
+	bigslopedvee	
+	bigslopedwedge	
+	veeonwedge	
+	wedgemidvert	
+	veemidvert	
+	midbarwedge	
+	midbarvee	
+	doublebarwedge	
+	wedgebar	
+	wedgedoublebar	
+	varveebar	
+	doublebarvee	
+	veedoublebar	
+	dsub	
+	rsub	
+	eqdot	
+	dotequiv	
+	equivVert	
+	equivVvert	
+	dotsim	
+	simrdots	
+	simminussim	
+	congdot	
+	asteq	
+	hatapprox	
+	approxeqq	
+	eqqplus	
+	pluseqq	
+	eqqsim	
+	Coloneq	
+	eqeq	
+	eqeqeq	
+	ddotseq	
+	equivDD	
+	ltcir	
+	gtcir	
+	ltquest	
+	gtquest	
+	leqslant	
+	geqslant	
+	lesdot	wcovby	wcovers	
+	gesdot	
+	lesdoto	
+	gesdoto	
+	lesdotor	
+	gesdotol	
+	lessapprox	
+	gtrapprox	
+	lneq	
+	gneq	
+	lnapprox	
+	gnapprox	
+	lesseqqgtr	
+	gtreqqless	
+	lsime	
+	gsime	
+	lsimg	
+	gsiml	
+	lgE	
+	glE	
+	lesges	
+	gesles	
+	eqslantless	
+	eqslantgtr	
+	elsdot	
+	egsdot	
+	eqqless	
+	eqqgtr	
+	eqqslantless	
+	eqqslantgtr	
+	simless	
+	simgtr	
+	simlE	
+	simgE	
+	Lt	
+	Gt	
+	partialmeetcontraction	
+	glj	
+	gla	
+	ltcc	
+	gtcc	
+	lescc	
+	gescc	
+	smt	
+	lat	
+	smte	
+	late	
+	bumpeqq	
+	preceq	
+	succeq	
+	precneq	
+	succneq	
+	preceqq	
+	succeqq	
+	precneqq	
+	succneqq	
+	precapprox	
+	succapprox	
+	precnapprox	
+	succnapprox	
+	Prec	
+	Succ	
+	subsetdot	
+	supsetdot	
+	subsetplus	
+	supsetplus	
+	submult	
+	supmult	
+	subedot	
+	supedot	
+	subseteqq	
+	supseteqq	
+	subsim	
+	supsim	
+	subsetapprox	
+	supsetapprox	
+	subsetneqq	
+	supsetneqq	
+	lsqhook	
+	rsqhook	
+	csub	
+	csup	
+	csube	
+	csupe	
+	subsup	
+	supsub	
+	subsub	
+	supsup	
+	suphsub	
+	supdsub	
+	forkv	
+	topfork	
+	mlcp	
+	forks	
+	forksnot	
+	shortlefttack	
+	shortdowntack	
+	shortuptack	
+	perps	
+	vDdash	
+	dashV	
+	Dashv	
+	DashV	
+	varVdash	
+	Barv	
+	vBar	
+	vBarv	
+	barV	
+	Vbar	
+	Not	
+	bNot	
+	revnmid	
+	cirmid	
+	midcir	
+	topcir	
+	nhpar	
+	parsim	
+	interleave	
+	nhVvert	
+	threedotcolon	
+	lllnest	
+	gggnest	
+	leqqslant	
+	geqqslant	
+	trslash	
+	biginterleave	
+	sslash	
+	talloblong	
+	bigtalloblong	
+	squaretopblack	
+	squarebotblack	
+	squareurblack	
+	squarellblack	
+	diamondleftblack	
+	diamondrightblack	
+	diamondtopblack	
+	diamondbotblack	
+	dottedsquare	
+	lgblksquare	
+	lgwhtsquare	
+	vysmblksquare	tr	con	
+	vysmwhtsquare	
+	pentagonblack	
+	pentagon	
+	varhexagon	
+	varhexagonblack	
+	hexagonblack	
+	lgblkcircle	
+	mdblkdiamond	
+	mdwhtdiamond	
+	mdblklozenge	
+	mdwhtlozenge	
+	smblkdiamond	
+	smblklozenge	
+	smwhtlozenge	
+	blkhorzoval	
+	whthorzoval	
+	blkvertoval	
+	whtvertoval	
+	circleonleftarrow	
+	leftthreearrows	
+	leftarrowonoplus	
+	longleftsquigarrow	
+	nvtwoheadleftarrow	
+	nVtwoheadleftarrow	
+	twoheadmapsfrom	
+	twoheadleftdbkarrow	
+	leftdotarrow	
+	nvleftarrowtail	
+	nVleftarrowtail	
+	twoheadleftarrowtail	
+	nvtwoheadleftarrowtail	
+	nVtwoheadleftarrowtail	
+	leftarrowx	
+	leftcurvedarrow	
+	equalleftarrow	
+	bsimilarleftarrow	
+	leftarrowbackapprox	
+	rightarrowgtr	
+	rightarrowsupset	
+	LLeftarrow	
+	RRightarrow	
+	bsimilarrightarrow	
+	rightarrowbackapprox	
+	similarleftarrow	
+	leftarrowapprox	
+	leftarrowbsimilar	
+	rightarrowbsimilar	
+	medwhitestar	
+	medblackstar	
+	smwhitestar	
+	rightpentagonblack	
+	rightpentagon	
+	uncertainty	
+	_j	
+	^V	
+	((	
+	))	
+	ldata	
+	rdata	
+	postalmark	
+	llbracket	
+	rrbracket	
+	hzigzag	
+	partnership	
+	^S	
+	^C	
+	^F	
+	^Q	
+	^Hstroke	
+	^oe	
+	^heng	
+	^ls	
+	^ltilde	
+	^uhook	
+	sbs	
+	hnot	
+	nomisma	
+	mbfA	mathbfA	bfA	
+	mbfB	mathbfB	bfB	
+	mbfC	mathbfC	bfC	
+	mbfD	mathbfD	bfD	
+	mbfE	mathbfE	bfE	
+	mbfF	mathbfF	bfF	
+	mbfG	mathbfG	bfG	
+	mbfH	mathbfH	bfH	
+	mbfI	mathbfI	bfI	
+	mbfJ	mathbfJ	bfJ	
+	mbfK	mathbfK	bfK	
+	mbfL	mathbfL	bfL	
+	mbfM	mathbfM	bfM	
+	mbfN	mathbfN	bfN	
+	mbfO	mathbfO	bfO	
+	mbfP	mathbfP	bfP	
+	mbfQ	mathbfQ	bfQ	
+	mbfR	mathbfR	bfR	
+	mbfS	mathbfS	bfS	
+	mbfT	mathbfT	bfT	
+	mbfU	mathbfU	bfU	
+	mbfV	mathbfV	bfV	
+	mbfW	mathbfW	bfW	
+	mbfX	mathbfX	bfX	
+	mbfY	mathbfY	bfY	
+	mbfZ	mathbfZ	bfZ	
+	mbfa	mathbfa	bfa	
+	mbfb	mathbfb	bfb	
+	mbfc	mathbfc	bfc	
+	mbfd	mathbfd	bfd	
+	mbfe	mathbfe	bfe	
+	mbff	mathbff	bff	
+	mbfg	mathbfg	bfg	
+	mbfh	mathbfh	bfh	
+	mbfi	mathbfi	bfi	
+	mbfj	mathbfj	bfj	
+	mbfk	mathbfk	bfk	
+	mbfl	mathbfl	bfl	
+	mbfm	mathbfm	bfm	
+	mbfn	mathbfn	bfn	
+	mbfo	mathbfo	bfo	
+	mbfp	mathbfp	bfp	
+	mbfq	mathbfq	bfq	
+	mbfr	mathbfr	bfr	
+	mbfs	mathbfs	bfs	
+	mbft	mathbft	bft	
+	mbfu	mathbfu	bfu	
+	mbfv	mathbfv	bfv	
+	mbfw	mathbfw	bfw	
+	mbfx	mathbfx	bfx	
+	mbfy	mathbfy	bfy	
+	mbfz	mathbfz	bfz	
+	mitA	mathitA	MiA	
+	mitB	mathitB	MiB	
+	mitC	mathitC	MiC	
+	mitD	mathitD	MiD	
+	mitE	mathitE	MiE	
+	mitF	mathitF	MiF	
+	mitG	mathitG	MiG	
+	mitH	mathitH	MiH	
+	mitI	mathitI	MiI	
+	mitJ	mathitJ	MiJ	
+	mitK	mathitK	MiK	
+	mitL	mathitL	MiL	
+	mitM	mathitM	MiM	
+	mitN	mathitN	MiN	
+	mitO	mathitO	MiO	
+	mitP	mathitP	MiP	
+	mitQ	mathitQ	MiQ	
+	mitR	mathitR	MiR	
+	mitS	mathitS	MiS	
+	mitT	mathitT	MiT	
+	mitU	mathitU	MiU	
+	mitV	mathitV	MiV	
+	mitW	mathitW	MiW	
+	mitX	mathitX	MiX	
+	mitY	mathitY	MiY	
+	mitZ	mathitZ	MiZ	
+	mita	mathita	Mia	
+	mitb	mathitb	Mib	
+	mitc	mathitc	Mic	
+	mitd	mathitd	Mid	
+	mite	mathite	Mie	
+	mitf	mathitf	Mif	
+	mitg	mathitg	Mig	
+	miti	mathiti	Mii	
+	mitj	mathitj	Mij	
+	mitk	mathitk	Mik	
+	mitl	mathitl	Mil	
+	mitm	mathitm	Mim	
+	mitn	mathitn	Min	
+	mito	mathito	Mio	
+	mitp	mathitp	Mip	
+	mitq	mathitq	Miq	
+	mitr	mathitr	Mir	
+	mits	mathits	Mis	
+	mitt	mathitt	Mit	
+	mitu	mathitu	Miu	
+	mitv	mathitv	Miv	
+	mitw	mathitw	Miw	
+	mitx	mathitx	Mix	
+	mity	mathity	Miy	
+	mitz	mathitz	Miz	
+	mbfitA	MIA	
+	mbfitB	MIB	
+	mbfitC	MIC	
+	mbfitD	MID	
+	mbfitE	MIE	
+	mbfitF	MIF	
+	mbfitG	MIG	
+	mbfitH	MIH	
+	mbfitI	MII	
+	mbfitJ	MIJ	
+	mbfitK	MIK	
+	mbfitL	MIL	
+	mbfitM	MIM	
+	mbfitN	MIN	
+	mbfitO	MIO	
+	mbfitP	MIP	
+	mbfitQ	MIQ	
+	mbfitR	MIR	
+	mbfitS	MIS	
+	mbfitT	MIT	
+	mbfitU	MIU	
+	mbfitV	MIV	
+	mbfitW	MIW	
+	mbfitX	MIX	
+	mbfitY	MIY	
+	mbfitZ	MIZ	
+	mbfita	mathbfita	MIa	
+	mbfitb	mathbfitb	MIb	
+	mbfitc	mathbfitc	MIc	
+	mbfitd	mathbfitd	MId	
+	mbfite	mathbfite	MIe	
+	mbfitf	mathbfitf	MIf	
+	mbfitg	mathbfitg	MIg	
+	mbfith	mathbfith	MIh	
+	mbfiti	mathbfiti	MIi	
+	mbfitj	mathbfitj	MIj	
+	mbfitk	mathbfitk	MIk	
+	mbfitl	mathbfitl	MIl	
+	mbfitm	mathbfitm	MIm	
+	mbfitn	mathbfitn	MIn	
+	mbfito	mathbfito	MIo	
+	mbfitp	mathbfitp	MIp	
+	mbfitq	mathbfitq	MIq	
+	mbfitr	mathbfitr	MIr	
+	mbfits	mathbfits	MIs	
+	mbfitt	mathbfitt	MIt	
+	mbfitu	mathbfitu	MIu	
+	mbfitv	mathbfitv	MIv	
+	mbfitw	mathbfitw	MIw	
+	mbfitx	mathbfitx	MIx	
+	mbfity	mathbfity	MIy	
+	mbfitz	mathbfitz	MIz	
+	mscrA	mathscrA	mathcalA	McA	
+	mscrC	mathscrC	mathcalC	McC	
+	mscrD	mathscrD	mathcalD	McD	
+	mscrG	mathscrG	mathcalG	McG	
+	mscrJ	mathscrJ	mathcalJ	McJ	
+	mscrK	mathscrK	mathcalK	McK	
+	mscrN	mathscrN	mathcalN	McN	
+	mscrO	mathscrO	mathcalO	McO	
+	mscrP	mathscrP	mathcalP	powerset	McP	
+	mscrQ	mathscrQ	mathcalQ	McQ	
+	mscrS	mathscrS	mathcalS	McS	
+	mscrT	mathscrT	mathcalT	McT	
+	mscrU	mathscrU	mathcalU	McU	
+	mscrV	mathscrV	mathcalV	McV	
+	mscrW	mathscrW	mathcalW	McW	
+	mscrX	mathscrX	mathcalX	McX	
+	mscrY	mathscrY	mathcalY	McY	
+	mscrZ	mathscrZ	mathcalZ	McZ	
+	mscra	mathscra	mathcala	Mca	
+	mscrb	mathscrb	mathcalb	Mcb	
+	mscrc	mathscrc	mathcalc	Mcc	
+	mscrd	mathscrd	mathcald	Mcd	
+	mscrf	mathscrf	mathcalf	Mcf	
+	mscrh	mathscrh	mathcalh	Mch	
+	mscri	mathscri	mathcali	Mci	
+	mscrj	mathscrj	mathcalj	Mcj	
+	mscrk	mathscrk	mathcalk	Mck	
+	mscrl	mathscrl	mathcall	Mcl	
+	mscrm	mathscrm	mathcalm	Mcm	
+	mscrn	mathscrn	mathcaln	Mcn	
+	mscrp	mathscrp	mathcalp	Mcp	
+	mscrq	mathscrq	mathcalq	Mcq	
+	mscrr	mathscrr	mathcalr	Mcr	
+	mscrs	mathscrs	mathcals	Mcs	
+	mscrt	mathscrt	mathcalt	Mct	
+	mscru	mathscru	mathcalu	Mcu	
+	mscrv	mathscrv	mathcalv	Mcv	
+	mscrw	mathscrw	mathcalw	Mcw	
+	mscrx	mathscrx	mathcalx	Mcx	
+	mscry	mathscry	mathcaly	Mcy	
+	mscrz	mathscrz	mathcalz	Mcz	
+	mbfscrA	MCA	
+	mbfscrB	MCB	
+	mbfscrC	MCC	
+	mbfscrD	MCD	
+	mbfscrE	MCE	
+	mbfscrF	MCF	
+	mbfscrG	MCG	
+	mbfscrH	MCH	
+	mbfscrI	MCI	
+	mbfscrJ	MCJ	
+	mbfscrK	MCK	
+	mbfscrL	MCL	
+	mbfscrM	MCM	
+	mbfscrN	MCN	nhds	nbhds	
+	mbfscrO	MCO	
+	mbfscrP	MCP	
+	mbfscrQ	MCQ	
+	mbfscrR	MCR	
+	mbfscrS	MCS	
+	mbfscrT	MCT	
+	mbfscrU	MCU	
+	mbfscrV	MCV	
+	mbfscrW	MCW	
+	mbfscrX	MCX	
+	mbfscrY	MCY	
+	mbfscrZ	MCZ	
+	mbfscra	mathbfscra	MCa	
+	mbfscrb	mathbfscrb	MCb	
+	mbfscrc	mathbfscrc	MCc	
+	mbfscrd	mathbfscrd	MCd	
+	mbfscre	mathbfscre	MCe	
+	mbfscrf	mathbfscrf	MCf	
+	mbfscrg	mathbfscrg	MCg	
+	mbfscrh	mathbfscrh	MCh	
+	mbfscri	mathbfscri	MCi	
+	mbfscrj	mathbfscrj	MCj	
+	mbfscrk	mathbfscrk	MCk	
+	mbfscrl	mathbfscrl	MCl	
+	mbfscrm	mathbfscrm	MCm	
+	mbfscrn	mathbfscrn	MCn	
+	mbfscro	mathbfscro	MCo	
+	mbfscrp	mathbfscrp	MCp	
+	mbfscrq	mathbfscrq	MCq	
+	mbfscrr	mathbfscrr	MCr	
+	mbfscrs	mathbfscrs	MCs	
+	mbfscrt	mathbfscrt	MCt	
+	mbfscru	mathbfscru	MCu	
+	mbfscrv	mathbfscrv	MCv	
+	mbfscrw	mathbfscrw	MCw	
+	mbfscrx	mathbfscrx	MCx	
+	mbfscry	mathbfscry	MCy	
+	mbfscrz	mathbfscrz	MCz	
+	mfrakA	mathfrakA	MfA	
+	mfrakB	mathfrakB	MfB	
+	mfrakD	mathfrakD	MfD	
+	mfrakE	mathfrakE	MfE	
+	mfrakF	mathfrakF	MfF	
+	mfrakG	mathfrakG	MfG	
+	mfrakJ	mathfrakJ	MfJ	
+	mfrakK	mathfrakK	MfK	
+	mfrakL	mathfrakL	MfL	
+	mfrakM	mathfrakM	MfM	
+	mfrakN	mathfrakN	MfN	
+	mfrakO	mathfrakO	MfO	
+	mfrakP	mathfrakP	MfP	
+	mfrakQ	mathfrakQ	MfQ	
+	mfrakS	mathfrakS	MfS	
+	mfrakT	mathfrakT	MfT	
+	mfrakU	mathfrakU	MfU	
+	mfrakV	mathfrakV	MfV	
+	mfrakW	mathfrakW	MfW	
+	mfrakX	mathfrakX	MfX	
+	mfrakY	mathfrakY	MfY	
+	mfraka	mathfraka	Mfa	
+	mfrakb	mathfrakb	Mfb	
+	mfrakc	mathfrakc	Mfc	
+	mfrakd	mathfrakd	Mfd	
+	mfrake	mathfrake	Mfe	
+	mfrakf	mathfrakf	Mff	
+	mfrakg	mathfrakg	Mfg	
+	mfrakh	mathfrakh	Mfh	
+	mfraki	mathfraki	Mfi	
+	mfrakj	mathfrakj	Mfj	
+	mfrakk	mathfrakk	Mfk	
+	mfrakl	mathfrakl	Mfl	
+	mfrakm	mathfrakm	Mfm	
+	mfrakn	mathfrakn	Mfn	
+	mfrako	mathfrako	Mfo	
+	mfrakp	mathfrakp	Mfp	
+	mfrakq	mathfrakq	Mfq	
+	mfrakr	mathfrakr	Mfr	
+	mfraks	mathfraks	Mfs	
+	mfrakt	mathfrakt	Mft	
+	mfraku	mathfraku	Mfu	
+	mfrakv	mathfrakv	Mfv	
+	mfrakw	mathfrakw	Mfw	
+	mfrakx	mathfrakx	Mfx	
+	mfraky	mathfraky	Mfy	
+	mfrakz	mathfrakz	Mfz	
+	BbbA	mathbbA	A	bbA	
+	BbbB	mathbbB	bb	bbB	
+	BbbD	mathbbD	bbD	
+	BbbE	mathbbE	bbE	
+	BbbF	mathbbF	F	bbF	
+	BbbG	mathbbG	bbG	
+	BbbI	mathbbI	bbI	
+	BbbJ	mathbbJ	bbJ	
+	BbbK	mathbbK	K	bbK	
+	BbbL	mathbbL	bbL	
+	BbbM	mathbbM	bbM	
+	BbbO	mathbbO	bbO	
+	BbbS	mathbbS	bbS	
+	BbbT	mathbbT	bbT	
+	BbbU	mathbbU	bbU	
+	BbbV	mathbbV	bbV	
+	BbbW	mathbbW	bbW	
+	BbbX	mathbbX	bbX	
+	BbbY	mathbbY	bbY	
+	Bbba	mathbba	bba	
+	Bbbb	mathbbb	bbb	
+	Bbbc	mathbbc	bbc	
+	Bbbd	mathbbd	bbd	
+	Bbbe	mathbbe	bbe	
+	Bbbf	mathbbf	bbf	
+	Bbbg	mathbbg	bbg	
+	Bbbh	mathbbh	bbh	
+	Bbbi	mathbbi	bbi	
+	Bbbj	mathbbj	bbj	
+	Bbbk	mathbbk	bbk	
+	Bbbl	mathbbl	bbl	
+	Bbbm	mathbbm	bbm	
+	Bbbn	mathbbn	bbn	
+	Bbbo	mathbbo	bbo	
+	Bbbp	mathbbp	bbp	
+	Bbbq	mathbbq	bbq	
+	Bbbr	mathbbr	bbr	
+	Bbbs	mathbbs	bbs	
+	Bbbt	mathbbt	bbt	
+	Bbbu	mathbbu	bbu	
+	Bbbv	mathbbv	bbv	
+	Bbbw	mathbbw	bbw	
+	Bbbx	mathbbx	bbx	
+	Bbby	mathbby	bby	
+	Bbbz	mathbbz	bbz	
+	mbffrakA	
+	mbffrakB	
+	mbffrakC	
+	mbffrakD	
+	mbffrakE	
+	mbffrakF	
+	mbffrakG	
+	mbffrakH	
+	mbffrakI	
+	mbffrakJ	
+	mbffrakK	
+	mbffrakL	
+	mbffrakM	
+	mbffrakN	
+	mbffrakO	
+	mbffrakP	
+	mbffrakQ	
+	mbffrakR	
+	mbffrakS	
+	mbffrakT	
+	mbffrakU	
+	mbffrakV	
+	mbffrakW	
+	mbffrakX	
+	mbffrakY	
+	mbffrakZ	
+	mbffraka	mathbffraka	
+	mbffrakb	mathbffrakb	
+	mbffrakc	mathbffrakc	
+	mbffrakd	mathbffrakd	
+	mbffrake	mathbffrake	
+	mbffrakf	mathbffrakf	
+	mbffrakg	mathbffrakg	
+	mbffrakh	mathbffrakh	
+	mbffraki	mathbffraki	
+	mbffrakj	mathbffrakj	
+	mbffrakk	mathbffrakk	
+	mbffrakl	mathbffrakl	
+	mbffrakm	mathbffrakm	
+	mbffrakn	mathbffrakn	
+	mbffrako	mathbffrako	
+	mbffrakp	mathbffrakp	
+	mbffrakq	mathbffrakq	
+	mbffrakr	mathbffrakr	
+	mbffraks	mathbffraks	
+	mbffrakt	mathbffrakt	
+	mbffraku	mathbffraku	
+	mbffrakv	mathbffrakv	
+	mbffrakw	mathbffrakw	
+	mbffrakx	mathbffrakx	
+	mbffraky	mathbffraky	
+	mbffrakz	mathbffrakz	
+	msansA	mathsfA	
+	msansB	mathsfB	
+	msansC	mathsfC	
+	msansD	mathsfD	
+	msansE	mathsfE	
+	msansF	mathsfF	
+	msansG	mathsfG	
+	msansH	mathsfH	
+	msansI	mathsfI	
+	msansJ	mathsfJ	
+	msansK	mathsfK	
+	msansL	mathsfL	
+	msansM	mathsfM	
+	msansN	mathsfN	
+	msansO	mathsfO	
+	msansP	mathsfP	
+	msansQ	mathsfQ	
+	msansR	mathsfR	
+	msansS	mathsfS	
+	msansT	mathsfT	
+	msansU	mathsfU	
+	msansV	mathsfV	
+	msansW	mathsfW	
+	msansX	mathsfX	
+	msansY	mathsfY	
+	msansZ	mathsfZ	
+	msansa	mathsfa	
+	msansb	mathsfb	
+	msansc	mathsfc	
+	msansd	mathsfd	
+	msanse	mathsfe	
+	msansf	mathsff	
+	msansg	mathsfg	
+	msansh	mathsfh	
+	msansi	mathsfi	
+	msansj	mathsfj	
+	msansk	mathsfk	
+	msansl	mathsfl	
+	msansm	mathsfm	
+	msansn	mathsfn	
+	msanso	mathsfo	
+	msansp	mathsfp	
+	msansq	mathsfq	
+	msansr	mathsfr	
+	msanss	mathsfs	
+	msanst	mathsft	
+	msansu	mathsfu	
+	msansv	mathsfv	
+	msansw	mathsfw	
+	msansx	mathsfx	
+	msansy	mathsfy	
+	msansz	mathsfz	
+	mbfsansA	
+	mbfsansB	
+	mbfsansC	
+	mbfsansD	
+	mbfsansE	
+	mbfsansF	
+	mbfsansG	
+	mbfsansH	
+	mbfsansI	
+	mbfsansJ	
+	mbfsansK	
+	mbfsansL	
+	mbfsansM	
+	mbfsansN	
+	mbfsansO	
+	mbfsansP	
+	mbfsansQ	
+	mbfsansR	
+	mbfsansS	
+	mbfsansT	
+	mbfsansU	
+	mbfsansV	
+	mbfsansW	
+	mbfsansX	
+	mbfsansY	
+	mbfsansZ	
+	mbfsansa	mathbfsansa	
+	mbfsansb	mathbfsansb	
+	mbfsansc	mathbfsansc	
+	mbfsansd	mathbfsansd	
+	mbfsanse	mathbfsanse	
+	mbfsansf	mathbfsansf	
+	mbfsansg	mathbfsansg	
+	mbfsansh	mathbfsansh	
+	mbfsansi	mathbfsansi	
+	mbfsansj	mathbfsansj	
+	mbfsansk	mathbfsansk	
+	mbfsansl	mathbfsansl	
+	mbfsansm	mathbfsansm	
+	mbfsansn	mathbfsansn	
+	mbfsanso	mathbfsanso	
+	mbfsansp	mathbfsansp	
+	mbfsansq	mathbfsansq	
+	mbfsansr	mathbfsansr	
+	mbfsanss	mathbfsanss	
+	mbfsanst	mathbfsanst	
+	mbfsansu	mathbfsansu	
+	mbfsansv	mathbfsansv	
+	mbfsansw	mathbfsansw	
+	mbfsansx	mathbfsansx	
+	mbfsansy	mathbfsansy	
+	mbfsansz	mathbfsansz	
+	mitsansA	
+	mitsansB	
+	mitsansC	
+	mitsansD	
+	mitsansE	
+	mitsansF	
+	mitsansG	
+	mitsansH	
+	mitsansI	
+	mitsansJ	
+	mitsansK	
+	mitsansL	
+	mitsansM	
+	mitsansN	
+	mitsansO	
+	mitsansP	
+	mitsansQ	
+	mitsansR	
+	mitsansS	
+	mitsansT	
+	mitsansU	
+	mitsansV	
+	mitsansW	
+	mitsansX	
+	mitsansY	
+	mitsansZ	
+	mitsansa	mathitsansa	
+	mitsansb	mathitsansb	
+	mitsansc	mathitsansc	
+	mitsansd	mathitsansd	
+	mitsanse	mathitsanse	
+	mitsansf	mathitsansf	
+	mitsansg	mathitsansg	
+	mitsansh	mathitsansh	
+	mitsansi	mathitsansi	
+	mitsansj	mathitsansj	
+	mitsansk	mathitsansk	
+	mitsansl	mathitsansl	
+	mitsansm	mathitsansm	
+	mitsansn	mathitsansn	
+	mitsanso	mathitsanso	
+	mitsansp	mathitsansp	
+	mitsansq	mathitsansq	
+	mitsansr	mathitsansr	
+	mitsanss	mathitsanss	
+	mitsanst	mathitsanst	
+	mitsansu	mathitsansu	
+	mitsansv	mathitsansv	
+	mitsansw	mathitsansw	
+	mitsansx	mathitsansx	
+	mitsansy	mathitsansy	
+	mitsansz	mathitsansz	
+	mbfitsansA	
+	mbfitsansB	
+	mbfitsansC	
+	mbfitsansD	
+	mbfitsansE	
+	mbfitsansF	
+	mbfitsansG	
+	mbfitsansH	
+	mbfitsansI	
+	mbfitsansJ	
+	mbfitsansK	
+	mbfitsansL	
+	mbfitsansM	
+	mbfitsansN	
+	mbfitsansO	
+	mbfitsansP	
+	mbfitsansQ	
+	mbfitsansR	
+	mbfitsansS	
+	mbfitsansT	
+	mbfitsansU	
+	mbfitsansV	
+	mbfitsansW	
+	mbfitsansX	
+	mbfitsansY	
+	mbfitsansZ	
+	mbfitsansa	mathbfitsansa	
+	mbfitsansb	mathbfitsansb	
+	mbfitsansc	mathbfitsansc	
+	mbfitsansd	mathbfitsansd	
+	mbfitsanse	mathbfitsanse	
+	mbfitsansf	mathbfitsansf	
+	mbfitsansg	mathbfitsansg	
+	mbfitsansh	mathbfitsansh	
+	mbfitsansi	mathbfitsansi	
+	mbfitsansj	mathbfitsansj	
+	mbfitsansk	mathbfitsansk	
+	mbfitsansl	mathbfitsansl	
+	mbfitsansm	mathbfitsansm	
+	mbfitsansn	mathbfitsansn	
+	mbfitsanso	mathbfitsanso	
+	mbfitsansp	mathbfitsansp	
+	mbfitsansq	mathbfitsansq	
+	mbfitsansr	mathbfitsansr	
+	mbfitsanss	mathbfitsanss	
+	mbfitsanst	mathbfitsanst	
+	mbfitsansu	mathbfitsansu	
+	mbfitsansv	mathbfitsansv	
+	mbfitsansw	mathbfitsansw	
+	mbfitsansx	mathbfitsansx	
+	mbfitsansy	mathbfitsansy	
+	mbfitsansz	mathbfitsansz	
+	mttA	mathttA	
+	mttB	mathttB	
+	mttC	mathttC	
+	mttD	mathttD	
+	mttE	mathttE	
+	mttF	mathttF	
+	mttG	mathttG	
+	mttH	mathttH	
+	mttI	mathttI	
+	mttJ	mathttJ	
+	mttK	mathttK	
+	mttL	mathttL	
+	mttM	mathttM	
+	mttN	mathttN	
+	mttO	mathttO	
+	mttP	mathttP	
+	mttQ	mathttQ	
+	mttR	mathttR	
+	mttS	mathttS	
+	mttT	mathttT	
+	mttU	mathttU	
+	mttV	mathttV	
+	mttW	mathttW	
+	mttX	mathttX	
+	mttY	mathttY	
+	mttZ	mathttZ	
+	mtta	mathtta	
+	mttb	mathttb	
+	mttc	mathttc	
+	mttd	mathttd	
+	mtte	mathtte	
+	mttf	mathttf	
+	mttg	mathttg	
+	mtth	mathtth	
+	mtti	mathtti	
+	mttj	mathttj	
+	mttk	mathttk	
+	mttl	mathttl	
+	mttm	mathttm	
+	mttn	mathttn	
+	mtto	mathtto	
+	mttp	mathttp	
+	mttq	mathttq	
+	mttr	mathttr	
+	mtts	mathtts	
+	mttt	mathttt	
+	mttu	mathttu	
+	mttv	mathttv	
+	mttw	mathttw	
+	mttx	mathttx	
+	mtty	mathtty	
+	mttz	mathttz	
+	imath	
+	jmath	
+	mbfAlpha	
+	mbfBeta	
+	mbfGamma	
+	mbfDelta	
+	mbfEpsilon	
+	mbfZeta	
+	mbfEta	
+	mbfTheta	
+	mbfIota	
+	mbfKappa	
+	mbfLambda	
+	mbfMu	
+	mbfNu	
+	mbfXi	
+	mbfOmicron	
+	mbfPi	
+	mbfRho	
+	mbfvarTheta	
+	mbfSigma	
+	mbfTau	
+	mbfUpsilon	
+	mbfPhi	
+	mbfChi	
+	mbfPsi	
+	mbfOmega	
+	mbfnabla	mathbfnabla	
+	mbfalpha	mathbfalpha	
+	mbfbeta	mathbfbeta	
+	mbfgamma	mathbfgamma	
+	mbfdelta	mathbfdelta	
+	mbfvarepsilon	mathbfvarepsilon	
+	mbfzeta	mathbfzeta	
+	mbfeta	mathbfeta	
+	mbftheta	mathbftheta	
+	mbfiota	mathbfiota	
+	mbfkappa	mathbfkappa	
+	mbflambda	mathbflambda	
+	mbfmu	mathbfmu	
+	mbfnu	mathbfnu	
+	mbfxi	mathbfxi	
+	mbfomicron	mathbfomicron	
+	mbfpi	mathbfpi	
+	mbfrho	mathbfrho	
+	mbfvarsigma	mathbfvarsigma	
+	mbfsigma	mathbfsigma	
+	mbftau	mathbftau	
+	mbfupsilon	mathbfupsilon	
+	mbfvarphi	mathbfvarphi	
+	mbfchi	mathbfchi	
+	mbfpsi	mathbfpsi	
+	mbfomega	mathbfomega	
+	mbfpartial	mathbfpartial	
+	mbfepsilon	mathbfepsilon	
+	mbfvartheta	mathbfvartheta	
+	mbfvarkappa	mathbfvarkappa	
+	mbfphi	mathbfphi	
+	mbfvarrho	mathbfvarrho	
+	mbfvarpi	mathbfvarpi	
+	mitAlpha	
+	mitBeta	
+	mitGamma	
+	mitDelta	
+	mitEpsilon	
+	mitZeta	
+	mitEta	
+	mitTheta	
+	mitIota	
+	mitKappa	
+	mitLambda	
+	mitMu	
+	mitNu	
+	mitXi	
+	mitOmicron	
+	mitPi	
+	mitRho	
+	mitvarTheta	
+	mitSigma	
+	mitTau	
+	mitUpsilon	
+	mitPhi	
+	mitChi	
+	mitPsi	
+	mitOmega	
+	mitnabla	mathitnabla	
+	mitalpha	mathitalpha	
+	mitbeta	mathitbeta	
+	mitgamma	mathitgamma	
+	mitdelta	mathitdelta	
+	mitvarepsilon	mathitvarepsilon	
+	mitzeta	mathitzeta	
+	miteta	mathiteta	
+	mittheta	mathittheta	
+	mitiota	mathitiota	
+	mitkappa	mathitkappa	
+	mitlambda	mathitlambda	
+	mitmu	mathitmu	
+	mitnu	mathitnu	
+	mitxi	mathitxi	
+	mitomicron	mathitomicron	
+	mitpi	mathitpi	
+	mitrho	mathitrho	
+	mitvarsigma	mathitvarsigma	
+	mitsigma	mathitsigma	
+	mittau	mathittau	
+	mitupsilon	mathitupsilon	
+	mitvarphi	mathitvarphi	
+	mitchi	mathitchi	
+	mitpsi	mathitpsi	
+	mitomega	mathitomega	
+	mitpartial	mathitpartial	
+	mitepsilon	mathitepsilon	
+	mitvartheta	mathitvartheta	
+	mitvarkappa	mathitvarkappa	
+	mitphi	mathitphi	
+	mitvarrho	mathitvarrho	
+	mitvarpi	mathitvarpi	
+	mbfitAlpha	
+	mbfitBeta	
+	mbfitGamma	
+	mbfitDelta	
+	mbfitEpsilon	
+	mbfitZeta	
+	mbfitEta	
+	mbfitTheta	
+	mbfitIota	
+	mbfitKappa	
+	mbfitLambda	
+	mbfitMu	
+	mbfitNu	
+	mbfitXi	
+	mbfitOmicron	
+	mbfitPi	
+	mbfitRho	
+	mbfitvarTheta	
+	mbfitSigma	
+	mbfitTau	
+	mbfitUpsilon	
+	mbfitPhi	
+	mbfitChi	
+	mbfitPsi	
+	mbfitOmega	
+	mbfitnabla	mathbfitnabla	
+	mbfitalpha	mathbfitalpha	
+	mbfitbeta	mathbfitbeta	
+	mbfitgamma	mathbfitgamma	
+	mbfitdelta	mathbfitdelta	
+	mbfitvarepsilon	mathbfitvarepsilon	
+	mbfitzeta	mathbfitzeta	
+	mbfiteta	mathbfiteta	
+	mbfittheta	mathbfittheta	
+	mbfitiota	mathbfitiota	
+	mbfitkappa	mathbfitkappa	
+	mbfitlambda	mathbfitlambda	
+	mbfitmu	mathbfitmu	
+	mbfitnu	mathbfitnu	
+	mbfitxi	mathbfitxi	
+	mbfitomicron	mathbfitomicron	
+	mbfitpi	mathbfitpi	
+	mbfitrho	mathbfitrho	
+	mbfitvarsigma	mathbfitvarsigma	
+	mbfitsigma	mathbfitsigma	
+	mbfittau	mathbfittau	
+	mbfitupsilon	mathbfitupsilon	
+	mbfitvarphi	mathbfitvarphi	
+	mbfitchi	mathbfitchi	
+	mbfitpsi	mathbfitpsi	
+	mbfitomega	mathbfitomega	
+	mbfitpartial	mathbfitpartial	
+	mbfitepsilon	mathbfitepsilon	
+	mbfitvartheta	mathbfitvartheta	
+	mbfitvarkappa	mathbfitvarkappa	
+	mbfitphi	mathbfitphi	
+	mbfitvarrho	mathbfitvarrho	
+	mbfitvarpi	mathbfitvarpi	
+	mbfsansAlpha	
+	mbfsansBeta	
+	mbfsansGamma	
+	mbfsansDelta	
+	mbfsansEpsilon	
+	mbfsansZeta	
+	mbfsansEta	
+	mbfsansTheta	
+	mbfsansIota	
+	mbfsansKappa	
+	mbfsansLambda	
+	mbfsansMu	
+	mbfsansNu	
+	mbfsansXi	
+	mbfsansOmicron	
+	mbfsansPi	
+	mbfsansRho	
+	mbfsansvarTheta	
+	mbfsansSigma	
+	mbfsansTau	
+	mbfsansUpsilon	
+	mbfsansPhi	
+	mbfsansChi	
+	mbfsansPsi	
+	mbfsansOmega	
+	mbfsansnabla	mathbfsansnabla	
+	mbfsansalpha	mathbfsansalpha	
+	mbfsansbeta	mathbfsansbeta	
+	mbfsansgamma	mathbfsansgamma	
+	mbfsansdelta	mathbfsansdelta	
+	mbfsansvarepsilon	mathbfsansvarepsilon	
+	mbfsanszeta	mathbfsanszeta	
+	mbfsanseta	mathbfsanseta	
+	mbfsanstheta	mathbfsanstheta	
+	mbfsansiota	mathbfsansiota	
+	mbfsanskappa	mathbfsanskappa	
+	mbfsanslambda	mathbfsanslambda	
+	mbfsansmu	mathbfsansmu	
+	mbfsansnu	mathbfsansnu	
+	mbfsansxi	mathbfsansxi	
+	mbfsansomicron	mathbfsansomicron	
+	mbfsanspi	mathbfsanspi	
+	mbfsansrho	mathbfsansrho	
+	mbfsansvarsigma	mathbfsansvarsigma	
+	mbfsanssigma	mathbfsanssigma	
+	mbfsanstau	mathbfsanstau	
+	mbfsansupsilon	mathbfsansupsilon	
+	mbfsansvarphi	mathbfsansvarphi	
+	mbfsanschi	mathbfsanschi	
+	mbfsanspsi	mathbfsanspsi	
+	mbfsansomega	mathbfsansomega	
+	mbfsanspartial	mathbfsanspartial	
+	mbfsansepsilon	mathbfsansepsilon	
+	mbfsansvartheta	mathbfsansvartheta	
+	mbfsansvarkappa	mathbfsansvarkappa	
+	mbfsansphi	mathbfsansphi	
+	mbfsansvarrho	mathbfsansvarrho	
+	mbfsansvarpi	mathbfsansvarpi	
+	mbfitsansAlpha	
+	mbfitsansBeta	
+	mbfitsansGamma	
+	mbfitsansDelta	
+	mbfitsansEpsilon	
+	mbfitsansZeta	
+	mbfitsansEta	
+	mbfitsansTheta	
+	mbfitsansIota	
+	mbfitsansKappa	
+	mbfitsansLambda	
+	mbfitsansMu	
+	mbfitsansNu	
+	mbfitsansXi	
+	mbfitsansOmicron	
+	mbfitsansPi	
+	mbfitsansRho	
+	mbfitsansvarTheta	
+	mbfitsansSigma	
+	mbfitsansTau	
+	mbfitsansUpsilon	
+	mbfitsansPhi	
+	mbfitsansChi	
+	mbfitsansPsi	
+	mbfitsansOmega	
+	mbfitsansnabla	mathbfitsansnabla	
+	mbfitsansalpha	mathbfitsansalpha	
+	mbfitsansbeta	mathbfitsansbeta	
+	mbfitsansgamma	mathbfitsansgamma	
+	mbfitsansdelta	mathbfitsansdelta	
+	mbfitsansvarepsilon	mathbfitsansvarepsilon	
+	mbfitsanszeta	mathbfitsanszeta	
+	mbfitsanseta	mathbfitsanseta	
+	mbfitsanstheta	mathbfitsanstheta	
+	mbfitsansiota	mathbfitsansiota	
+	mbfitsanskappa	mathbfitsanskappa	
+	mbfitsanslambda	mathbfitsanslambda	
+	mbfitsansmu	mathbfitsansmu	
+	mbfitsansnu	mathbfitsansnu	
+	mbfitsansxi	mathbfitsansxi	
+	mbfitsansomicron	mathbfitsansomicron	
+	mbfitsanspi	mathbfitsanspi	
+	mbfitsansrho	mathbfitsansrho	
+	mbfitsansvarsigma	mathbfitsansvarsigma	
+	mbfitsanssigma	mathbfitsanssigma	
+	mbfitsanstau	mathbfitsanstau	
+	mbfitsansupsilon	mathbfitsansupsilon	
+	mbfitsansvarphi	mathbfitsansvarphi	
+	mbfitsanschi	mathbfitsanschi	
+	mbfitsanspsi	mathbfitsanspsi	
+	mbfitsansomega	mathbfitsansomega	
+	mbfitsanspartial	mathbfitsanspartial	
+	mbfitsansepsilon	mathbfitsansepsilon	
+	mbfitsansvartheta	mathbfitsansvartheta	
+	mbfitsansvarkappa	mathbfitsansvarkappa	
+	mbfitsansphi	mathbfitsansphi	
+	mbfitsansvarrho	mathbfitsansvarrho	
+	mbfitsansvarpi	mathbfitsansvarpi	
+	mbfDigamma	
+	mbfdigamma	mathbfdigamma	
+	mbfzero	mathbfzero	
+	mbfone	mathbfone	
+	mbftwo	mathbftwo	
+	mbfthree	mathbfthree	
+	mbffour	mathbffour	
+	mbffive	mathbffive	
+	mbfsix	mathbfsix	
+	mbfseven	mathbfseven	
+	mbfeight	mathbfeight	
+	mbfnine	mathbfnine	
+	Bbbzero	mathbbzero	b0	
+	Bbbone	mathbbone	b1	
+	Bbbtwo	mathbbtwo	b2	
+	Bbbthree	mathbbthree	b3	
+	Bbbfour	mathbbfour	b4	
+	Bbbfive	mathbbfive	b5	
+	Bbbsix	mathbbsix	b6	
+	Bbbseven	mathbbseven	b7	
+	Bbbeight	mathbbeight	b8	
+	Bbbnine	mathbbnine	b9	
+	msanszero	mathsfzero	
+	msansone	mathsfone	
+	msanstwo	mathsftwo	
+	msansthree	mathsfthree	
+	msansfour	mathsffour	
+	msansfive	mathsffive	
+	msanssix	mathsfsix	
+	msansseven	mathsfseven	
+	msanseight	mathsfeight	
+	msansnine	mathsfnine	
+	mbfsanszero	mathbfsanszero	sb0	
+	mbfsansone	mathbfsansone	sb1	
+	mbfsanstwo	mathbfsanstwo	sb2	
+	mbfsansthree	mathbfsansthree	sb3	
+	mbfsansfour	mathbfsansfour	sb4	
+	mbfsansfive	mathbfsansfive	sb5	
+	mbfsanssix	mathbfsanssix	sb6	
+	mbfsansseven	mathbfsansseven	sb7	
+	mbfsanseight	mathbfsanseight	sb8	
+	mbfsansnine	mathbfsansnine	sb9	
+	mttzero	mathttzero	
+	mttone	mathttone	
+	mtttwo	mathtttwo	
+	mttthree	mathttthree	
+	mttfour	mathttfour	
+	mttfive	mathttfive	
+	mttsix	mathttsix	
+	mttseven	mathttseven	
+	mtteight	mathtteight	
+	mttnine	mathttnine	
+	_c	
+	arabicmaj	
+	arabichad	
+	construction	
+	prohibited	
+	octagonal	
