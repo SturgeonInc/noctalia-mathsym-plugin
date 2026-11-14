@@ -8,7 +8,9 @@ Inputs (vendored in tools/sources/, see `make fetch-sources`):
   abbreviations.json       Lean 4 VS Code input method (Apache-2.0)
 
 Outputs (next to OUT, tab-separated, one record per output string, rows sorted by codepoint):
-  data.tsv   char, title, subtitle (display; title/subtitle are ready to show)
+  data.tsv   char, title, subtitle (display; title/subtitle are ready to show),
+             code points as uppercase hex padded to 4 digits (U+XXXX style) and as decimal,
+             space-separated for multi-character entries like `∀ᵐ`
   names.tsv  name, row   one line per normalized (no backslash/braces/spaces), case-sensitive
                          LaTeX or Lean name
   desc.tsv   lowercase description, row
@@ -145,7 +147,8 @@ def main():
         if not r["desc"] and len(ch) == 1:
             r["desc"] = unicodedata.name(ch, "").lower()
 
-    # data.tsv: char, title, subtitle (display). names.tsv: name, row number (one line per name).
+    # data.tsv: char, title, subtitle (display), code point in hex, code point in decimal
+    # (space-separated for multi-character entries; search.sh matches U+XXXX queries against them). names.tsv: name, row number (one line per name).
     # desc.tsv: lowercase description, row number. Row numbers are 1-based lines of data.tsv.
     # search.sh feeds names.tsv/desc.tsv to fzf and joins the hits back to data.tsv.
     with out.open("w", encoding="utf8", newline="\n") as f, \
@@ -153,7 +156,7 @@ def main():
             out.with_name("desc.tsv").open("w", encoding="utf8", newline="\n") as fd:
         for row_no, ch in enumerate(sorted(rows), 1):
             r = rows[ch]
-            f.write("\t".join([ch, title(ch), subtitle(ch, r)]) + "\n")
+            f.write("\t".join([ch, title(ch), subtitle(ch, r), " ".join("%04X" % ord(c) for c in ch), " ".join(str(ord(c)) for c in ch)]) + "\n")
             for name in searchable_names(r).split():
                 fn.write("%s\t%d\n" % (name, row_no))
             if r["desc"]:
