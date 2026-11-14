@@ -8,8 +8,9 @@ Inputs (vendored in tools/sources/, see `make fetch-sources`):
   abbreviations.json       Lean 4 VS Code input method (Apache-2.0)
 
 Output: one line per output string, tab-separated:
-  char <TAB> latex names <TAB> lean names <TAB> description <TAB> class
-Names are space-separated and written without the leading backslash.
+  char <TAB> title <TAB> subtitle <TAB> names <TAB> lowercase description
+`names` are the normalized (no backslash/braces/spaces), case-sensitive LaTeX and Lean names,
+space-separated; search.awk matches against them. title/subtitle are ready to display.
 """
 import json
 import re
@@ -61,6 +62,42 @@ def parse_description(desc):
     return aliases, tail.strip() or " ".join(rest)
 
 
+def norm(name):
+    """`\\mathbb{R}`, `mathbb R` and `mathbbR` are the same name."""
+    return re.sub(r"[\\{}\s]", "", name)
+
+
+def searchable_names(r):
+    names = []
+    for n in r["latex"] + r["lean"]:
+        n = norm(n)
+        if n and n not in names:
+            names.append(n)
+    return " ".join(names)
+
+
+def title(ch):
+    # Combining marks render badly alone; put them on a dotted circle.
+    return "\u25cc" + ch if len(ch) == 1 and unicodedata.combining(ch) else ch
+
+
+def name_list(names, limit=3):
+    shown = ["\\" + n for n in names[:limit]]
+    return " ".join(shown) + (" \u2026" if len(names) > limit else "")
+
+
+def subtitle(ch, r):
+    parts = []
+    if r["latex"]:
+        parts.append(name_list(r["latex"]))
+    if r["lean"]:
+        parts.append("Lean: " + name_list(r["lean"]))
+    if r["desc"]:
+        parts.append(r["desc"])
+    parts.append("U+%04X" % ord(ch[0]))
+    return "  \u00b7  ".join(parts)
+
+
 def main():
     out = Path(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_OUT
     rows = {}  # char -> dict
@@ -110,7 +147,7 @@ def main():
     with out.open("w", encoding="utf8", newline="\n") as f:
         for ch in sorted(rows):
             r = rows[ch]
-            f.write("\t".join([ch, " ".join(r["latex"]), " ".join(r["lean"]), r["desc"], r["cls"]]) + "\n")
+            f.write("\t".join([ch, title(ch), subtitle(ch, r), searchable_names(r), r["desc"].lower()]) + "\n")
     print("%d characters -> %s" % (len(rows), out))
 
 

@@ -5,7 +5,7 @@ version = "0.1.0"
 plugin_api = 24
 author = "fisherman"
 license = "MIT"
-dependencies = ["python3", "wtype"]
+dependencies = ["wtype"]
 tags = ["unicode", "latex", "lean", "launcher"]
 icon = "math-symbols"
 description = "Find unicode characters by LaTeX or Lean 4 input-method name from the launcher and copy them to the clipboard."
@@ -18,18 +18,11 @@ description_key = "settings.notify_on_copy.description"
 default = true
 
 [[setting]]
-key = "paste_mode"
-type = "select"
-label_key = "settings.paste_mode.label"
-description_key = "settings.paste_mode.description"
-default = "off"
-options = [
-  { value = "off", label_key = "settings.paste_mode.off" },
-  { value = "type", label_key = "settings.paste_mode.type" },
-  { value = "ctrl_v", label_key = "settings.paste_mode.ctrl_v" },
-  { value = "ctrl_shift_v", label_key = "settings.paste_mode.ctrl_shift_v" },
-  { value = "shift_insert", label_key = "settings.paste_mode.shift_insert" },
-]
+key = "paste_after_copy"
+type = "bool"
+label_key = "settings.paste_after_copy.label"
+description_key = "settings.paste_after_copy.description"
+default = false
 
 [[setting]]
 key = "paste_delay_ms"
