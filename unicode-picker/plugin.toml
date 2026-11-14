@@ -1,10 +1,11 @@
 id = "fisherman/unicode-picker"
 name = "Unicode Picker"
 version = "0.1.0"
-plugin_api = 3
+# 24 for argv-style noctalia.runAsync.
+plugin_api = 24
 author = "fisherman"
 license = "MIT"
-dependencies = []
+dependencies = ["python3"]
 tags = ["unicode", "latex", "lean", "launcher"]
 icon = "math-symbols"
 description = "Find unicode characters by LaTeX or Lean 4 input-method name from the launcher and copy them to the clipboard."
@@ -22,3 +23,4 @@ entry = "unicode.luau"
 prefix = "uni"
 glyph = "math-symbols"
 include_in_global_search = false
+debounce_ms = 60
