@@ -94,7 +94,7 @@ function onQuery(query)
           title = title,
           subtitle = subtitle,
           glyph = "math-symbols",
-          score = 1000 - tonumber(rank), -- search.sh already ranked them
+          score = 1000 - (tonumber(rank) :: number), -- search.sh already ranked them
         })
       end
     end
