@@ -8,7 +8,7 @@ license = "MIT"
 dependencies = ["fzf", "wtype"]
 tags = ["unicode", "latex", "lean", "launcher"]
 icon = "math-symbols"
-description = "Find math unicode characters by LaTeX or Lean 4 input-method name from the launcher and copy them to the clipboard."
+description = "Find mathematical symbols by their descriptions, unicode numbers, LaTeX commands, or Lean 4 input-method names from the launcher"
 
 [[setting]]
 key = "notify_on_copy"
